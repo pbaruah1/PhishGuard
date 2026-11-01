@@ -8,6 +8,8 @@
 
 A browser extension that checks webpages for signs of phishing and scams, explains what it finds, and offers a way to leave a flagged page.
 
+[Download PhishGuard and the complete source]([PASTE-RELEASE-URL-HERE]([url](https://github.com/pbaruah1/PhishGuard/releases/tag/v1.0.1)))
+
 **On-device page analysis · Plain-language reasons · Browser-based controls**
 
 [How it works](#how-it-works) · [Try it](#try-it) · [Privacy](#privacy) · [For developers](#for-developers)
