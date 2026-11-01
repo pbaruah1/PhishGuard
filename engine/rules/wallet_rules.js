@@ -1,0 +1,107 @@
+(function (root, factory) {
+  const mod = factory();
+  if (typeof module !== 'undefined' && module.exports) module.exports = mod;
+  root.PhishGuard = Object.assign(root.PhishGuard || {}, mod);
+})(typeof globalThis !== 'undefined' ? globalThis : self, function () {
+  'use strict';
+
+                                                                               
+  const SAFE_METHODS = new Set([
+    'eth_accounts', 'eth_requestAccounts', 'eth_chainId', 'net_version',
+    'eth_call', 'eth_blockNumber', 'eth_getBalance', 'eth_gasPrice',
+    'eth_estimateGas', 'wallet_switchEthereumChain', 'wallet_getPermissions',
+    'wallet_requestPermissions', 'eth_getTransactionReceipt'
+  ]);
+
+  const SELECTOR_APPROVE = '0x095ea7b3';                                     
+  const SELECTOR_SET_APPROVAL_ALL = '0xa22cb465';                                   
+  const UNLIMITED_THRESHOLD = BigInt('0x' + 'f'.repeat(56));                    
+
+  function hexToBigInt(hex) {
+    try { return BigInt('0x' + String(hex).replace(/^0x/, '')); } catch (_) { return 0n; }
+  }
+
+  function analyzeWalletRequest(req) {
+    const out = { level: 'safe', reasons: [], flags: [] };
+    try {
+      if (!req || typeof req.method !== 'string') return out;
+      const method = req.method;
+      const params = Array.isArray(req.params) ? req.params : [];
+      if (SAFE_METHODS.has(method)) return out;
+
+                                                                     
+      if (method === 'eth_sign') {
+        out.level = 'dangerous';
+        out.flags.push('blind-sign');
+        out.reasons.push({ code: 'walletBlindSign', kind: 'wallet' });
+        return out;
+      }
+
+      if (method === 'personal_sign') {
+                                                        
+        return out;
+      }
+
+      if (/^eth_signTypedData/.test(method)) {
+        const raw = params[1] != null ? params[1] : params[0];
+        let payload = raw;
+        if (typeof raw === 'string') { try { payload = JSON.parse(raw); } catch (_) { payload = {}; } }
+        const pt = (payload && payload.primaryType) || '';
+        const types = (payload && payload.types) || {};
+        const grants = /permit/i.test(pt) || /permitsingle|permitbatch/i.test(Object.keys(types).join(','))
+          || /seaport|order/i.test(pt);
+        if (grants) {
+          out.level = 'dangerous';
+          out.flags.push('permit-grant');
+          out.reasons.push({ code: 'walletPermitApproval', kind: 'wallet' });
+        }
+        return out;
+      }
+
+      if (method === 'eth_sendTransaction') {
+        const tx = params[0] || {};
+        const data = typeof tx.data === 'string' ? tx.data.toLowerCase() : '';
+                                                                               
+                                                                             
+                                                                            
+        if (tx.authorizationList != null) {
+          out.level = 'dangerous';
+          out.flags.push('eip7702-delegation');
+          out.reasons.push({ code: 'walletDelegation7702', kind: 'wallet' });
+          return out;
+        }
+        if (data.startsWith(SELECTOR_SET_APPROVAL_ALL)) {
+                                             
+          const approved = data.length >= 10 + 128 ? hexToBigInt(data.slice(-64)) !== 0n : false;
+          if (approved) {
+            out.level = 'dangerous';
+            out.flags.push('set-approval-all');
+            out.reasons.push({ code: 'walletSetApprovalAll', kind: 'wallet' });
+          }
+          return out;
+        }
+        if (data.startsWith(SELECTOR_APPROVE)) {
+          const amountHex = data.slice(10 + 64);                   
+          const amount = hexToBigInt(amountHex);
+          if (amount >= UNLIMITED_THRESHOLD) {
+            out.level = 'dangerous';
+            out.flags.push('unlimited-approve');
+            out.reasons.push({ code: 'walletUnlimitedApprove', kind: 'wallet' });
+          } else if (amount > 0n) {
+            out.level = 'suspicious';
+            out.flags.push('token-approve');
+            out.reasons.push({ code: 'walletTokenApprove', kind: 'wallet' });
+          }
+          return out;
+        }
+        return out;                                                   
+      }
+
+      return out;
+    } catch (_) {
+      return { level: 'safe', reasons: [], flags: [] };             
+    }
+  }
+
+  return { analyzeWalletRequest };
+});

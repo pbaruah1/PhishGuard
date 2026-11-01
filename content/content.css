@@ -1,0 +1,125 @@
+.phishguard-banner,.phishguard-overlay,.phishguard-toast,.phishguard-ack{font-family:"Aptos", "Segoe UI Variable", "Segoe UI", Arial, sans-serif;--ss-surface:#FFFFFF;--ss-text:#14243A;--ss-muted:#425970;--ss-hair:#C8D7E5;--ss-accent:#0759D8;--ss-danger:#A51F35;--ss-danger-fill:#A51F35;--ss-danger-ink:#FFFFFF;--ss-accent-ink:#FFFFFF;--ss-focus:#941D4B;--ss-warn:#783A00;--ss-warn-bg:#FFEBC9;--ss-radius:14px;--ss-chip:9px;--ss-danger-bg:#FBE5E9;--ss-accent-soft:#DCEAFF;--ss-safe:#075F4B;--ss-safe-bg:#DDF4E9;--ss-ground:#EDF3F8;--ss-unknown-bg:#E4ECF4;
+  font:13px/1.45 "Aptos", "Segoe UI Variable", "Segoe UI", Arial, sans-serif;color:var(--ss-text);box-sizing:border-box}
+.phishguard-banner *,.phishguard-overlay *,.phishguard-toast *,.phishguard-ack *{box-sizing:border-box;font:inherit}
+@media (prefers-color-scheme: dark){.phishguard-banner,.phishguard-overlay,.phishguard-toast,.phishguard-ack{font-family:"Aptos", "Segoe UI Variable", "Segoe UI", Arial, sans-serif;--ss-surface:#15263C;--ss-text:#F3F7FF;--ss-muted:#C4D4E7;--ss-hair:#3D536C;--ss-accent:#86B8FF;--ss-danger:#FFAFBA;--ss-danger-fill:#A51F35;--ss-danger-ink:#35131D;--ss-accent-ink:#2C193B;--ss-focus:#FFB995;--ss-warn:#FFD18D;--ss-warn-bg:#4B3523;--ss-danger-bg:#4A2632;--ss-accent-soft:#263F5C;--ss-safe:#9BEAC5;--ss-safe-bg:#173F36;--ss-ground:#0D192B;--ss-unknown-bg:#293B52}}
+                                                                             
+                                                                  
+.phishguard-banner{position:fixed;top:0;left:0;right:0;z-index:2147483647;min-height:56px;display:flex;align-items:flex-start;gap:12px;padding:10px 16px;box-shadow:0 2px 12px rgba(0,0,0,.18)}
+.phishguard-banner.danger{background:var(--ss-danger-fill);color:#fff}
+.phishguard-banner.danger .ss-tile{background:rgba(255,255,255,.16);color:#fff}
+.phishguard-banner.suspicious{background:var(--ss-warn-bg);color:var(--ss-text);border-bottom:1px solid var(--ss-warn)}
+.phishguard-banner.suspicious .ss-tile{background:var(--ss-surface);color:var(--ss-warn)}
+.phishguard-banner .ss-text{flex:1;min-width:0;display:flex;flex-direction:column;gap:1px}
+.phishguard-banner .ss-text b{font-weight:600;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.phishguard-banner .ss-reason{opacity:.88;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.phishguard-banner .ss-why{background:none;border:0;padding:0;margin-left:4px;color:inherit;opacity:1;text-decoration:underline;text-underline-offset:2px;cursor:pointer;font:inherit;font-size:13px;min-height:24px}
+.phishguard-banner .ss-why-list{list-style:none;margin:6px 0 0;padding:0;font-size:13px;opacity:.9}.phishguard-banner .ss-why-list li{padding:3px 0;white-space:normal}
+.phishguard-banner .ss-compare{align-self:flex-start;margin-top:6px;background:rgba(255,255,255,.14);border:0;color:inherit}
+.phishguard-banner.danger .ss-compare small{color:rgba(255,255,255,.8)}.phishguard-banner.danger .ss-compare .ss-cmp-fake b{color:#fff;opacity:.85}.phishguard-banner.danger .ss-compare .ss-cmp-real b{color:#fff;font-weight:700}.phishguard-banner.danger .ss-compare .ss-cmp-vs{color:rgba(255,255,255,.7)}
+.phishguard-banner .ss-acts{display:flex;gap:6px;align-items:center;flex:none;align-self:center;position:relative}
+.phishguard-banner.danger .ss-btn{border-color:rgba(255,255,255,.55);color:#fff;background:transparent}
+.phishguard-banner.danger .ss-btn.primary{background:#fff;color:var(--ss-danger-fill);border-color:#fff}
+.phishguard-banner.danger .ss-x,.phishguard-banner.danger .ss-more{color:#fff;border-color:transparent}
+.phishguard-banner.suspicious .ss-btn{background:var(--ss-surface)}
+.phishguard-banner.suspicious .ss-x,.phishguard-banner.suspicious .ss-more{background:transparent;color:var(--ss-warn)}
+                                                                        
+                                                                   
+                                                                             
+                                                                             
+                  
+.phishguard-banner .ss-btn:focus-visible,.phishguard-banner .ss-why:focus-visible,.phishguard-overlay .ss-btn:focus-visible,.phishguard-interstitial :is(button,a,summary,[tabindex]):focus-visible{outline:3px solid var(--ss-focus);outline-offset:3px}
+.phishguard-banner.danger :is(.ss-btn,.ss-why):focus-visible{outline-color:#FFFFFF}
+                                                                                                            
+                                                                                                                       
+.phishguard-banner .ss-btn.ss-x{width:auto;max-width:100%;padding:4px 10px;gap:6px;white-space:normal;text-align:center;font-size:13px}
+.phishguard-banner .ss-x .ss-x-glyph{font-size:16px;flex:none}
+.phishguard-banner .ss-menu{position:absolute;right:0;top:calc(100% + 8px);background:var(--ss-surface);color:var(--ss-text);border:1px solid var(--ss-hair);border-radius:10px;box-shadow:0 8px 28px rgba(0,0,0,.22);padding:4px;min-width:200px;display:flex;flex-direction:column;z-index:1}
+.phishguard-banner .ss-menu[hidden]{display:none}
+.phishguard-banner .ss-menu .ss-btn{text-align:left;border-color:transparent;background:transparent;color:var(--ss-text);min-height:32px;justify-content:flex-start;border-radius:6px}
+.phishguard-banner .ss-menu .ss-btn:hover,.phishguard-banner .ss-menu .ss-btn:focus-visible{background:var(--ss-accent-soft);color:var(--ss-accent)}
+@media (max-width:640px){.phishguard-banner{flex-wrap:wrap}.phishguard-banner .ss-acts{width:100%;justify-content:flex-end;flex-wrap:wrap}}
+.phishguard-hidden-block{position:relative;filter:grayscale(1) blur(2px);opacity:.5}
+.phishguard-hidden-tag{position:absolute;top:4px;left:4px;background:#0759D8;color:#fff;font:11px/1 "Aptos", "Segoe UI Variable", "Segoe UI", Arial, sans-serif;padding:3px 6px;border-radius:4px;z-index:2}
+                                                                          
+.phishguard-overlay{position:fixed;inset:0;z-index:2147483646;background:rgba(10,16,13,.55);display:flex;align-items:center;justify-content:center;padding:12px}
+.phishguard-overlay .ss-card{background:var(--ss-surface);color:var(--ss-text);width:440px;max-width:100%;padding:20px;border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.4)}
+.phishguard-overlay .ss-head{display:flex;gap:12px;align-items:center;margin-bottom:10px}
+.phishguard-overlay h3{margin:0;font-size:17px;font-weight:600;line-height:1.25;letter-spacing:-.01em;color:var(--ss-text)}
+.phishguard-overlay p{margin:0;font-size:13.5px}.phishguard-overlay .ss-sub{color:var(--ss-muted);font-size:13px;margin-top:10px}
+.phishguard-overlay .ss-evidence{list-style:none;margin:12px 0 0;padding:0}.phishguard-overlay .ss-evidence li{padding:7px 0;border-top:1px solid var(--ss-hair);display:flex;gap:8px;font-size:13px}.phishguard-overlay .ss-evidence li:first-child{border-top:0;padding-top:0}
+.phishguard-overlay .ss-chip{font-size:11px;line-height:1;padding:4px 7px;border-radius:6px;background:var(--ss-unknown-bg);color:var(--ss-muted);flex:none;height:fit-content}
+.phishguard-overlay .ss-actions{display:flex;gap:8px;margin-top:14px;justify-content:flex-end;align-items:center;flex-wrap:wrap}
+.phishguard-overlay .ss-primary{background:var(--ss-accent);color:var(--ss-accent-ink);border-color:var(--ss-accent);font-weight:600}
+.phishguard-overlay .ss-rescue-ghost{color:var(--ss-accent);border-color:var(--ss-accent);font-weight:600}
+.phishguard-overlay .ss-danger-ghost{color:var(--ss-danger);border-color:var(--ss-danger)}
+.phishguard-overlay .ss-report{margin-right:auto;border-color:transparent;color:var(--ss-accent)}
+                                                                                                       
+.phishguard-interstitial{background:var(--ss-ground,#F5F8F6);z-index:2147483647;align-items:flex-start;overflow:auto;padding:0}
+.phishguard-interstitial .ss-card{width:100%;max-width:560px;margin:0 auto;padding:44px 24px 28px;background:transparent;box-shadow:none;border-radius:0}
+.phishguard-interstitial h3{font-size:22px;line-height:1.2}
+.phishguard-interstitial .ss-lead{font-size:14.5px;line-height:1.5;margin-bottom:12px;max-width:60ch}
+.phishguard-interstitial .ss-addr{background:var(--ss-surface);border:1px solid var(--ss-hair);border-radius:10px;padding:10px 12px;margin-bottom:12px}
+.phishguard-interstitial .ss-addr small{display:block;font-size:11px;color:var(--ss-muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:3px}
+.phishguard-interstitial .ss-addr code{font:12.5px/1.4 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;word-break:break-all;direction:ltr;unicode-bidi:isolate}
+.phishguard-interstitial .ss-evidence{margin:0 0 12px}.phishguard-interstitial .ss-evidence li{font-size:13.5px}
+.phishguard-interstitial .ss-sub{margin:0 0 16px}
+.phishguard-interstitial .ss-actions{justify-content:flex-start;gap:10px;margin-top:0}
+.phishguard-interstitial .ss-actions .ss-btn{min-height:36px;padding:0 16px}
+.phishguard-interstitial .ss-copy{border:1px solid var(--ss-hair);color:var(--ss-text);background:var(--ss-surface)}
+.phishguard-interstitial .ss-details{margin-top:18px;border-top:1px solid var(--ss-hair);padding-top:12px}
+.phishguard-interstitial .ss-details summary{cursor:pointer;color:var(--ss-muted);font-size:13px;list-style:none;display:flex;justify-content:space-between;min-height:24px;align-items:center}
+.phishguard-interstitial .ss-details summary::-webkit-details-marker{display:none}.phishguard-interstitial .ss-details summary::after{content:"▾"}.phishguard-interstitial .ss-details[open] summary::after{content:"▴"}
+.phishguard-interstitial .ss-dt{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:10px;align-items:center;font-size:13px}
+.phishguard-interstitial .ss-dt .ss-danger-ghost{min-height:32px}
+.phishguard-interstitial .ss-consequence{color:var(--ss-muted);font-size:12.5px}
+.phishguard-interstitial .ss-trust-link,.phishguard-interstitial .ss-dt .ss-report{background:none;border:0;color:var(--ss-muted);text-decoration:underline;text-underline-offset:2px;cursor:pointer;padding:0;min-height:24px;font:inherit;margin:0}
+.phishguard-interstitial .ss-dt .ss-report:disabled{text-decoration:none;cursor:default}
+.phishguard-interstitial .ss-foot{margin-top:22px;font-size:12px;color:var(--ss-muted)}
+                                                                             
+                                                                             
+                                                                          
+                                                                     
+                                                                            
+.phishguard-toast,.phishguard-ack{position:fixed;right:12px;bottom:12px;z-index:2147483647;width:380px;max-width:calc(100vw - 24px);background:var(--ss-surface);color:var(--ss-text);border:1px solid var(--ss-hair);border-radius:12px;box-shadow:0 8px 28px rgba(0,0,0,.22),0 1px 2px rgba(0,0,0,.08);padding:12px 12px 10px;display:grid;grid-template-columns:36px 1fr;gap:4px 12px;align-items:start}
+.phishguard-ack{grid-template-columns:36px 1fr auto;align-items:center}
+.ss-tile{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;flex:none}
+.ss-tile svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.ss-tile.danger{background:var(--ss-danger-bg);color:var(--ss-danger)}.ss-tile.warn{background:var(--ss-warn-bg);color:var(--ss-warn)}.ss-tile.info{background:var(--ss-accent-soft);color:var(--ss-accent)}.ss-tile.ok{background:var(--ss-safe-bg);color:var(--ss-safe)}
+.phishguard-toast .ss-title{font-weight:600;line-height:1.3;padding-top:2px}
+.phishguard-toast .ss-body{grid-column:2;color:var(--ss-muted);font-size:13px;line-height:1.45}
+.phishguard-toast .ss-acts{grid-column:2;display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:8px}
+.phishguard-toast .ss-acts .ss-x{margin-left:auto}
+                                                                          
+                                                                           
+                                                                            
+                                                                    
+.phishguard-ack .ss-title{grid-column:2}
+.phishguard-ack .ss-acts{grid-column:3;margin-top:0}
+.phishguard-toast .ss-prog{grid-column:1/-1;height:2px;background:var(--ss-hair);border-radius:2px;margin-top:8px;overflow:hidden}
+.phishguard-toast .ss-prog i{display:block;height:100%;width:100%;background:var(--ss-accent);opacity:.6;transform-origin:left;transition:transform linear}
+.ss-btn{display:inline-flex;align-items:center;justify-content:center;min-height:32px;min-width:24px;padding:0 12px;border-radius:8px;border:1px solid var(--ss-hair);background:var(--ss-surface);color:var(--ss-text);font-weight:500;cursor:pointer;white-space:nowrap;line-height:1.2}
+.ss-btn.primary{background:var(--ss-accent);color:var(--ss-accent-ink);border-color:var(--ss-accent);font-weight:600}
+.ss-btn.quiet{border-color:transparent;background:transparent;color:var(--ss-accent)}
+.ss-btn.ss-x,.ss-btn.ss-more{width:32px;padding:0;border-color:transparent;background:transparent;color:var(--ss-muted);font-size:16px}
+.ss-btn:focus-visible{outline:2px solid var(--ss-accent);outline-offset:2px}
+.ss-btn:disabled{opacity:.55;cursor:not-allowed}
+@media (prefers-reduced-motion:reduce){.phishguard-toast .ss-prog i{transition:none}}
+.ss-compare{display:flex;gap:8px;align-items:center;margin-top:8px;padding:8px 10px;border:1px solid var(--ss-hair);border-radius:var(--ss-chip);background:var(--ss-surface);color:var(--ss-text);max-width:100%;overflow:hidden}
+.ss-compare small{display:block;font-size:11px;color:var(--ss-muted)}
+.ss-compare b{font-weight:600;word-break:break-all}
+.ss-compare .ss-cmp-fake b{color:var(--ss-danger);text-decoration:line-through}
+.ss-compare .ss-cmp-real b{color:var(--ss-accent)}
+.ss-compare .ss-cmp-vs{color:var(--ss-muted);flex:none;font-weight:700}
+.phishguard-serp{display:inline-block;margin:4px 0 0;padding:3px 8px;border-radius:6px;background:#DCEAFF;color:#14243A;font:600 12px/1.3 "Aptos", "Segoe UI Variable", "Segoe UI", Arial, sans-serif;border:1px solid #0759D8}
+@media (prefers-color-scheme:dark){.phishguard-serp{background:#263F5C;color:#F3F7FF;border-color:#86B8FF}}
+                                                                            
+                                                                            
+                                                                           
+.phishguard-serp-badge{display:inline-block;margin-left:5px;margin-right:0;vertical-align:middle;cursor:default}
+[dir="rtl"].phishguard-serp-badge{margin-left:0;margin-right:5px}
+.phishguard-serp-badge-danger{color:#A51F35}
+.phishguard-serp-badge-caution{color:#783A00}
+@media (prefers-color-scheme:dark){
+  .phishguard-serp-badge-danger{color:#FFAFBA}
+  .phishguard-serp-badge-caution{color:#FFD18D}
+}
