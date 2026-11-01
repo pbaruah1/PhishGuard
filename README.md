@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/icons/icon128.png" width="80" alt="PhishGuard icon">
+<img src="icon128.png" width="80" alt="PhishGuard icon">
 
 # PhishGuard
 
@@ -32,7 +32,7 @@ These checks help identify warning signs. They cannot detect every scam or guara
 
 ## What it looks like
 
-<img src="assets/readme/blocked-page.png" width="720" alt="PhishGuard blocked-page screen showing a demonstration address, a reason, and a Return to a safer page button.">
+<img src="blocked-page.png" width="720" alt="PhishGuard blocked-page screen showing a demonstration address, a reason, and a Return to a safer page button.">
 
 *A project capture of the blocked-page interface using a demo address. The warning identifies the address and provides a return button.*
 
@@ -43,7 +43,7 @@ These checks help identify warning signs. They cannot detect every scam or guara
 3. **Check the evidence.** Model output is evaluated alongside technical observations. Suspicious wording by itself is not enough for the local text fallback to declare a malicious page.
 4. **Explain the result.** The interface displays a status and, when applicable, reasons and actions. Relevant page changes can trigger another assessment.
 
-<img src="assets/readme/page-notice.png" width="440" alt="An on-page notice says that analysis completed without establishing a sufficiently corroborated page-level threat.">
+<img src="page-notice.png" width="440" alt="An on-page notice says that analysis completed without establishing a sufficiently corroborated page-level threat.">
 
 **“No corroborated threat” means the checks did not establish a threat. It does not mean the website has been certified safe.**
 
