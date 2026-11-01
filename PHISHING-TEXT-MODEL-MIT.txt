@@ -1,0 +1,17 @@
+Phishing text classifier model license and attribution
+
+Model: onnx-community/bert-small-phishing-ONNX
+Revision: cfe22cf
+License declared by the model repository: MIT
+Upstream fine-tuned model: David-Egea/bert-small-phishing
+Base model: prajjwal1/bert-small
+
+The model repository declares the MIT license. Its model card identifies the
+phishing-text dataset but provides limited detail about intended-use coverage,
+training-data composition, and limitations. PhishGuard therefore uses this
+model only as an auxiliary English text-classification signal. It is not a
+webpage behavior analyzer, malware scanner, or standalone authority for a
+security warning. Page-level alerts require independent, grounded page evidence.
+
+Source: https://huggingface.co/onnx-community/bert-small-phishing-ONNX
+Pinned revision: https://huggingface.co/onnx-community/bert-small-phishing-ONNX/tree/cfe22cf

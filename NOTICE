@@ -1,0 +1,41 @@
+PhishGuard — provenance and third-party attribution notice
+=========================================================
+
+PhishGuard is derived from the GPL-licensed ScamShield codebase and an
+intermediate refactor called Parry. This notice preserves the project lineage;
+the accompanying LICENSE file remains unchanged. PhishGuard is distributed
+under the GNU General Public License v3.0 or later.
+
+The URL and brand signals described below were implemented for this codebase
+from public algorithm descriptions. The project does not incorporate source
+code from the first two projects listed. The third-party QR decoder jsQR v1.4.0
+is included verbatim as noted below. Its applicable Apache 2.0 license is
+included at LICENSES/Apache-2.0.txt.
+
+Chromium suspicious-site-reporter (Apache License 2.0)
+------------------------------------------------------
+https://github.com/chromium/suspicious-site-reporter
+
+PhishGuard's engine/rules/site_signals.js implements three structural URL
+warning signals based on the public descriptions: four or more labels below a
+page's registrable domain, unusually long hostname labels, and known
+link-shortener or redirect-chain hosts.
+
+MetaMask eth-phishing-detect (DBAD v1.2)
+----------------------------------------
+https://github.com/MetaMask/eth-phishing-detect
+
+PhishGuard's engine/rules/brand_match.js implements allowlist-first reversed
+label suffix matching and a graded fuzzy brand-domain matcher. The implementation
+uses bounded edit distance, homoglyph normalisation, subdomain/hyphen brand-token
+injection, and TLD-swap detection. The brand dataset, weights, and thresholds
+are maintained within this codebase.
+
+jsQR v1.4.0 (Apache License 2.0)
+--------------------------------
+https://github.com/cozmo/jsQR
+
+engine/detection/qr.js contains the unmodified jsQR v1.4.0 JavaScript QR decoder
+used for local QR-code destination checks. Decoded HTTP(S) payloads are scored
+by PhishGuard's verdict engine; jsQR does not provide PhishGuard's detection
+rules. Its license is included at LICENSES/Apache-2.0.txt.
