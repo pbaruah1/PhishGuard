@@ -1,0 +1,1814 @@
+{
+  "extName": {
+    "message": "PhishGuard — Link & Scam Defense"
+  },
+  "extShortName": {
+    "message": "PhishGuard"
+  },
+  "extDescription": {
+    "message": "Browser-side risk checks for suspicious sites, links, and messages, with explanations that help you decide what to do next."
+  },
+  "on": {
+    "message": "ఆన్"
+  },
+  "paused": {
+    "message": "నిలిపివేయబడింది"
+  },
+  "settings": {
+    "message": "Preferences"
+  },
+  "dismiss": {
+    "message": "మూసివేయి"
+  },
+  "ariaDismiss": {
+    "message": "మూసివేయి"
+  },
+  "cancel": {
+    "message": "రద్దు చేయి"
+  },
+  "reportMistake": {
+    "message": "పొరపాటును నివేదించండి"
+  },
+  "thanks": {
+    "message": "ధన్యవాదాలు"
+  },
+  "trustThisSite": {
+    "message": "ఈ సైట్‌ను విశ్వసించండి"
+  },
+  "ackTrusted": {
+    "message": "PhishGuard ఇక $HOST$ ను గుర్తించదు.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "secure-paypa1-login.com"
+      }
+    }
+  },
+  "undo": {
+    "message": "రద్దు చేయి"
+  },
+  "popupPauseMenu": {
+    "message": "Site controls ▾"
+  },
+  "whatsNewLink": {
+    "message": "కొత్తగా ఏమున్నాయి"
+  },
+  "unknownSite": {
+    "message": "తెలియని సైట్"
+  },
+  "popupChecking": {
+    "message": "తనిఖీ చేస్తోంది…"
+  },
+  "popupSafe": {
+    "message": "No major warning signals found"
+  },
+  "popupSuspicious": {
+    "message": "Review before proceeding"
+  },
+  "popupDangerous": {
+    "message": "High-risk activity detected"
+  },
+  "popupUnknown": {
+    "message": "This page has not been checked"
+  },
+  "popupPausedSummary": {
+    "message": "Checks are paused for now. Resume them to inspect this page."
+  },
+  "popupNotHttp": {
+    "message": "Browser-internal pages and extension-store pages are outside PhishGuard’s scanning coverage."
+  },
+  "popupDangerSummary": {
+    "message": "Strong risk indicators were found. Avoid entering credentials, payment details, or downloading files here."
+  },
+  "popupSuspiciousSummary": {
+    "message": "Some signals deserve a closer look. Check the address and evidence before sharing information."
+  },
+  "leaveThisPage": {
+    "message": "ఈ పేజీ నుండి నిష్క్రమించండి"
+  },
+  "whyVerdict": {
+    "message": "ఈ నిర్ణయం ఎందుకు?"
+  },
+  "whyVerdictCountOne": {
+    "message": "· 1 సంకేతం"
+  },
+  "fmtWhyVerdictCount": {
+    "message": "· $COUNT$ సంకేతాలు",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "takeMeToReal": {
+    "message": "నన్ను అసలైన $BRAND$ కు తీసుకెళ్లు",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "PayPal"
+      }
+    }
+  },
+  "copyReportBtn": {
+    "message": "నివేదికను కాపీ చేయి"
+  },
+  "copyReportHeader": {
+    "message": "⚠ PhishGuard ఈ సైట్‌ను గుర్తించింది: $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "evil[.]example"
+      }
+    }
+  },
+  "copyReportVerdict": {
+    "message": "తీర్పు: $LEVEL$",
+    "placeholders": {
+      "level": {
+        "content": "$1",
+        "example": "Dangerous page"
+      }
+    }
+  },
+  "copyReportSignals": {
+    "message": "సంకేతాలు:"
+  },
+  "copyReportFooter": {
+    "message": "PhishGuard స్థానికంగా తనిఖీ చేసింది. చర్య తీసుకునే ముందు ఆధారాలను పరిశీలించండి."
+  },
+  "reportScam": {
+    "message": "నివేదిక: ఇది మోసం"
+  },
+  "reportSafe": {
+    "message": "నివేదిక: ఇది సురక్షితం"
+  },
+  "pause1h": {
+    "message": "1 గంట"
+  },
+  "pause1d": {
+    "message": "1 రోజు"
+  },
+  "pauseAlways": {
+    "message": "ఎల్లప్పుడూ"
+  },
+  "resumeNow": {
+    "message": "ఇప్పుడే తిరిగి ప్రారంభించు"
+  },
+  "blockedOnSite": {
+    "message": "ఈ సైట్‌లో బ్లాక్ చేయబడినవి"
+  },
+  "blockedAllTime": {
+    "message": "మొత్తం బ్లాక్ చేయబడినవి"
+  },
+  "sinceInstall": {
+    "message": "ఇన్‌స్టాల్ చేసినప్పటి నుండి"
+  },
+  "thisWeek": {
+    "message": "ఈ వారం"
+  },
+  "statsLink": {
+    "message": "గణాంకాలు →"
+  },
+  "privacyOnPage": {
+    "message": "ఈ పేజీలో గోప్యత"
+  },
+  "shoppingCheck": {
+    "message": "షాపింగ్ తనిఖీ"
+  },
+  "checkMessageTitle": {
+    "message": "Inspect a message or destination"
+  },
+  "checkMessageHint": {
+    "message": "Message text is checked in this browser. Included links are checked against threat-list data; a matching entry may require a network lookup."
+  },
+  "checkMessagePlaceholder": {
+    "message": "Paste message text or a link to inspect…"
+  },
+  "check": {
+    "message": "తనిఖీ చేయి"
+  },
+  "checkedOnDevice": {
+    "message": "Core analysis runs locally; link reputation may use threat-list data."
+  },
+  "msgSafe": {
+    "message": "No strong scam indicators found in this sample. That does not prove it is genuine."
+  },
+  "msgSuspicious": {
+    "message": "Several risk clues were found. Verify the sender and destination independently."
+  },
+  "msgDangerous": {
+    "message": "This sample contains high-risk scam signals. Do not follow its instructions."
+  },
+  "qrScanTitle": {
+    "message": "Inspect QR destinations on this page"
+  },
+  "qrScanHint": {
+    "message": "Try supported page images for QR codes, then inspect decoded web destinations without opening them."
+  },
+  "qrScanBtn": {
+    "message": "Inspect QR codes"
+  },
+  "qrScanNone": {
+    "message": "No readable web-address QR codes were found in the images checked."
+  },
+  "qrScanFoundOne": {
+    "message": "1 web destination found in a QR code"
+  },
+  "fmtQrScanFoundCount": {
+    "message": "$COUNT$ web destinations found in QR codes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "support": {
+    "message": "సహాయం & సెట్టింగ్‌లు"
+  },
+  "footerTrustLine": {
+    "message": "Most checks run here. Threat-list and site-icon requests use the network; reports stay local unless you configure and enable a relay."
+  },
+  "takeMeToRealSite": {
+    "message": "నన్ను అసలైన సైట్‌కు తీసుకెళ్లు"
+  },
+  "toastThanksNoted": {
+    "message": "ఈ పరికరంలో సేవ్ చేయబడింది; ఏదీ పంపబడలేదు."
+  },
+  "toastThanksSent": {
+    "message": "ధన్యవాదాలు — పంపబడింది"
+  },
+  "toastPausedForNow": {
+    "message": "ప్రస్తుతానికి నిలిపివేయబడింది"
+  },
+  "toastResumed": {
+    "message": "రక్షణ తిరిగి ప్రారంభమైంది"
+  },
+  "toastCopied": {
+    "message": "కాపీ చేయబడింది"
+  },
+  "toastExtensionError": {
+    "message": "ఎక్స్‌టెన్షన్ లోపం — మళ్లీ తెరిచి చూడండి."
+  },
+  "whatsNewBanner": {
+    "message": "PhishGuard now includes clearer local-analysis explanations, more resilient suspicious-link parsing, and improved reporting feedback."
+  },
+  "popupBrandDangerSummary": {
+    "message": "$BRAND$ may be impersonated here. Compare the domain with the service’s official address before signing in.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "PayPal"
+      }
+    }
+  },
+  "pausedUntil": {
+    "message": "$TIME$ వరకు నిలిపివేయబడింది",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "3:45 PM"
+      }
+    }
+  },
+  "fmtProtocolPage": {
+    "message": "$PROTOCOL$ పేజీ",
+    "placeholders": {
+      "protocol": {
+        "content": "$1",
+        "example": "chrome"
+      }
+    }
+  },
+  "popupShopFlagFallback": {
+    "message": "హెచ్చరిక"
+  },
+  "chipWhy": {
+    "message": "ఎందుకు"
+  },
+  "chipDataLeak": {
+    "message": "డేటా లీక్"
+  },
+  "chipTracking": {
+    "message": "ట్రాకింగ్"
+  },
+  "chipPopups": {
+    "message": "పాప్-అప్‌లు"
+  },
+  "chipPrivacy": {
+    "message": "గోప్యత"
+  },
+  "popupPrivacyLeakPlain": {
+    "message": "A value matching your typed email or phone was sent to $HOST$ before form submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "popupPrivacyLeakHashed": {
+    "message": "A hashed match for your typed email or phone was sent to $HOST$ before form submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "popupPrivacyFingerprint": {
+    "message": "$HOST$ queried a combination of browser features that can contribute to device fingerprinting.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "popupPrivacyNotifyLure": {
+    "message": "This page used a misleading prompt to request notification permission."
+  },
+  "popupPrivacyCredExfilPassword": {
+    "message": "A password-like value was sent to $HOST$, which differs from this page’s site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "collector.example"
+      }
+    }
+  },
+  "popupPrivacyCredExfilCard": {
+    "message": "Payment-card-like data was sent to $HOST$, which differs from this page’s site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "collector.example"
+      }
+    }
+  },
+  "popupPrivacyDefaultText": {
+    "message": "గోప్యతా సమస్య కనుగొనబడింది."
+  },
+  "levelDangerous": {
+    "message": "ప్రమాదకర పేజీ"
+  },
+  "levelSuspicious": {
+    "message": "అనుమానాస్పద పేజీ"
+  },
+  "levelSafe": {
+    "message": "ఇక్కడ అనుమానాస్పదమైనది ఏదీ లేదు"
+  },
+  "levelUnknown": {
+    "message": "ఈ పేజీని తనిఖీ చేయలేము"
+  },
+  "tabProtection": {
+    "message": "Live checks"
+  },
+  "tabTrusted": {
+    "message": "Site exceptions"
+  },
+  "tabHistory": {
+    "message": "Activity log"
+  },
+  "tabStats": {
+    "message": "Insights"
+  },
+  "tabFeed": {
+    "message": "Threat intelligence"
+  },
+  "tabAbout": {
+    "message": "System & data"
+  },
+  "protectionLead": {
+    "message": "Page checks run in this browser. PhishGuard downloads shared threat data and may request a site icon for brand comparison; uploads require a separate reporting opt-in."
+  },
+  "protectionOn": {
+    "message": "Real-time inspection"
+  },
+  "protectionOnHint": {
+    "message": "Review pages as they load. Turning this off pauses all PhishGuard page checks."
+  },
+  "grpScams": {
+    "message": "Links, domains & impersonation"
+  },
+  "grpScamsHint": {
+    "message": "Compare addresses with known threats and look for suspicious structure or brand imitation."
+  },
+  "grpPopups": {
+    "message": "Coercive prompts & clipboard activity"
+  },
+  "grpPopupsHint": {
+    "message": "Watch for fake support warnings, command-paste tricks, and unexpected clipboard changes."
+  },
+  "grpShopping": {
+    "message": "Shopping and sponsored links"
+  },
+  "grpShoppingHint": {
+    "message": "Look for storefront risk signals and mismatches between ad labels and destinations."
+  },
+  "grpCrypto": {
+    "message": "Wallet transaction safety"
+  },
+  "grpCryptoHint": {
+    "message": "Inspect selected wallet requests for unusually broad or dangerous permissions."
+  },
+  "grpPrivacy": {
+    "message": "Data exposure and tracking"
+  },
+  "grpPrivacyHint": {
+    "message": "Watch for form data sent to unrelated sites and common browser-fingerprinting techniques."
+  },
+  "optBlockKnown": {
+    "message": "Known-threat navigation block"
+  },
+  "optBlockKnownHint": {
+    "message": "Stop destinations included in the browser’s local threat rules before the page opens."
+  },
+  "optPageAnalysis": {
+    "message": "Page-signal analysis"
+  },
+  "optPageAnalysisHint": {
+    "message": "Combine page wording, form structure, address signals, and available brand clues to find risks not yet listed."
+  },
+  "optClickfix": {
+    "message": "Command-paste lure detection"
+  },
+  "optClickfixHint": {
+    "message": "Flag human-verification pages that instruct visitors to open a system command box and paste a command."
+  },
+  "optFakeupdate": {
+    "message": "Counterfeit update prompt detection"
+  },
+  "optFakeupdateHint": {
+    "message": "Identify web pages that present a download as a required browser or system update."
+  },
+  "optHide": {
+    "message": "De-emphasize scam-like page blocks"
+  },
+  "optHideHint": {
+    "message": "Visually mark selected prize and giveaway blocks when their wording matches known scam patterns."
+  },
+  "optQrScan": {
+    "message": "Automatic QR destination checks"
+  },
+  "optQrScanHint": {
+    "message": "Check eligible images for QR codes and analyze decoded HTTP(S) destinations. Cross-origin images may be unreadable to the browser."
+  },
+  "optTechscam": {
+    "message": "Fake support-page guard"
+  },
+  "optTechscamHint": {
+    "message": "Flag pages using alarm language, forced fullscreen, dialog floods, or phone-number demands to pressure visitors."
+  },
+  "optClipboard": {
+    "message": "Clipboard change alerts"
+  },
+  "optClipboardHint": {
+    "message": "Warn when a page changes the clipboard to a command or cryptocurrency address without a clear user action."
+  },
+  "optShop": {
+    "message": "Storefront risk review"
+  },
+  "optShopHint": {
+    "message": "Combine signals such as resettable countdowns, artificial scarcity, missing contact details, and high-risk payment requests."
+  },
+  "optSerp": {
+    "message": "Sponsored destination comparison"
+  },
+  "optSerpHint": {
+    "message": "On supported search pages, compare an ad’s displayed destination with its actual link and mark suspicious mismatches."
+  },
+  "optWallet": {
+    "message": "Wallet approval guard"
+  },
+  "optWalletHint": {
+    "message": "Inspect supported transaction requests for blind signing, token approvals, NFT-wide permissions, and account delegation."
+  },
+  "optLeakyForm": {
+    "message": "Cross-site form data alerts"
+  },
+  "optLeakyFormHint": {
+    "message": "Look for values typed into email or phone fields being sent to an unrelated origin before a form is submitted."
+  },
+  "optFingerprint": {
+    "message": "Browser fingerprinting signals"
+  },
+  "optFingerprintHint": {
+    "message": "Watch for repeated use of canvas, WebGL, audio, and font-measurement APIs that can help identify a browser."
+  },
+  "optNotify": {
+    "message": "Misleading notification prompts"
+  },
+  "optNotifyHint": {
+    "message": "Flag pages that pair a fake continuation step with a request to allow browser notifications."
+  },
+  "optStrict": {
+    "message": "High-caution mode"
+  },
+  "optStrictHint": {
+    "message": "Use a stricter response: pages rated suspicious receive a full-screen warning instead of the usual lighter notice."
+  },
+  "optReporting": {
+    "message": "PhishGuardను మరింత తెలివైనదిగా చేయడంలో సాయపడండి"
+  },
+  "optReportingHint": {
+    "message": "Optionally sends a site hostname and compact risk signals to a relay you configure. Disabled by default; review the report fields below."
+  },
+  "saved": {
+    "message": "సేవ్ చేయబడింది"
+  },
+  "trustedLead": {
+    "message": "Exceptions and timed pauses are listed here. Remove an entry to restore normal checks for that domain."
+  },
+  "trustedAlways": {
+    "message": "ఎల్లప్పుడూ"
+  },
+  "trustedForAWhile": {
+    "message": "కొంతకాలం పాటు"
+  },
+  "remove": {
+    "message": "తొలగించు"
+  },
+  "trustedViaWarning": {
+    "message": "హెచ్చరిక ద్వారా విశ్వసించబడింది"
+  },
+  "optTenantApexBadge": {
+    "message": "This exception affects the entire shared host $APEX$. Remove it and add a narrower domain exception instead.",
+    "placeholders": {
+      "apex": {
+        "content": "$1",
+        "example": "pages.dev"
+      }
+    }
+  },
+  "mutedWarnings": {
+    "message": "నిశ్శబ్దం చేసిన హెచ్చరికలు"
+  },
+  "warnAgain": {
+    "message": "మళ్లీ హెచ్చరించు"
+  },
+  "muteKind_clipboard": {
+    "message": "క్లిప్‌బోర్డ్ సూచనలు"
+  },
+  "muteKind_leak": {
+    "message": "ఫారమ్ లీక్ హెచ్చరికలు"
+  },
+  "muteKind_notify": {
+    "message": "నోటిఫికేషన్ మోసపు హెచ్చరికలు"
+  },
+  "muteKind_credpost": {
+    "message": "కార్డ్ మరియు పాస్‌వర్డ్ ఫారమ్ హెచ్చరికలు"
+  },
+  "historyTitle": {
+    "message": "Recent security activity"
+  },
+  "historyLead": {
+    "message": "This log stays in browser storage and keeps hostnames rather than complete page addresses."
+  },
+  "clearHistory": {
+    "message": "చరిత్రను తొలగించు"
+  },
+  "markMistake": {
+    "message": "పొరపాటుగా గుర్తు పెట్టు"
+  },
+  "feedTitle": {
+    "message": "ముప్పు జాబితా"
+  },
+  "feedLead": {
+    "message": "తెలిసిన మోసపు సైట్‌ల జాబితా, క్రమం తప్పకుండా అప్‌డేట్ అవుతుంది; లైసెన్స్ తనిఖీ చేసిన పబ్లిక్ ఫిషింగ్, మాల్వేర్ జాబితాల నుండి రూపొందించబడింది. PhishGuard దీనిని డౌన్‌లోడ్ మాత్రమే చేస్తుంది."
+  },
+  "checkNow": {
+    "message": "ఇప్పుడు తనిఖీ చేయి"
+  },
+  "aboutVersion": {
+    "message": "వెర్షన్"
+  },
+  "appearance": {
+    "message": "రూపం"
+  },
+  "whatLeaves": {
+    "message": "మీ పరికరం నుండి ఏమి బయటకు వెళ్తుంది"
+  },
+  "backupSettings": {
+    "message": "సెట్టింగ్‌లను బ్యాకప్ చేయి"
+  },
+  "backupHint": {
+    "message": "Download a JSON backup of preferences and site exceptions, then import that file into another browser profile when needed."
+  },
+  "exportBtn": {
+    "message": "ఎగుమతి"
+  },
+  "importBtn": {
+    "message": "దిగుమతి"
+  },
+  "syncTitle": {
+    "message": "నా అన్ని పరికరాల్లో సింక్ చేయి"
+  },
+  "syncHint": {
+    "message": "మీరు సైన్ ఇన్ అయిన ప్రతి బ్రౌజర్‌లో మీ సెట్టింగ్‌లు మరియు నిలిపివేసిన సైట్‌లు ఒకేలా ఉంటాయి. ఇది బ్రౌజర్ సొంత సింక్‌ను వాడుతుంది — PhishGuardకు ఇప్పటికీ ఖాతా లేదా సర్వర్ లేదు. డిఫాల్ట్‌గా ఆఫ్."
+  },
+  "optDocTitle": {
+    "message": "PhishGuard సెట్టింగ్‌లు"
+  },
+  "ariaSettingsSections": {
+    "message": "సెట్టింగ్‌ల విభాగాలు"
+  },
+  "optWhatSentToggle": {
+    "message": "సరిగ్గా ఏమి పంపబడుతుంది ▾"
+  },
+  "optWhatSentBody": {
+    "message": "When reporting is enabled, a report may include the hostname, verdict, reason codes, compact numeric risk signals, bounded hashed page-feature buckets and page-structure counts, matched brand/icon signals, extension version, and an hour-bucketed timestamp. It excludes the full URL path and query, raw page text, typed content, and cookies. The reporting server can still receive ordinary connection metadata. Retention is controlled by the relay operator."
+  },
+  "feedNeverUpdated": {
+    "message": "ఎప్పుడూ నవీకరించలేదు"
+  },
+  "hotListStatus": {
+    "message": "Recent-risk list: $COUNT$ domains · refreshed $AGO$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1,204"
+      },
+      "ago": {
+        "content": "$2",
+        "example": "12 minutes ago"
+      }
+    }
+  },
+  "hotListOff": {
+    "message": "అత్యవసర జాబితా: ఆఫ్"
+  },
+  "hotListPending": {
+    "message": "అత్యవసర జాబితా: ఇంకా డౌన్‌లోడ్ కాలేదు"
+  },
+  "hotListSub": {
+    "message": "A second list focuses on threats reported during the previous 48 hours and refreshes hourly."
+  },
+  "optAdvancedFeedUrl": {
+    "message": "అధునాతనం: ఫీడ్ URL"
+  },
+  "optFeedUrlLabel": {
+    "message": "ఫీడ్ URL"
+  },
+  "optFeedUrlPlaceholder": {
+    "message": "https://…/blocklist.json"
+  },
+  "resetToOfficialFeed": {
+    "message": "అధికారిక ఫీడ్‌కు రీసెట్ చేయి"
+  },
+  "optFeedUrlHint": {
+    "message": "Only use a compatible feed URL that you control or trust. A failed override can interrupt updates; reset restores the configured default."
+  },
+  "optThemeHint": {
+    "message": "మీ సిస్టమ్‌ను అనుసరించండి, లేదా ఒకటి ఎంచుకోండి."
+  },
+  "optThemeAuto": {
+    "message": "ఆటో"
+  },
+  "optThemeLight": {
+    "message": "లేత"
+  },
+  "optThemeDark": {
+    "message": "ముదురు"
+  },
+  "optLang": {
+    "message": "భాష"
+  },
+  "optLangHint": {
+    "message": "Changes the language used for PhishGuard alerts and controls. The selection can follow your browser setting or be chosen directly."
+  },
+  "optLangAuto": {
+    "message": "బ్రౌజర్ డిఫాల్ట్ భాష"
+  },
+  "optLinksTitle": {
+    "message": "లింక్‌లు"
+  },
+  "supportFreeOnDevice": {
+    "message": "PhishGuard ఉచితం, పూర్తిగా మీ పరికరంలోనే నడుస్తుంది."
+  },
+  "netNoTelemetry": {
+    "message": "Most analysis stays in this browser. Network activity is limited to threat-feed requests, selected site-icon requests, and reports only when you configure and enable a relay."
+  },
+  "receiptFeedLabel": {
+    "message": "ముప్పు జాబితా డౌన్‌లోడ్"
+  },
+  "receiptFeedDetail": {
+    "message": "PhishGuard requests shared threat-list files. These requests do not include the page you are viewing, but the feed host can receive normal connection metadata such as your IP address."
+  },
+  "receiptReportLabel": {
+    "message": "కమ్యూనిటీ నివేదికలు"
+  },
+  "receiptReportDetail": {
+    "message": "రిపోర్టింగ్ ప్రారంభించి endpoint కాన్ఫిగర్ చేసినప్పుడే డొమైన్, తీర్పు, కారణ కోడ్లు, సంక్షిప్త ప్రమాద సూచనలు పంపబడతాయి. పూర్తి URL మార్గాలు, పేజీ పాఠ్యం లేదా టైప్ చేసిన కంటెంట్ ఉండవు."
+  },
+  "receiptIconLabel": {
+    "message": "పేజీ చిహ్నం తనిఖీ"
+  },
+  "receiptIconDetail": {
+    "message": "May request the page’s favicon for local brand comparison. The request can reveal your IP address to the icon host; no full page content is sent by this check."
+  },
+  "receiptPerPage": {
+    "message": "ప్రతి పేజీకి"
+  },
+  "receiptOnInstall12h": {
+    "message": "ఇన్‌స్టాల్ సమయంలో + ప్రతి 12 గంటలకు"
+  },
+  "receiptDisabled": {
+    "message": "నిలిపివేయబడింది"
+  },
+  "receiptWhenFlagged": {
+    "message": "గుర్తు పెట్టినప్పుడు"
+  },
+  "receiptOffDefault": {
+    "message": "ఆఫ్ (డిఫాల్ట్)"
+  },
+  "optExportSyncHint": {
+    "message": "Backups can be moved manually. Browser sync is optional and uses the browser account’s sync service."
+  },
+  "toastSyncOn": {
+    "message": "సింక్ ఆన్"
+  },
+  "toastSyncUnavailable": {
+    "message": "సింక్ అందుబాటులో లేదు"
+  },
+  "toastSyncOff": {
+    "message": "సింక్ ఆఫ్"
+  },
+  "toastExported": {
+    "message": "ఎగుమతి అయ్యింది"
+  },
+  "toastImported": {
+    "message": "దిగుమతి అయ్యింది"
+  },
+  "toastInvalidFile": {
+    "message": "చెల్లని ఫైల్"
+  },
+  "toastCheckingUpdates": {
+    "message": "తనిఖీ చేస్తోంది…"
+  },
+  "fmtUpdatedToVersion": {
+    "message": "v$VERSION$ కు నవీకరించబడింది",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "0.6.1"
+      }
+    }
+  },
+  "toastAlreadyUpToDate": {
+    "message": "ఇప్పటికే తాజాగా ఉంది"
+  },
+  "toastUpdateFailed": {
+    "message": "నవీకరణ విఫలమైంది"
+  },
+  "toastHistoryCleared": {
+    "message": "చరిత్ర తొలగించబడింది"
+  },
+  "optNoneYet": {
+    "message": "ఇంకా ఏదీ లేదు"
+  },
+  "optNoneRightNow": {
+    "message": "ప్రస్తుతం ఏదీ లేదు"
+  },
+  "optNothingYetGood": {
+    "message": "ఇటీవలి సంఘటనలు లేవు."
+  },
+  "fmtVersion": {
+    "message": "వెర్షన్ $VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "0.6.0"
+      }
+    }
+  },
+  "fmtUntilTime": {
+    "message": "$TIME$ వరకు",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "22 Aug, 3:45 PM"
+      }
+    }
+  },
+  "fmtUpdatedRules": {
+    "message": "$TIME$ నవీకరించబడింది · $COUNT$ నియమాలు",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "2 h ago"
+      },
+      "count": {
+        "content": "$2",
+        "example": "12,345"
+      }
+    }
+  },
+  "fmtStatsSince": {
+    "message": "PhishGuard has been active in this browser since $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "12 Jun 2026"
+      }
+    }
+  },
+  "stats7d": {
+    "message": "7 రోజులు"
+  },
+  "stats30d": {
+    "message": "30 రోజులు"
+  },
+  "statsAll": {
+    "message": "మొదటి నుండి"
+  },
+  "statsPagesChecked": {
+    "message": "పరికరంలో తనిఖీ చేసిన పేజీలు"
+  },
+  "statsThreatsStopped": {
+    "message": "ఆపిన ముప్పులు"
+  },
+  "statsThreatsNone": {
+    "message": "ఈ వ్యవధిలో ఎలాంటి ముప్పులు నమోదు కాలేదు."
+  },
+  "statsScamsBlockedOne": {
+    "message": "1 high-risk event blocked in this period"
+  },
+  "fmtStatsScamsBlocked": {
+    "message": "$COUNT$ high-risk events blocked in this period",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "8"
+      }
+    }
+  },
+  "statsPrivacyFindings": {
+    "message": "గోప్యతా ఫలితాలు"
+  },
+  "statsRulesActive": {
+    "message": "క్రియాశీల బ్లాక్‌లిస్ట్ నియమాలు"
+  },
+  "statsRulesActiveHint": {
+    "message": "ఇప్పుడు అమలులో ఉన్నవి, PhishGuardలో అంతర్నిర్మిత జాబితాతో సహా."
+  },
+  "statsChartTitle7d": {
+    "message": "తనిఖీ చేసిన పేజీలు · గత 7 రోజులు"
+  },
+  "statsChartTitle30d": {
+    "message": "తనిఖీ చేసిన పేజీలు · గత 30 రోజులు"
+  },
+  "statsChartTitleAll": {
+    "message": "తనిఖీ చేసిన పేజీలు · ఇన్‌స్టాల్ చేసినప్పటి నుండి"
+  },
+  "statsChartTitle90d": {
+    "message": "తనిఖీ చేసిన పేజీలు · గత 90 రోజులు"
+  },
+  "statsAxisToday": {
+    "message": "ఈరోజు"
+  },
+  "statsLegendChecked": {
+    "message": "తనిఖీ చేసిన పేజీలు"
+  },
+  "statsLegendThreat": {
+    "message": "ఆ రోజు ఆపిన ముప్పు"
+  },
+  "fmtStatsBarTip": {
+    "message": "$DATE$ · $COUNT$ పేజీలు తనిఖీ చేయబడ్డాయి",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "21 Aug"
+      },
+      "count": {
+        "content": "$2",
+        "example": "63"
+      }
+    }
+  },
+  "fmtStatsBarTipThreat": {
+    "message": "$DATE$ · $COUNT$ pages checked · 1 high-risk event",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "21 Aug"
+      },
+      "count": {
+        "content": "$2",
+        "example": "63"
+      }
+    }
+  },
+  "fmtStatsBarTipThreats": {
+    "message": "$DATE$ · $COUNT$ pages checked · $THREATS$ high-risk events",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "21 Aug"
+      },
+      "count": {
+        "content": "$2",
+        "example": "63"
+      },
+      "threats": {
+        "content": "$3",
+        "example": "2"
+      }
+    }
+  },
+  "statsByType": {
+    "message": "రకం వారీగా ముప్పులు · మొదటి నుండి"
+  },
+  "statsCatPhishing": {
+    "message": "ఫిషింగ్"
+  },
+  "statsCatFakeShop": {
+    "message": "నకిలీ దుకాణం"
+  },
+  "statsCatWallet": {
+    "message": "వాలెట్ డ్రెయినర్"
+  },
+  "statsCatTechSupport": {
+    "message": "టెక్-సపోర్ట్"
+  },
+  "statsCatClipboard": {
+    "message": "క్లిప్‌బోర్డ్"
+  },
+  "statsCatClickfix": {
+    "message": "నకిలీ CAPTCHA"
+  },
+  "statsCatFakeUpdate": {
+    "message": "నకిలీ అప్‌డేట్"
+  },
+  "statsCatOther": {
+    "message": "ఇతరత్రా"
+  },
+  "statsRecent": {
+    "message": "ఇటీవలివి"
+  },
+  "statsPillBlocked": {
+    "message": "బ్లాక్ చేయబడింది"
+  },
+  "statsPillWarned": {
+    "message": "హెచ్చరించబడింది"
+  },
+  "statsFooter": {
+    "message": "గణాంకాలు ఈ బ్రౌజర్‌లో నిల్వ చేయబడతాయి. ఎలాంటి ముప్పు గుర్తించబడకపోవడం సెషన్ ముప్పులేనిదని హామీ ఇవ్వదు. ఐచ్ఛిక కమ్యూనిటీ నివేదికలను Settings‌లో నియంత్రించవచ్చు."
+  },
+  "reviewAskBody": {
+    "message": "PhishGuard ఇప్పటివరకు మీ కోసం $COUNT$ మోసాలను ఆపింది. అది దీనికి అర్హమైతే, ఒక చిన్న సమీక్ష ఇతరులకు దీన్ని కనుగొనడంలో సహాయపడుతుంది — ఇది ఉచితం, ఎప్పటికీ ఉచితంగానే ఉంటుంది.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "bannerDangerBrand": {
+    "message": "High risk: this address may be impersonating $BRAND$",
+    "placeholders": {
+      "brand": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerDanger": {
+    "message": "ప్రమాదకర పేజీ"
+  },
+  "bannerTakeCare": {
+    "message": "ఈ సైట్‌లో జాగ్రత్తగా ఉండండి"
+  },
+  "whyShort": {
+    "message": "ఎందుకు?"
+  },
+  "moreActions": {
+    "message": "మరిన్ని చర్యలు"
+  },
+  "hideForToday": {
+    "message": "ఈ రోజుకు దాచు"
+  },
+  "hideForAnHour": {
+    "message": "ఒక గంటకు దాచు"
+  },
+  "interstitialHead1": {
+    "message": "Do not continue to this destination"
+  },
+  "interstitialHead2": {
+    "message": "Pause and review this page first"
+  },
+  "interstitialHead3": {
+    "message": "ముందుకు వెళ్లవద్దు — మోసం హెచ్చరిక"
+  },
+  "interstitialReassure": {
+    "message": "If you entered a password or payment information here, change it through the service’s official app or website."
+  },
+  "continueAnyway": {
+    "message": "అయినా కొనసాగించు"
+  },
+  "submitAnyway": {
+    "message": "అయినా సమర్పించు"
+  },
+  "proceedAnyway": {
+    "message": "అయినా కొనసాగించు"
+  },
+  "cancelRecommended": {
+    "message": "రద్దు చేయి (సిఫార్సు)"
+  },
+  "phishingStop": {
+    "message": "ఆగండి — ఫిషింగ్ కావచ్చు"
+  },
+  "techScamTitle": {
+    "message": "టెక్-సపోర్ట్ మోసం కావచ్చు"
+  },
+  "techScamBody": {
+    "message": "A web page cannot diagnose a computer infection by itself. Close this page; do not call a number or install remote-support software offered by the warning."
+  },
+  "getMeOut": {
+    "message": "నన్ను ఇక్కడి నుండి బయటకు తీసుకెళ్లు (ఈ పేజీని మూసివేయి)"
+  },
+  "walletRiskyTitle": {
+    "message": "ప్రమాదకర వాలెట్ అభ్యర్థన"
+  },
+  "walletRiskyBody": {
+    "message": "Cancel if you did not expect this request. Some signatures grant ongoing token or account permissions that are difficult to reverse."
+  },
+  "compareThisSite": {
+    "message": "ఈ సైట్"
+  },
+  "compareRealSite": {
+    "message": "అసలైన $BRAND$",
+    "placeholders": {
+      "brand": {
+        "content": "$1"
+      }
+    }
+  },
+  "guardCountdown": {
+    "message": "$LABEL$ ($COUNT$)",
+    "placeholders": {
+      "label": {
+        "content": "$1",
+        "example": "Continue anyway"
+      },
+      "count": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "ariaScamWarning": {
+    "message": "మోసం హెచ్చరిక"
+  },
+  "ariaPhishingWarning": {
+    "message": "ఫిషింగ్ కావచ్చనే హెచ్చరిక"
+  },
+  "interstitialFallback": {
+    "message": "Multiple signals indicate that this destination may be part of a scam."
+  },
+  "guardFormDestKnown": {
+    "message": "This form sends the password to $DEST$ rather than $HOST$. Only submit credentials when the destination matches the service you intended to use.",
+    "placeholders": {
+      "dest": {
+        "content": "$1",
+        "example": "evil.example"
+      },
+      "host": {
+        "content": "$2",
+        "example": "your-bank.example"
+      }
+    }
+  },
+  "guardFormDestUnknown": {
+    "message": "This form sends a password to a different site from the one displayed. That mismatch can expose your sign-in details."
+  },
+  "guardHiddenTag": {
+    "message": "PhishGuard దాచింది"
+  },
+  "guardWalletCollision": {
+    "message": "మరో హెచ్చరిక తెరిచి ఉండగా PhishGuard ఒక వాలెట్ అభ్యర్థనను ఆపింది. దాన్ని మూసి మళ్లీ ప్రయత్నించండి."
+  },
+  "guardWalletFallback": {
+    "message": "A wallet request needs review before you approve it."
+  },
+  "guardPrivacyFallback": {
+    "message": "PhishGuard observed a possible data-exposure or tracking pattern on this page."
+  },
+  "guardClipboardFallback": {
+    "message": "ఒక సైట్ మీ క్లిప్‌బోర్డ్‌ను మార్చింది."
+  },
+  "guardTechScamFallback": {
+    "message": "ఈ పేజీ భయపెట్టే ఎత్తుగడలు వాడుతోంది."
+  },
+  "guardClipboardBlockedPayload": {
+    "message": "PhishGuard అడ్డుకుంది — ఈ సైట్ మీ క్లిప్‌బోర్డ్‌లో ప్రమాదకర కమాండ్‌ను ఉంచింది. దాన్ని ఎక్కడా అతికించవద్దు."
+  },
+  "clipboardNoticeCmdTitle": {
+    "message": "A command was copied while visiting $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "ollama.com"
+      }
+    }
+  },
+  "clipboardNoticeCmdBody": {
+    "message": "Do not run it unless you independently understand and trust the command. Fake verification pages use this trick to install malware."
+  },
+  "clipboardNoticeAddrTitle": {
+    "message": "A cryptocurrency address was copied from $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "clipboardNoticeAddrBody": {
+    "message": "Compare every character with the intended recipient before transferring funds."
+  },
+  "clipboardWarnTitle": {
+    "message": "$HOST$ changed the clipboard unexpectedly",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "ackMuted": {
+    "message": "PhishGuard ఈ హెచ్చరికను $HOST$లో మళ్లీ చూపదు.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "dontWarnHere": {
+    "message": "ఈ సైట్‌లో నన్ను హెచ్చరించవద్దు"
+  },
+  "leakTitle": {
+    "message": "Form data may have been sent before submission"
+  },
+  "notifyLureTitle": {
+    "message": "ఇక్కడ అనుమతించు నొక్కవద్దు"
+  },
+  "credPostTitle": {
+    "message": "This form sends entered data to another site"
+  },
+  "keepMyDetails": {
+    "message": "నా వివరాలు ఉంచు"
+  },
+  "guardLeakyFormPlain": {
+    "message": "A value matching your email or phone was sent to $HOST$ in readable form before submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "guardLeakyFormHashed": {
+    "message": "A hashed identifier derived from your email or phone was sent to $HOST$ before submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      },
+      "algo": {
+        "content": "$2",
+        "example": "MD5"
+      }
+    }
+  },
+  "guardNotifyLure": {
+    "message": "The page is pairing a continuation prompt with a browser-notification request. Block notifications unless you expected them."
+  },
+  "serpAdMismatch": {
+    "message": "⚠ PhishGuard: ఈ ప్రకటన $ACTUAL$ కు తీసుకెళ్తుంది, $SHOWN$ కు కాదు",
+    "placeholders": {
+      "actual": {
+        "content": "$1",
+        "example": "malicious-download.example"
+      },
+      "shown": {
+        "content": "$2",
+        "example": "trusted-brand.example"
+      }
+    }
+  },
+  "serpBadgeDanger": {
+    "message": "PhishGuard: ఈ ఫలితం మా ముప్పు బ్లాక్ జాబితాలో ఉంది"
+  },
+  "serpBadgeCaution": {
+    "message": "PhishGuard: ఈ ఫలితం మోసపు హెచ్చరిక సంకేతాలను చూపుతోంది"
+  },
+  "chipLink": {
+    "message": "లింక్"
+  },
+  "chipBrand": {
+    "message": "బ్రాండ్"
+  },
+  "chipPage": {
+    "message": "పేజీ"
+  },
+  "chipWallet": {
+    "message": "వాలెట్"
+  },
+  "chipClipboard": {
+    "message": "క్లిప్‌బోర్డ్"
+  },
+  "chipTechscam": {
+    "message": "భయపెట్టే పేజీ"
+  },
+  "chipShop": {
+    "message": "దుకాణం"
+  },
+  "chipMessage": {
+    "message": "సందేశం"
+  },
+  "reason_ipHost": {
+    "message": "The destination uses a numeric IP address rather than a conventional domain name."
+  },
+  "reason_atSymbol": {
+    "message": "An at-sign in the address can make the visible text differ from the actual destination host."
+  },
+  "reason_urlUserInfo": {
+    "message": "The address contains login information before the @ sign, which can disguise the actual destination host."
+  },
+  "reason_executableScheme": {
+    "message": "This link uses an executable or active-content URL scheme rather than an ordinary web address."
+  },
+  "reason_punycodeHost": {
+    "message": "The domain is encoded with punycode, which can appear in look-alike domain attacks."
+  },
+  "reason_idnHomograph": {
+    "message": "Some characters in this domain visually resemble the real $BRAND$ name.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "paypal"
+      }
+    }
+  },
+  "reason_brandLookalike": {
+    "message": "The domain has features commonly seen in attempts to imitate a familiar brand."
+  },
+  "reason_suspiciousTld": {
+    "message": "This top-level domain has a higher-than-usual presence in scam reports."
+  },
+  "reason_noHttps": {
+    "message": "This address does not use HTTPS, so network traffic may be readable or modifiable in transit."
+  },
+  "reason_manySubdomains": {
+    "message": "అసాధారణంగా చాలా సబ్‌డొమైన్‌లు."
+  },
+  "reason_urgencyKeywords": {
+    "message": "The address combines several urgency or account-security terms."
+  },
+  "reason_randomHost": {
+    "message": "The host label has a high-entropy pattern often seen in disposable campaign domains."
+  },
+  "reason_brandFuzzyMatch": {
+    "message": "The hostname resembles $BRAND$’s known domain. Inspect the exact spelling before signing in.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "PayPal"
+      }
+    }
+  },
+  "reason_deepSubdomainChain": {
+    "message": "Several nested subdomains make the site owner harder to recognize at a glance."
+  },
+  "reason_longHostLabel": {
+    "message": "An unusually long hostname label may be hiding brand-like words or misleading structure."
+  },
+  "reason_shortenerHost": {
+    "message": "This link uses the shortener $HOST$, so the final site cannot be judged from this address alone.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "bit.ly"
+      }
+    }
+  },
+  "reason_riskAbusedTld": {
+    "message": "ఈ డొమైన్ యొక్క టాప్-లెవెల్ డొమైన్ ($TLD$) PhishGuard ముప్పు-జాబితా ప్రమాద పట్టికల్లో అధిక మోసపు దుర్వినియోగ రేటును కలిగి ఉంది.",
+    "placeholders": {
+      "tld": {
+        "content": "$1",
+        "example": ".top"
+      }
+    }
+  },
+  "reason_riskDynamicHost": {
+    "message": "This domain uses dynamic DNS or a free-hosting service that appears frequently in abuse reports."
+  },
+  "reason_brandForeignSuffix": {
+    "message": "The address uses $BRAND$’s name with an unfamiliar .$SUFFIX$ ending.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "Roblox"
+      },
+      "suffix": {
+        "content": "$2",
+        "example": "com.do"
+      }
+    }
+  },
+  "reason_gatewayRedirect": {
+    "message": "A redirect through $HOST$ led to a different destination, which can conceal the final site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "mgpxq.com"
+      }
+    }
+  },
+  "reason_feedBlock": {
+    "message": "ఈ డొమైన్ PhishGuard ముప్పు జాబితాతో సరిపోలుతుంది, $COUNT$ స్వతంత్ర మూలం(ల) ద్వారా నిర్ధారించబడింది.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "reason_feedWarn": {
+    "message": "ఈ డొమైన్ PhishGuard ముప్పు జాబితాలోని తక్కువ-విశ్వసనీయ ఎంట్రీతో సరిపోలుతుంది ($COUNT$ మూలం(లు)) — జాగ్రత్తగా కొనసాగండి.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "reason_remoteDestinationConfirmedMalicious": {
+    "message": "An independent remote check confirmed malicious behavior at this link destination."
+  },
+  "reason_linkedDestinationFeedBlock": {
+    "message": "A linked destination matches PhishGuard's exact-confirmed high-confidence blocklist."
+  },
+  "reason_aiEvidence": {
+    "message": "$DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1",
+        "example": "The page contains a credential form posting to an unrelated domain."
+      }
+    }
+  },
+  "reason_newDomain": {
+    "message": "The domain appears in a newly registered domain list; very new sites have little reputation history."
+  },
+  "reason_credentialFormForeignDomain": {
+    "message": "A password form sends credentials to a different domain from the page showing it."
+  },
+  "reason_crossOriginCredPost": {
+    "message": "The form sends password or card-like data to $HOST$, which differs from the current site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "collector.example"
+      }
+    }
+  },
+  "reason_hiddenIframes": {
+    "message": "The page contains hidden frames that could load content or collect input out of view."
+  },
+  "reason_scamPhrase": {
+    "message": "The page contains giveaway or reward language associated with common scam patterns: “$PHRASE$”.",
+    "placeholders": {
+      "phrase": {
+        "content": "$1",
+        "example": "you won"
+      }
+    }
+  },
+  "reason_seedPhraseAsk": {
+    "message": "The page asks for a wallet recovery phrase. Anyone who obtains it can take control of the wallet."
+  },
+  "reason_brandImpersonationContent": {
+    "message": "The page imitates the appearance or wording of $BRAND$ without using its verified domain.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "paypal"
+      }
+    }
+  },
+  "reason_deliveryFeeScam": {
+    "message": "The page imitates $BRAND$ and requests card details for a package fee. Confirm delivery notices through the carrier’s official site.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "DHL"
+      }
+    }
+  },
+  "reason_brandIconMismatch": {
+    "message": "The page displays an icon associated with $BRAND$ while using a different website address.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "PayPal"
+      }
+    }
+  },
+  "reason_credentialFormOnTenantHost": {
+    "message": "A password form appears on shared hosting ($HOST$), where unrelated users can publish their own pages.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "webflow.io"
+      }
+    }
+  },
+  "reason_brandInTenantHost": {
+    "message": "$BRAND$ appears in a shared-hosting address that requests a password.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "AT&T"
+      }
+    }
+  },
+  "reason_contentPhishingPattern": {
+    "message": "The combination of wording and page layout resembles previously observed phishing pages."
+  },
+  "reason_techScamScareText": {
+    "message": "The page uses threatening technical-support language: “$PHRASE$”.",
+    "placeholders": {
+      "phrase": {
+        "content": "$1",
+        "example": "virus detected"
+      }
+    }
+  },
+  "reason_techScamPhoneAsk": {
+    "message": "The page pressures visitors to call a support number, a frequent pattern in impersonation scams."
+  },
+  "reason_techScamFakeAlert": {
+    "message": "This appears to be a web-based system alert demanding attention. Verify alerts through the operating system, not the page."
+  },
+  "reason_techScamFullscreen": {
+    "message": "The page requested fullscreen, which can be used to make scam warnings harder to dismiss."
+  },
+  "reason_techScamAlarmAudio": {
+    "message": "The page played alarm-like audio that can pressure visitors into acting quickly."
+  },
+  "reason_techScamDialogFlood": {
+    "message": "The page generated repeated dialogs that can obstruct normal navigation."
+  },
+  "reason_techScamHistoryTrap": {
+    "message": "పేజీ మీ Back బటన్‌ను హైజాక్ చేస్తోంది."
+  },
+  "reason_walletBlindSign": {
+    "message": "The wallet was asked to sign opaque data whose effects are not obvious from the request."
+  },
+  "reason_walletPermitApproval": {
+    "message": "This Permit-style signature can grant later token or NFT transfers without another prompt."
+  },
+  "reason_walletDelegation7702": {
+    "message": "This EIP-7702 request delegates account execution to a contract; review the target and its permissions carefully."
+  },
+  "reason_walletSetApprovalAll": {
+    "message": "This request can authorize a contract to transfer every NFT in a collection."
+  },
+  "reason_walletUnlimitedApprove": {
+    "message": "This approval may let a contract spend an unlimited amount of the selected token."
+  },
+  "reason_walletTokenApprove": {
+    "message": "This request grants a contract permission to spend the selected token amount."
+  },
+  "reason_clickfixPasteRun": {
+    "message": "The page instructs you to paste and execute a system command. Treat command-paste verification as high risk."
+  },
+  "reason_clickfixFakeCaptcha": {
+    "message": "The CAPTCHA-like step asks you to open the Windows Run dialog and execute a command, which real CAPTCHA tests do not require."
+  },
+  "reason_clickfixWinR": {
+    "message": "The page directs you to the Windows Run box and asks you to paste text into it."
+  },
+  "reason_clickfixCaptchaDisguise": {
+    "message": "The command instructions are presented as a human-verification task."
+  },
+  "reason_clipboardCommand": {
+    "message": "A system command was detected on the clipboard. Do not paste it into a terminal or Run dialog unless you independently understand it."
+  },
+  "reason_clipboardCryptoAddress": {
+    "message": "A cryptocurrency address appeared on the clipboard. Verify the destination independently before using it."
+  },
+  "reason_fakeUpdatePrompt": {
+    "message": "A web page offers a browser or system update download. Updates should be obtained from the browser or operating system’s own updater."
+  },
+  "reason_msgOtpAsk": {
+    "message": "The message asks for an OTP, PIN, passcode, or password. Treat requests to share these secrets as high risk."
+  },
+  "reason_msgScamWording": {
+    "message": "The message contains wording associated with common scams: “$PHRASE$”.",
+    "placeholders": {
+      "phrase": {
+        "content": "$1",
+        "example": "delivery fee"
+      }
+    }
+  },
+  "reason_msgUrgencyDeadline": {
+    "message": "The message uses an artificial deadline or urgent demand to pressure a quick response."
+  },
+  "reason_msgDangerousLink": {
+    "message": "A link in the message triggered address-risk checks: $URL$.",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "http://verify-bank.tk/otp"
+      }
+    }
+  },
+  "reason_qrCodeDestination": {
+    "message": "A QR code resolves to $URL$. Review the destination before opening it on another device.",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "http://verify-bank.tk/otp"
+      }
+    }
+  },
+  "reason_shop_countdownReset": {
+    "message": "నకిలీ కౌంట్‌డౌన్"
+  },
+  "reason_shop_countdownReset_detail": {
+    "message": "The offer timer appears to reset between visits, weakening the claim that the deal is about to end."
+  },
+  "reason_shop_offPlatformPay": {
+    "message": "ప్రమాదకర చెల్లింపు"
+  },
+  "reason_shop_offPlatformPay_detail": {
+    "message": "Checkout asks for a hard-to-reverse method such as a wire, payment app, or crypto transfer."
+  },
+  "reason_shop_fakeScarcity": {
+    "message": "నకిలీ కొరత"
+  },
+  "reason_shop_fakeScarcity_detail": {
+    "message": "The page uses injected scarcity language such as “only a few left” or viewer counters."
+  },
+  "reason_shop_badgeHotlink": {
+    "message": "నకిలీ విశ్వాస బ్యాడ్జ్"
+  },
+  "reason_shop_badgeHotlink_detail": {
+    "message": "A “secure” or “verified” badge appears to be a linked or embedded image rather than independently verifiable proof."
+  },
+  "reason_shop_missingContact": {
+    "message": "సంప్రదింపు సమాచారం లేదు"
+  },
+  "reason_shop_missingContact_detail": {
+    "message": "The store lacks basic business contact details, making the seller harder to verify."
+  },
+  "obDocTitle": {
+    "message": "PhishGuardకు స్వాగతం"
+  },
+  "obTitle": {
+    "message": "PhishGuard మిమ్మల్ని కాపాడుతోంది"
+  },
+  "obLead": {
+    "message": "PhishGuard evaluates page signals in this browser. It also downloads threat lists and may request site icons. Reports are not sent unless you configure and enable a relay."
+  },
+  "obPhishing": {
+    "message": "ఫిషింగ్ మరియు నకిలీ లాగిన్‌లు"
+  },
+  "obPhishingBody": {
+    "message": "Flags forms whose credential destination does not match the site presenting them."
+  },
+  "obBrand": {
+    "message": "బ్రాండ్ నకిలీలు"
+  },
+  "obBrandBody": {
+    "message": "Compares site identity signals—including known brand icons and domain patterns—to look for impersonation."
+  },
+  "obPage": {
+    "message": "పేజీ విశ్లేషణ"
+  },
+  "obPageBody": {
+    "message": "Uses local wording and layout signals to identify suspicious login pages that may not appear on a threat list yet."
+  },
+  "obWallet": {
+    "message": "క్రిప్టో వాలెట్ కాపలా"
+  },
+  "obWalletBody": {
+    "message": "Reviews supported wallet requests for dangerous token permissions and recovery-phrase traps."
+  },
+  "obClipboard": {
+    "message": "క్లిప్‌బోర్డ్ మరియు \"దీన్ని అతికించండి\" మోసాలు"
+  },
+  "obClipboardBody": {
+    "message": "Alerts when a page attempts to place a command or cryptocurrency address on the clipboard."
+  },
+  "obPopups": {
+    "message": "నకిలీ వైరస్ పాప్-అప్‌లు"
+  },
+  "obPopupsBody": {
+    "message": "Identifies pressure tactics such as fake support warnings and repeated dialogs, with options to leave the page."
+  },
+  "obPin": {
+    "message": "PhishGuardను పిన్ చేయండి"
+  },
+  "obPinBody": {
+    "message": "టూల్‌బార్‌లోని పజిల్ చిహ్నంపై క్లిక్ చేసి, ఆపై PhishGuard పక్కనున్న పిన్ నొక్కండి — అప్పుడు ప్రతి పేజీ స్థితి ఒక్క చూపులో కనిపిస్తుంది."
+  },
+  "obOpenSettings": {
+    "message": "సెట్టింగ్‌లు తెరవండి"
+  },
+  "blockedDocTitle": {
+    "message": "సైట్ PhishGuard ద్వారా బ్లాక్ చేయబడింది"
+  },
+  "blockedTitle": {
+    "message": "PhishGuard ఈ సైట్‌ను బ్లాక్ చేసింది"
+  },
+  "blockedLead": {
+    "message": "$HOST$ PhishGuard యొక్క తెలిసిన మోసపూరిత మరియు హానికరమైన సైట్ల జాబితాలో ఉంది, కాబట్టి పేజీ లోడ్ కాకముందే ఆపివేయబడింది. ఏమీ రన్ కాలేదు, మీరు టైప్ చేసినది కూడా ఏదీ పంపబడలేదు.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "secure-paypa1-login.com"
+      }
+    }
+  },
+  "blockedLeadHot": {
+    "message": "$HOST$ appears on a recent high-risk list. PhishGuard blocked the navigation before displaying the page.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "secure-paypa1-login.com"
+      }
+    }
+  },
+  "blockedAddress": {
+    "message": "బ్లాక్ చేయబడిన చిరునామా"
+  },
+  "blockedListedBy": {
+    "message": "$SOURCES$ ద్వారా జాబితా చేయబడింది",
+    "placeholders": {
+      "sources": {
+        "content": "$1",
+        "example": "Phishing.Database, ScamSniffer"
+      }
+    }
+  },
+  "blockedListedGeneric": {
+    "message": "PhishGuard యొక్క నిర్ధారిత మోసపు డొమైన్‌ల బ్లాక్ జాబితాలో నమోదైంది."
+  },
+  "blockedGoBack": {
+    "message": "భద్రతకు తిరిగి వెళ్ళండి"
+  },
+  "blockedTrustSite": {
+    "message": "మోసం కాదా? ఈ సైట్‌ను విశ్వసించండి"
+  },
+  "blockedVisitAnyway": {
+    "message": "అయినా సందర్శించండి (సిఫారసు చేయబడదు)"
+  },
+  "blockedVisitHint": {
+    "message": "సైట్‌ను 1 గంట పాటు PhishGuard పాజ్ చేసిన స్థితిలో తెరుస్తుంది."
+  },
+  "blockedFooter": {
+    "message": "మీ పరికరంలోనే బ్లాక్ చేయబడింది. ఈ పేజీ గురించి ఏమీ ఎక్కడికీ పంపబడలేదు."
+  },
+  "detailsAndOptions": {
+    "message": "వివరాలు మరియు ఇతర ఎంపికలు"
+  },
+  "continuePausesHour": {
+    "message": "ఈ సైట్‌లో PhishGuard‌ను 1 గంట పాటు నిలిపివేస్తుంది."
+  },
+  "thisPage": {
+    "message": "ఈ పేజీ"
+  },
+  "chipBlocklist": {
+    "message": "బ్లాక్ చేసిన సైట్"
+  },
+  "obNote": {
+    "message": "You can send compact risk reports to a relay you trust. Reporting is off until you configure an endpoint and opt in."
+  },
+  "optHotRejected": {
+    "message": "PhishGuard rejected the latest recent-risk list because its validation failed; the last accepted list remains active."
+  },
+  "interstitialFooter": {
+    "message": "PhishGuard ఈ పేజీని మీ పరికరంలోనే తనిఖీ చేసింది."
+  },
+  "reason_newDomainUnvisited": {
+    "message": "This domain appears on a newly registered domains list and has no prior visit history in PhishGuard."
+  },
+  "continueOnce": {
+    "message": "ఈ పేజీకి ఒక్కసారి మాత్రమే వెళ్తుంది. PhishGuard ఆన్‌లోనే ఉంటుంది."
+  },
+  "bannerHideDay": {
+    "message": "ఒక రోజు దాచండి"
+  },
+  "bannerHideHour": {
+    "message": "ఒక గంట దాచండి"
+  },
+  "localFeedbackTitle": {
+    "message": "ఈ పరికరంలో సేవ్ చేసిన అభిప్రాయం"
+  },
+  "localFeedbackHint": {
+    "message": "When reporting is off, feedback is saved in this browser only. Review or delete those local records below."
+  },
+  "localFeedbackEmpty": {
+    "message": "స్థానికంగా సేవ్ చేసిన అభిప్రాయం లేదు."
+  },
+  "clearLocalFeedback": {
+    "message": "స్థానిక అభిప్రాయాన్ని తొలగించండి"
+  },
+  "localFeedbackCleared": {
+    "message": "స్థానిక అభిప్రాయం తొలగించబడింది."
+  },
+  "msgScoreDetails": {
+    "message": "ప్రమాద సూచిక స్కోరు: $1/100 · తనిఖీ చేసిన లింకులు: $2"
+  },
+  "msgNoSignals": {
+    "message": "స్పష్టమైన మోస సంకేతాలు కనబడలేదు. ఊహించని అభ్యర్థనల విషయంలో జాగ్రత్తగా ఉండండి."
+  },
+  "optReportUrlTitle": {
+    "message": "కమ్యూనిటీ రిపోర్టింగ్ రిలే"
+  },
+  "optReportUrlHint": {
+    "message": "Leave this empty to keep feedback local. If you set a relay, use an HTTPS endpoint you control or trust. Saving a changed address turns reporting off until you opt in again."
+  },
+  "optReportUrlLabel": {
+    "message": "HTTPS రిపోర్టింగ్ URL"
+  },
+  "optReportUrlPlaceholder": {
+    "message": "https://your-server.example/api/report"
+  },
+  "saveReportUrl": {
+    "message": "రిపోర్టింగ్ URL సేవ్ చేయండి"
+  },
+  "reportRelayMissing": {
+    "message": "రిపోర్టింగ్ ప్రారంభించే ముందు About లో HTTPS రిపోర్టింగ్ URL సెట్ చేయండి."
+  },
+  "reportRelayInvalid": {
+    "message": "క్రెడెన్షియల్స్, query లేదా fragment లేని చెల్లుబాటు అయ్యే HTTPS URL ఇవ్వండి."
+  },
+  "reportRelaySaved": {
+    "message": "రిలే సేవ్ అయింది. మీరు ప్రారంభించే వరకు రిపోర్టింగ్ ఆఫ్‌లో ఉంటుంది."
+  },
+  "receiptRelayNotConfigured": {
+    "message": "కాన్ఫిగర్ కాలేదు; నివేదికలు స్థానికంగానే ఉంటాయి"
+  },
+  "reason_qrExternalAction": {
+    "message": "The QR payload tries to open an app or use a non-standard website link. Review it before continuing."
+  },
+  "reason_qrMalformedDestination": {
+    "message": "The QR code contains a malformed web address, so its destination cannot be reliably checked."
+  },
+  "qrInvalidCodeLabel": {
+    "message": "Invalid or unreadable QR code"
+  },
+  "qrValidDangerousLabel": {
+    "message": "Valid QR · Dangerous destination"
+  },
+  "qrValidSuspiciousLabel": {
+    "message": "Valid QR · Suspicious destination"
+  },
+  "qrValidSafeLabel": {
+    "message": "Valid QR · No strong destination risk found"
+  },
+  "qrDecodedMalformedLabel": {
+    "message": "Valid QR · Malformed website address"
+  },
+  "qrDecodedUnsafeLabel": {
+    "message": "Valid QR · Unsafe link type"
+  },
+  "qrDecodedExternalLabel": {
+    "message": "Valid QR · External app action"
+  },
+  "qrDecodedNonWebLabel": {
+    "message": "Valid QR · Non-website data (not safety-rated)"
+  },
+  "reason_downloadDisguisedExecutable": {
+    "message": "The shared item uses a document or image-looking filename followed by an executable extension. Do not open it."
+  },
+  "reason_downloadExecutableSurface": {
+    "message": "The page exposes an executable or installer download ($FILE$). Verify the publisher and file through an independent security scanner before opening it.",
+    "placeholders": {
+      "file": {
+        "content": "$1",
+        "example": "file.exe"
+      }
+    }
+  },
+  "reason_downloadScriptSurface": {
+    "message": "The page exposes a script or command file that can execute actions on the device. Do not run it unless you can verify its origin and contents."
+  },
+  "reason_downloadSafetyEvasion": {
+    "message": "The page asks you to weaken or bypass device security before opening a file. This is a strong malware-delivery warning."
+  },
+  "reason_downloadDeceptivePrompt": {
+    "message": "The page uses an update or verification story to persuade you to download or run a file. Verify updates through the operating system or application itself."
+  },
+  "reason_downloadArchivePressure": {
+    "message": "The shared archive is paired with instructions or pressure that may conceal an executable payload. Do not extract or run unexpected contents."
+  }
+}

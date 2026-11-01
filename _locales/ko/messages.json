@@ -1,0 +1,1813 @@
+{
+  "extName": {
+    "message": "PhishGuard — Link & Scam Defense"
+  },
+  "extShortName": {
+    "message": "PhishGuard"
+  },
+  "extDescription": {
+    "message": "Browser-side risk checks for suspicious sites, links, and messages, with explanations that help you decide what to do next."
+  },
+  "on": {
+    "message": "켜짐"
+  },
+  "paused": {
+    "message": "일시중지됨"
+  },
+  "settings": {
+    "message": "Preferences"
+  },
+  "dismiss": {
+    "message": "닫기"
+  },
+  "ariaDismiss": {
+    "message": "닫기"
+  },
+  "cancel": {
+    "message": "취소"
+  },
+  "reportMistake": {
+    "message": "오류 신고"
+  },
+  "thanks": {
+    "message": "감사합니다"
+  },
+  "trustThisSite": {
+    "message": "이 사이트 신뢰"
+  },
+  "ackTrusted": {
+    "message": "PhishGuard가 $HOST$을(를) 다시 표시하지 않습니다.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "secure-paypa1-login.com"
+      }
+    }
+  },
+  "undo": {
+    "message": "실행 취소"
+  },
+  "popupPauseMenu": {
+    "message": "Site controls ▾"
+  },
+  "whatsNewLink": {
+    "message": "새 소식"
+  },
+  "unknownSite": {
+    "message": "알 수 없는 사이트"
+  },
+  "popupChecking": {
+    "message": "확인 중…"
+  },
+  "popupSafe": {
+    "message": "No major warning signals found"
+  },
+  "popupSuspicious": {
+    "message": "Review before proceeding"
+  },
+  "popupDangerous": {
+    "message": "High-risk activity detected"
+  },
+  "popupUnknown": {
+    "message": "This page has not been checked"
+  },
+  "popupPausedSummary": {
+    "message": "Checks are paused for now. Resume them to inspect this page."
+  },
+  "popupNotHttp": {
+    "message": "Browser-internal pages and extension-store pages are outside PhishGuard’s scanning coverage."
+  },
+  "popupDangerSummary": {
+    "message": "Strong risk indicators were found. Avoid entering credentials, payment details, or downloading files here."
+  },
+  "popupSuspiciousSummary": {
+    "message": "Some signals deserve a closer look. Check the address and evidence before sharing information."
+  },
+  "leaveThisPage": {
+    "message": "이 페이지 나가기"
+  },
+  "whyVerdict": {
+    "message": "왜 이런 판정인가요?"
+  },
+  "whyVerdictCountOne": {
+    "message": "· 신호 1개"
+  },
+  "fmtWhyVerdictCount": {
+    "message": "· 신호 $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "takeMeToReal": {
+    "message": "진짜 $BRAND$(으)로 이동",
+    "placeholders": {
+      "brand": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyReportBtn": {
+    "message": "리포트 복사"
+  },
+  "copyReportHeader": {
+    "message": "⚠ PhishGuard가 이 사이트를 표시했습니다: $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "evil[.]example"
+      }
+    }
+  },
+  "copyReportVerdict": {
+    "message": "판정: $LEVEL$",
+    "placeholders": {
+      "level": {
+        "content": "$1",
+        "example": "Dangerous page"
+      }
+    }
+  },
+  "copyReportSignals": {
+    "message": "신호:"
+  },
+  "copyReportFooter": {
+    "message": "PhishGuard가 로컬에서 확인했습니다. 조치하기 전에 근거를 검토하세요."
+  },
+  "reportScam": {
+    "message": "신고: 이것은 사기입니다"
+  },
+  "reportSafe": {
+    "message": "신고: 이것은 안전합니다"
+  },
+  "pause1h": {
+    "message": "1시간"
+  },
+  "pause1d": {
+    "message": "1일"
+  },
+  "pauseAlways": {
+    "message": "항상"
+  },
+  "resumeNow": {
+    "message": "지금 재개"
+  },
+  "blockedOnSite": {
+    "message": "이 사이트에서 차단됨"
+  },
+  "blockedAllTime": {
+    "message": "전체 차단 수"
+  },
+  "sinceInstall": {
+    "message": "설치 이후"
+  },
+  "thisWeek": {
+    "message": "이번 주"
+  },
+  "privacyOnPage": {
+    "message": "이 페이지의 개인정보"
+  },
+  "shoppingCheck": {
+    "message": "쇼핑 점검"
+  },
+  "checkMessageTitle": {
+    "message": "Inspect a message or destination"
+  },
+  "checkMessageHint": {
+    "message": "Message text is checked in this browser. Included links are checked against threat-list data; a matching entry may require a network lookup."
+  },
+  "checkMessagePlaceholder": {
+    "message": "Paste message text or a link to inspect…"
+  },
+  "check": {
+    "message": "확인"
+  },
+  "checkedOnDevice": {
+    "message": "Core analysis runs locally; link reputation may use threat-list data."
+  },
+  "msgSafe": {
+    "message": "No strong scam indicators found in this sample. That does not prove it is genuine."
+  },
+  "msgSuspicious": {
+    "message": "Several risk clues were found. Verify the sender and destination independently."
+  },
+  "msgDangerous": {
+    "message": "This sample contains high-risk scam signals. Do not follow its instructions."
+  },
+  "qrScanTitle": {
+    "message": "Inspect QR destinations on this page"
+  },
+  "qrScanHint": {
+    "message": "Try supported page images for QR codes, then inspect decoded web destinations without opening them."
+  },
+  "qrScanBtn": {
+    "message": "Inspect QR codes"
+  },
+  "qrScanNone": {
+    "message": "No readable web-address QR codes were found in the images checked."
+  },
+  "qrScanFoundOne": {
+    "message": "1 web destination found in a QR code"
+  },
+  "fmtQrScanFoundCount": {
+    "message": "$COUNT$ web destinations found in QR codes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "support": {
+    "message": "도움말 및 설정"
+  },
+  "footerTrustLine": {
+    "message": "Most checks run here. Threat-list and site-icon requests use the network; reports stay local unless you configure and enable a relay."
+  },
+  "takeMeToRealSite": {
+    "message": "진짜 사이트로 이동"
+  },
+  "toastThanksNoted": {
+    "message": "이 기기에 저장했습니다. 전송된 내용은 없습니다."
+  },
+  "toastThanksSent": {
+    "message": "감사합니다 — 전송했습니다"
+  },
+  "toastPausedForNow": {
+    "message": "일시적으로 중지됨"
+  },
+  "toastResumed": {
+    "message": "보호 재개됨"
+  },
+  "toastCopied": {
+    "message": "복사됨"
+  },
+  "toastExtensionError": {
+    "message": "확장 프로그램 오류 — 다시 열어 보세요."
+  },
+  "whatsNewBanner": {
+    "message": "PhishGuard now includes clearer local-analysis explanations, more resilient suspicious-link parsing, and improved reporting feedback."
+  },
+  "popupBrandDangerSummary": {
+    "message": "$BRAND$ may be impersonated here. Compare the domain with the service’s official address before signing in.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "PayPal"
+      }
+    }
+  },
+  "pausedUntil": {
+    "message": "$TIME$까지 일시 중지",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "3:45 PM"
+      }
+    }
+  },
+  "fmtProtocolPage": {
+    "message": "$PROTOCOL$ 페이지",
+    "placeholders": {
+      "protocol": {
+        "content": "$1",
+        "example": "chrome"
+      }
+    }
+  },
+  "popupShopFlagFallback": {
+    "message": "플래그"
+  },
+  "chipWhy": {
+    "message": "이유"
+  },
+  "chipDataLeak": {
+    "message": "데이터 유출"
+  },
+  "chipTracking": {
+    "message": "추적"
+  },
+  "chipPopups": {
+    "message": "팝업"
+  },
+  "chipPrivacy": {
+    "message": "개인정보"
+  },
+  "popupPrivacyLeakPlain": {
+    "message": "A value matching your typed email or phone was sent to $HOST$ before form submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "popupPrivacyLeakHashed": {
+    "message": "A hashed match for your typed email or phone was sent to $HOST$ before form submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "popupPrivacyFingerprint": {
+    "message": "$HOST$ queried a combination of browser features that can contribute to device fingerprinting.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "popupPrivacyNotifyLure": {
+    "message": "This page used a misleading prompt to request notification permission."
+  },
+  "popupPrivacyCredExfilPassword": {
+    "message": "A password-like value was sent to $HOST$, which differs from this page’s site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "collector.example"
+      }
+    }
+  },
+  "popupPrivacyCredExfilCard": {
+    "message": "Payment-card-like data was sent to $HOST$, which differs from this page’s site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "collector.example"
+      }
+    }
+  },
+  "popupPrivacyDefaultText": {
+    "message": "개인정보 문제가 감지되었습니다."
+  },
+  "levelDangerous": {
+    "message": "위험한 페이지"
+  },
+  "levelSuspicious": {
+    "message": "의심스러운 페이지"
+  },
+  "levelSafe": {
+    "message": "의심스러운 점이 없습니다"
+  },
+  "levelUnknown": {
+    "message": "이 페이지를 확인할 수 없습니다"
+  },
+  "tabProtection": {
+    "message": "Live checks"
+  },
+  "tabTrusted": {
+    "message": "Site exceptions"
+  },
+  "tabHistory": {
+    "message": "Activity log"
+  },
+  "tabFeed": {
+    "message": "Threat intelligence"
+  },
+  "tabAbout": {
+    "message": "System & data"
+  },
+  "protectionLead": {
+    "message": "Page checks run in this browser. PhishGuard downloads shared threat data and may request a site icon for brand comparison; uploads require a separate reporting opt-in."
+  },
+  "protectionOn": {
+    "message": "Real-time inspection"
+  },
+  "protectionOnHint": {
+    "message": "Review pages as they load. Turning this off pauses all PhishGuard page checks."
+  },
+  "grpScams": {
+    "message": "Links, domains & impersonation"
+  },
+  "grpScamsHint": {
+    "message": "Compare addresses with known threats and look for suspicious structure or brand imitation."
+  },
+  "grpPopups": {
+    "message": "Coercive prompts & clipboard activity"
+  },
+  "grpPopupsHint": {
+    "message": "Watch for fake support warnings, command-paste tricks, and unexpected clipboard changes."
+  },
+  "grpShopping": {
+    "message": "Shopping and sponsored links"
+  },
+  "grpShoppingHint": {
+    "message": "Look for storefront risk signals and mismatches between ad labels and destinations."
+  },
+  "grpCrypto": {
+    "message": "Wallet transaction safety"
+  },
+  "grpCryptoHint": {
+    "message": "Inspect selected wallet requests for unusually broad or dangerous permissions."
+  },
+  "grpPrivacy": {
+    "message": "Data exposure and tracking"
+  },
+  "grpPrivacyHint": {
+    "message": "Watch for form data sent to unrelated sites and common browser-fingerprinting techniques."
+  },
+  "optBlockKnown": {
+    "message": "Known-threat navigation block"
+  },
+  "optBlockKnownHint": {
+    "message": "Stop destinations included in the browser’s local threat rules before the page opens."
+  },
+  "optPageAnalysis": {
+    "message": "Page-signal analysis"
+  },
+  "optPageAnalysisHint": {
+    "message": "Combine page wording, form structure, address signals, and available brand clues to find risks not yet listed."
+  },
+  "optClickfix": {
+    "message": "Command-paste lure detection"
+  },
+  "optClickfixHint": {
+    "message": "Flag human-verification pages that instruct visitors to open a system command box and paste a command."
+  },
+  "optFakeupdate": {
+    "message": "Counterfeit update prompt detection"
+  },
+  "optFakeupdateHint": {
+    "message": "Identify web pages that present a download as a required browser or system update."
+  },
+  "optHide": {
+    "message": "De-emphasize scam-like page blocks"
+  },
+  "optHideHint": {
+    "message": "Visually mark selected prize and giveaway blocks when their wording matches known scam patterns."
+  },
+  "optQrScan": {
+    "message": "Automatic QR destination checks"
+  },
+  "optQrScanHint": {
+    "message": "Check eligible images for QR codes and analyze decoded HTTP(S) destinations. Cross-origin images may be unreadable to the browser."
+  },
+  "optTechscam": {
+    "message": "Fake support-page guard"
+  },
+  "optTechscamHint": {
+    "message": "Flag pages using alarm language, forced fullscreen, dialog floods, or phone-number demands to pressure visitors."
+  },
+  "optClipboard": {
+    "message": "Clipboard change alerts"
+  },
+  "optClipboardHint": {
+    "message": "Warn when a page changes the clipboard to a command or cryptocurrency address without a clear user action."
+  },
+  "optShop": {
+    "message": "Storefront risk review"
+  },
+  "optShopHint": {
+    "message": "Combine signals such as resettable countdowns, artificial scarcity, missing contact details, and high-risk payment requests."
+  },
+  "optSerp": {
+    "message": "Sponsored destination comparison"
+  },
+  "optSerpHint": {
+    "message": "On supported search pages, compare an ad’s displayed destination with its actual link and mark suspicious mismatches."
+  },
+  "optWallet": {
+    "message": "Wallet approval guard"
+  },
+  "optWalletHint": {
+    "message": "Inspect supported transaction requests for blind signing, token approvals, NFT-wide permissions, and account delegation."
+  },
+  "optLeakyForm": {
+    "message": "Cross-site form data alerts"
+  },
+  "optLeakyFormHint": {
+    "message": "Look for values typed into email or phone fields being sent to an unrelated origin before a form is submitted."
+  },
+  "optFingerprint": {
+    "message": "Browser fingerprinting signals"
+  },
+  "optFingerprintHint": {
+    "message": "Watch for repeated use of canvas, WebGL, audio, and font-measurement APIs that can help identify a browser."
+  },
+  "optNotify": {
+    "message": "Misleading notification prompts"
+  },
+  "optNotifyHint": {
+    "message": "Flag pages that pair a fake continuation step with a request to allow browser notifications."
+  },
+  "optStrict": {
+    "message": "High-caution mode"
+  },
+  "optStrictHint": {
+    "message": "Use a stricter response: pages rated suspicious receive a full-screen warning instead of the usual lighter notice."
+  },
+  "optReporting": {
+    "message": "PhishGuard를 더 똑똑하게 만들기"
+  },
+  "optReportingHint": {
+    "message": "Optionally sends a site hostname and compact risk signals to a relay you configure. Disabled by default; review the report fields below."
+  },
+  "saved": {
+    "message": "저장됨"
+  },
+  "trustedLead": {
+    "message": "Exceptions and timed pauses are listed here. Remove an entry to restore normal checks for that domain."
+  },
+  "trustedAlways": {
+    "message": "항상"
+  },
+  "trustedForAWhile": {
+    "message": "일정 기간"
+  },
+  "remove": {
+    "message": "삭제"
+  },
+  "trustedViaWarning": {
+    "message": "경고에서 신뢰함"
+  },
+  "optTenantApexBadge": {
+    "message": "This exception affects the entire shared host $APEX$. Remove it and add a narrower domain exception instead.",
+    "placeholders": {
+      "apex": {
+        "content": "$1",
+        "example": "pages.dev"
+      }
+    }
+  },
+  "mutedWarnings": {
+    "message": "숨긴 경고"
+  },
+  "warnAgain": {
+    "message": "다시 경고"
+  },
+  "muteKind_clipboard": {
+    "message": "클립보드 알림"
+  },
+  "muteKind_leak": {
+    "message": "양식 유출 경고"
+  },
+  "muteKind_notify": {
+    "message": "알림 유도 경고"
+  },
+  "muteKind_credpost": {
+    "message": "카드 및 비밀번호 양식 경고"
+  },
+  "historyTitle": {
+    "message": "Recent security activity"
+  },
+  "historyLead": {
+    "message": "This log stays in browser storage and keeps hostnames rather than complete page addresses."
+  },
+  "clearHistory": {
+    "message": "기록 지우기"
+  },
+  "markMistake": {
+    "message": "오류로 표시"
+  },
+  "feedTitle": {
+    "message": "위협 목록"
+  },
+  "feedLead": {
+    "message": "알려진 사기 사이트의 목록으로, 정기적으로 업데이트됩니다. 라이선스를 확인한 공개 피싱·악성코드 목록으로 만듭니다. PhishGuard는 이 목록을 다운로드만 합니다."
+  },
+  "checkNow": {
+    "message": "지금 확인"
+  },
+  "aboutVersion": {
+    "message": "버전"
+  },
+  "appearance": {
+    "message": "화면 모드"
+  },
+  "whatLeaves": {
+    "message": "기기 밖으로 나가는 정보"
+  },
+  "backupSettings": {
+    "message": "설정 백업"
+  },
+  "backupHint": {
+    "message": "Download a JSON backup of preferences and site exceptions, then import that file into another browser profile when needed."
+  },
+  "exportBtn": {
+    "message": "내보내기"
+  },
+  "importBtn": {
+    "message": "가져오기"
+  },
+  "syncTitle": {
+    "message": "내 기기 간 동기화"
+  },
+  "syncHint": {
+    "message": "로그인한 모든 브라우저에서 설정과 일시 중지된 사이트를 동일하게 유지합니다. 브라우저 자체의 동기화 기능을 사용하며, PhishGuard에는 여전히 계정이나 서버가 없습니다. 기본값은 꺼짐입니다."
+  },
+  "optDocTitle": {
+    "message": "PhishGuard 설정"
+  },
+  "ariaSettingsSections": {
+    "message": "설정 섹션"
+  },
+  "optWhatSentToggle": {
+    "message": "정확히 전송되는 내용 ▾"
+  },
+  "optWhatSentBody": {
+    "message": "When reporting is enabled, a report may include the hostname, verdict, reason codes, compact numeric risk signals, bounded hashed page-feature buckets and page-structure counts, matched brand/icon signals, extension version, and an hour-bucketed timestamp. It excludes the full URL path and query, raw page text, typed content, and cookies. The reporting server can still receive ordinary connection metadata. Retention is controlled by the relay operator."
+  },
+  "feedNeverUpdated": {
+    "message": "업데이트된 적 없음"
+  },
+  "hotListPending": {
+    "message": "긴급 목록: 아직 내려받지 않음"
+  },
+  "hotListStatus": {
+    "message": "Recent-risk list: $COUNT$ domains · refreshed $AGO$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1,204"
+      },
+      "ago": {
+        "content": "$2",
+        "example": "12 minutes ago"
+      }
+    }
+  },
+  "hotListOff": {
+    "message": "긴급 목록: 꺼짐"
+  },
+  "hotListSub": {
+    "message": "A second list focuses on threats reported during the previous 48 hours and refreshes hourly."
+  },
+  "optAdvancedFeedUrl": {
+    "message": "고급: 피드 URL"
+  },
+  "optFeedUrlLabel": {
+    "message": "피드 URL"
+  },
+  "optFeedUrlPlaceholder": {
+    "message": "https://…/blocklist.json"
+  },
+  "resetToOfficialFeed": {
+    "message": "공식 피드로 재설정"
+  },
+  "optFeedUrlHint": {
+    "message": "Only use a compatible feed URL that you control or trust. A failed override can interrupt updates; reset restores the configured default."
+  },
+  "optThemeHint": {
+    "message": "시스템 설정을 따르거나 직접 선택하세요."
+  },
+  "optThemeAuto": {
+    "message": "자동"
+  },
+  "optThemeLight": {
+    "message": "라이트"
+  },
+  "optThemeDark": {
+    "message": "다크"
+  },
+  "optLinksTitle": {
+    "message": "링크"
+  },
+  "supportFreeOnDevice": {
+    "message": "PhishGuard는 무료이며 완전히 기기에서 실행됩니다."
+  },
+  "netNoTelemetry": {
+    "message": "Most analysis stays in this browser. Network activity is limited to threat-feed requests, selected site-icon requests, and reports only when you configure and enable a relay."
+  },
+  "receiptFeedLabel": {
+    "message": "위협 목록 다운로드"
+  },
+  "receiptFeedDetail": {
+    "message": "PhishGuard requests shared threat-list files. These requests do not include the page you are viewing, but the feed host can receive normal connection metadata such as your IP address."
+  },
+  "receiptReportLabel": {
+    "message": "커뮤니티 신고"
+  },
+  "receiptReportDetail": {
+    "message": "보고를 켜고 엔드포인트를 설정한 경우에만 도메인, 판정, 이유 코드, 간단한 위험 신호가 전송됩니다. 전체 URL 경로, 페이지 텍스트, 입력한 내용은 포함되지 않습니다."
+  },
+  "receiptIconLabel": {
+    "message": "페이지 아이콘 점검"
+  },
+  "receiptIconDetail": {
+    "message": "May request the page’s favicon for local brand comparison. The request can reveal your IP address to the icon host; no full page content is sent by this check."
+  },
+  "receiptPerPage": {
+    "message": "페이지당"
+  },
+  "receiptOnInstall12h": {
+    "message": "설치 시 + 12시간마다"
+  },
+  "receiptDisabled": {
+    "message": "사용 안 함"
+  },
+  "receiptWhenFlagged": {
+    "message": "표시될 때만"
+  },
+  "receiptOffDefault": {
+    "message": "꺼짐(기본값)"
+  },
+  "optExportSyncHint": {
+    "message": "Backups can be moved manually. Browser sync is optional and uses the browser account’s sync service."
+  },
+  "toastSyncOn": {
+    "message": "동기화 켜짐"
+  },
+  "toastSyncUnavailable": {
+    "message": "동기화를 사용할 수 없음"
+  },
+  "toastSyncOff": {
+    "message": "동기화 꺼짐"
+  },
+  "toastExported": {
+    "message": "내보냈습니다"
+  },
+  "toastImported": {
+    "message": "가져왔습니다"
+  },
+  "toastInvalidFile": {
+    "message": "잘못된 파일입니다"
+  },
+  "toastCheckingUpdates": {
+    "message": "확인 중…"
+  },
+  "fmtUpdatedToVersion": {
+    "message": "v$VERSION$(으)로 업데이트됨",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "0.6.1"
+      }
+    }
+  },
+  "toastAlreadyUpToDate": {
+    "message": "이미 최신 상태입니다"
+  },
+  "toastUpdateFailed": {
+    "message": "업데이트에 실패했습니다"
+  },
+  "toastHistoryCleared": {
+    "message": "기록이 삭제되었습니다"
+  },
+  "optNoneYet": {
+    "message": "아직 없음"
+  },
+  "optNoneRightNow": {
+    "message": "현재 없음"
+  },
+  "optNothingYetGood": {
+    "message": "최근 이벤트가 없습니다."
+  },
+  "fmtVersion": {
+    "message": "버전 $VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "0.6.0"
+      }
+    }
+  },
+  "fmtUntilTime": {
+    "message": "$TIME$까지",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "22 Aug, 3:45 PM"
+      }
+    }
+  },
+  "fmtUpdatedRules": {
+    "message": "$TIME$ 업데이트 · 규칙 $COUNT$개",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "2 h ago"
+      },
+      "count": {
+        "content": "$2",
+        "example": "12,345"
+      }
+    }
+  },
+  "bannerDangerBrand": {
+    "message": "High risk: this address may be impersonating $BRAND$",
+    "placeholders": {
+      "brand": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerDanger": {
+    "message": "위험한 페이지"
+  },
+  "bannerTakeCare": {
+    "message": "이 사이트에서 주의하세요"
+  },
+  "whyShort": {
+    "message": "이유는?"
+  },
+  "moreActions": {
+    "message": "추가 작업"
+  },
+  "hideForToday": {
+    "message": "오늘 하루 숨기기"
+  },
+  "hideForAnHour": {
+    "message": "1시간 동안 숨기기"
+  },
+  "interstitialHead1": {
+    "message": "Do not continue to this destination"
+  },
+  "interstitialHead2": {
+    "message": "Pause and review this page first"
+  },
+  "interstitialHead3": {
+    "message": "더 진행하지 마세요 — 사기 경고"
+  },
+  "interstitialReassure": {
+    "message": "If you entered a password or payment information here, change it through the service’s official app or website."
+  },
+  "continueAnyway": {
+    "message": "그래도 계속"
+  },
+  "submitAnyway": {
+    "message": "그래도 제출"
+  },
+  "proceedAnyway": {
+    "message": "그래도 진행"
+  },
+  "cancelRecommended": {
+    "message": "취소(권장)"
+  },
+  "phishingStop": {
+    "message": "멈추세요 — 피싱 가능성"
+  },
+  "techScamTitle": {
+    "message": "기술 지원 사기 가능성"
+  },
+  "techScamBody": {
+    "message": "A web page cannot diagnose a computer infection by itself. Close this page; do not call a number or install remote-support software offered by the warning."
+  },
+  "getMeOut": {
+    "message": "여기서 나가기 (이 페이지 닫기)"
+  },
+  "walletRiskyTitle": {
+    "message": "위험한 지갑 요청"
+  },
+  "walletRiskyBody": {
+    "message": "Cancel if you did not expect this request. Some signatures grant ongoing token or account permissions that are difficult to reverse."
+  },
+  "compareThisSite": {
+    "message": "이 사이트"
+  },
+  "compareRealSite": {
+    "message": "진짜 $BRAND$",
+    "placeholders": {
+      "brand": {
+        "content": "$1"
+      }
+    }
+  },
+  "guardCountdown": {
+    "message": "$LABEL$ ($COUNT$)",
+    "placeholders": {
+      "label": {
+        "content": "$1",
+        "example": "Continue anyway"
+      },
+      "count": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "ariaScamWarning": {
+    "message": "사기 경고"
+  },
+  "ariaPhishingWarning": {
+    "message": "피싱 가능성 경고"
+  },
+  "interstitialFallback": {
+    "message": "Multiple signals indicate that this destination may be part of a scam."
+  },
+  "guardFormDestKnown": {
+    "message": "This form sends the password to $DEST$ rather than $HOST$. Only submit credentials when the destination matches the service you intended to use.",
+    "placeholders": {
+      "dest": {
+        "content": "$1",
+        "example": "evil.example"
+      },
+      "host": {
+        "content": "$2",
+        "example": "your-bank.example"
+      }
+    }
+  },
+  "guardFormDestUnknown": {
+    "message": "This form sends a password to a different site from the one displayed. That mismatch can expose your sign-in details."
+  },
+  "guardHiddenTag": {
+    "message": "PhishGuard에 의해 숨겨짐"
+  },
+  "guardWalletCollision": {
+    "message": "다른 경고가 열려 있는 동안 PhishGuard가 지갑 요청을 차단했습니다. 닫은 후 다시 시도하세요."
+  },
+  "guardWalletFallback": {
+    "message": "A wallet request needs review before you approve it."
+  },
+  "guardPrivacyFallback": {
+    "message": "PhishGuard observed a possible data-exposure or tracking pattern on this page."
+  },
+  "guardClipboardFallback": {
+    "message": "사이트가 클립보드를 변경했습니다."
+  },
+  "guardTechScamFallback": {
+    "message": "이 페이지는 공포심을 이용한 수법을 사용하고 있습니다."
+  },
+  "guardClipboardBlockedPayload": {
+    "message": "PhishGuard에 의해 차단됨 — 이 사이트가 위험한 명령을 클립보드에 넣었습니다. 어디에도 붙여넣지 마세요."
+  },
+  "clipboardNoticeCmdTitle": {
+    "message": "A command was copied while visiting $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "ollama.com"
+      }
+    }
+  },
+  "clipboardNoticeCmdBody": {
+    "message": "Do not run it unless you independently understand and trust the command. Fake verification pages use this trick to install malware."
+  },
+  "clipboardNoticeAddrTitle": {
+    "message": "A cryptocurrency address was copied from $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "clipboardNoticeAddrBody": {
+    "message": "Compare every character with the intended recipient before transferring funds."
+  },
+  "clipboardWarnTitle": {
+    "message": "$HOST$ changed the clipboard unexpectedly",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "ackMuted": {
+    "message": "PhishGuard가 $HOST$에서 이 경고를 다시 표시하지 않습니다.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "dontWarnHere": {
+    "message": "이 사이트에서 경고하지 않기"
+  },
+  "leakTitle": {
+    "message": "Form data may have been sent before submission"
+  },
+  "notifyLureTitle": {
+    "message": "여기서 \"허용\"을 클릭하지 마세요"
+  },
+  "credPostTitle": {
+    "message": "This form sends entered data to another site"
+  },
+  "keepMyDetails": {
+    "message": "내 정보 지키기"
+  },
+  "guardLeakyFormPlain": {
+    "message": "A value matching your email or phone was sent to $HOST$ in readable form before submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "guardLeakyFormHashed": {
+    "message": "A hashed identifier derived from your email or phone was sent to $HOST$ before submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      },
+      "algo": {
+        "content": "$2",
+        "example": "MD5"
+      }
+    }
+  },
+  "guardNotifyLure": {
+    "message": "The page is pairing a continuation prompt with a browser-notification request. Block notifications unless you expected them."
+  },
+  "serpAdMismatch": {
+    "message": "⚠ PhishGuard: 이 광고는 $SHOWN$이 아니라 $ACTUAL$로 이동합니다",
+    "placeholders": {
+      "actual": {
+        "content": "$1",
+        "example": "malicious-download.example"
+      },
+      "shown": {
+        "content": "$2",
+        "example": "trusted-brand.example"
+      }
+    }
+  },
+  "serpBadgeDanger": {
+    "message": "PhishGuard: 이 결과는 위협 차단 목록에 있습니다"
+  },
+  "serpBadgeCaution": {
+    "message": "PhishGuard: 이 결과에는 사기 경고 신호가 있습니다"
+  },
+  "chipLink": {
+    "message": "링크"
+  },
+  "chipBrand": {
+    "message": "브랜드"
+  },
+  "chipPage": {
+    "message": "페이지"
+  },
+  "chipWallet": {
+    "message": "지갑"
+  },
+  "chipClipboard": {
+    "message": "클립보드"
+  },
+  "chipTechscam": {
+    "message": "공포 유도 페이지"
+  },
+  "chipShop": {
+    "message": "쇼핑몰"
+  },
+  "chipMessage": {
+    "message": "메시지"
+  },
+  "reason_ipHost": {
+    "message": "The destination uses a numeric IP address rather than a conventional domain name."
+  },
+  "reason_atSymbol": {
+    "message": "An at-sign in the address can make the visible text differ from the actual destination host."
+  },
+  "reason_urlUserInfo": {
+    "message": "The address contains login information before the @ sign, which can disguise the actual destination host."
+  },
+  "reason_executableScheme": {
+    "message": "This link uses an executable or active-content URL scheme rather than an ordinary web address."
+  },
+  "reason_punycodeHost": {
+    "message": "The domain is encoded with punycode, which can appear in look-alike domain attacks."
+  },
+  "reason_idnHomograph": {
+    "message": "Some characters in this domain visually resemble the real $BRAND$ name.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "paypal"
+      }
+    }
+  },
+  "reason_brandLookalike": {
+    "message": "The domain has features commonly seen in attempts to imitate a familiar brand."
+  },
+  "reason_suspiciousTld": {
+    "message": "This top-level domain has a higher-than-usual presence in scam reports."
+  },
+  "reason_noHttps": {
+    "message": "This address does not use HTTPS, so network traffic may be readable or modifiable in transit."
+  },
+  "reason_manySubdomains": {
+    "message": "비정상적으로 많은 서브도메인이 있습니다."
+  },
+  "reason_urgencyKeywords": {
+    "message": "The address combines several urgency or account-security terms."
+  },
+  "reason_randomHost": {
+    "message": "The host label has a high-entropy pattern often seen in disposable campaign domains."
+  },
+  "reason_brandFuzzyMatch": {
+    "message": "The hostname resembles $BRAND$’s known domain. Inspect the exact spelling before signing in.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "PayPal"
+      }
+    }
+  },
+  "reason_deepSubdomainChain": {
+    "message": "Several nested subdomains make the site owner harder to recognize at a glance."
+  },
+  "reason_longHostLabel": {
+    "message": "An unusually long hostname label may be hiding brand-like words or misleading structure."
+  },
+  "reason_shortenerHost": {
+    "message": "This link uses the shortener $HOST$, so the final site cannot be judged from this address alone.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "bit.ly"
+      }
+    }
+  },
+  "reason_riskAbusedTld": {
+    "message": "이 사이트의 최상위 도메인($TLD$)은 PhishGuard의 위협 피드 위험 표에서 사기 악용률이 높은 것으로 나타납니다.",
+    "placeholders": {
+      "tld": {
+        "content": "$1",
+        "example": ".top"
+      }
+    }
+  },
+  "reason_riskDynamicHost": {
+    "message": "This domain uses dynamic DNS or a free-hosting service that appears frequently in abuse reports."
+  },
+  "reason_brandForeignSuffix": {
+    "message": "The address uses $BRAND$’s name with an unfamiliar .$SUFFIX$ ending.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "Roblox"
+      },
+      "suffix": {
+        "content": "$2",
+        "example": "com.do"
+      }
+    }
+  },
+  "reason_gatewayRedirect": {
+    "message": "A redirect through $HOST$ led to a different destination, which can conceal the final site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "mgpxq.com"
+      }
+    }
+  },
+  "reason_feedBlock": {
+    "message": "이 도메인은 PhishGuard의 위협 목록과 일치하며, $COUNT$개의 독립적인 출처에서 확인되었습니다.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "reason_feedWarn": {
+    "message": "이 도메인은 PhishGuard의 위협 목록에서 신뢰도가 낮은 항목($COUNT$개 출처)과 일치합니다 — 신중하게 진행하세요.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "reason_remoteDestinationConfirmedMalicious": {
+    "message": "An independent remote check confirmed malicious behavior at this link destination."
+  },
+  "reason_linkedDestinationFeedBlock": {
+    "message": "A linked destination matches PhishGuard's exact-confirmed high-confidence blocklist."
+  },
+  "reason_aiEvidence": {
+    "message": "$DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1",
+        "example": "The page contains a credential form posting to an unrelated domain."
+      }
+    }
+  },
+  "reason_newDomain": {
+    "message": "The domain appears in a newly registered domain list; very new sites have little reputation history."
+  },
+  "reason_credentialFormForeignDomain": {
+    "message": "A password form sends credentials to a different domain from the page showing it."
+  },
+  "reason_crossOriginCredPost": {
+    "message": "The form sends password or card-like data to $HOST$, which differs from the current site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "collector.example"
+      }
+    }
+  },
+  "reason_hiddenIframes": {
+    "message": "The page contains hidden frames that could load content or collect input out of view."
+  },
+  "reason_scamPhrase": {
+    "message": "The page contains giveaway or reward language associated with common scam patterns: “$PHRASE$”.",
+    "placeholders": {
+      "phrase": {
+        "content": "$1",
+        "example": "you won"
+      }
+    }
+  },
+  "reason_seedPhraseAsk": {
+    "message": "The page asks for a wallet recovery phrase. Anyone who obtains it can take control of the wallet."
+  },
+  "reason_brandImpersonationContent": {
+    "message": "The page imitates the appearance or wording of $BRAND$ without using its verified domain.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "paypal"
+      }
+    }
+  },
+  "reason_deliveryFeeScam": {
+    "message": "The page imitates $BRAND$ and requests card details for a package fee. Confirm delivery notices through the carrier’s official site.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "DHL"
+      }
+    }
+  },
+  "reason_brandIconMismatch": {
+    "message": "The page displays an icon associated with $BRAND$ while using a different website address.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "PayPal"
+      }
+    }
+  },
+  "reason_credentialFormOnTenantHost": {
+    "message": "A password form appears on shared hosting ($HOST$), where unrelated users can publish their own pages.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "webflow.io"
+      }
+    }
+  },
+  "reason_brandInTenantHost": {
+    "message": "$BRAND$ appears in a shared-hosting address that requests a password.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "AT&T"
+      }
+    }
+  },
+  "reason_contentPhishingPattern": {
+    "message": "The combination of wording and page layout resembles previously observed phishing pages."
+  },
+  "reason_techScamScareText": {
+    "message": "The page uses threatening technical-support language: “$PHRASE$”.",
+    "placeholders": {
+      "phrase": {
+        "content": "$1",
+        "example": "virus detected"
+      }
+    }
+  },
+  "reason_techScamPhoneAsk": {
+    "message": "The page pressures visitors to call a support number, a frequent pattern in impersonation scams."
+  },
+  "reason_techScamFakeAlert": {
+    "message": "This appears to be a web-based system alert demanding attention. Verify alerts through the operating system, not the page."
+  },
+  "reason_techScamFullscreen": {
+    "message": "The page requested fullscreen, which can be used to make scam warnings harder to dismiss."
+  },
+  "reason_techScamAlarmAudio": {
+    "message": "The page played alarm-like audio that can pressure visitors into acting quickly."
+  },
+  "reason_techScamDialogFlood": {
+    "message": "The page generated repeated dialogs that can obstruct normal navigation."
+  },
+  "reason_techScamHistoryTrap": {
+    "message": "페이지가 \"뒤로 가기\" 버튼을 가로채고 있습니다."
+  },
+  "reason_walletBlindSign": {
+    "message": "The wallet was asked to sign opaque data whose effects are not obvious from the request."
+  },
+  "reason_walletPermitApproval": {
+    "message": "This Permit-style signature can grant later token or NFT transfers without another prompt."
+  },
+  "reason_walletDelegation7702": {
+    "message": "This EIP-7702 request delegates account execution to a contract; review the target and its permissions carefully."
+  },
+  "reason_walletSetApprovalAll": {
+    "message": "This request can authorize a contract to transfer every NFT in a collection."
+  },
+  "reason_walletUnlimitedApprove": {
+    "message": "This approval may let a contract spend an unlimited amount of the selected token."
+  },
+  "reason_walletTokenApprove": {
+    "message": "This request grants a contract permission to spend the selected token amount."
+  },
+  "reason_clickfixPasteRun": {
+    "message": "The page instructs you to paste and execute a system command. Treat command-paste verification as high risk."
+  },
+  "reason_clickfixFakeCaptcha": {
+    "message": "The CAPTCHA-like step asks you to open the Windows Run dialog and execute a command, which real CAPTCHA tests do not require."
+  },
+  "reason_clickfixWinR": {
+    "message": "The page directs you to the Windows Run box and asks you to paste text into it."
+  },
+  "reason_clickfixCaptchaDisguise": {
+    "message": "The command instructions are presented as a human-verification task."
+  },
+  "reason_clipboardCommand": {
+    "message": "A system command was detected on the clipboard. Do not paste it into a terminal or Run dialog unless you independently understand it."
+  },
+  "reason_clipboardCryptoAddress": {
+    "message": "A cryptocurrency address appeared on the clipboard. Verify the destination independently before using it."
+  },
+  "reason_fakeUpdatePrompt": {
+    "message": "A web page offers a browser or system update download. Updates should be obtained from the browser or operating system’s own updater."
+  },
+  "reason_msgOtpAsk": {
+    "message": "The message asks for an OTP, PIN, passcode, or password. Treat requests to share these secrets as high risk."
+  },
+  "reason_msgScamWording": {
+    "message": "The message contains wording associated with common scams: “$PHRASE$”.",
+    "placeholders": {
+      "phrase": {
+        "content": "$1",
+        "example": "delivery fee"
+      }
+    }
+  },
+  "reason_msgUrgencyDeadline": {
+    "message": "The message uses an artificial deadline or urgent demand to pressure a quick response."
+  },
+  "reason_msgDangerousLink": {
+    "message": "A link in the message triggered address-risk checks: $URL$.",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "http://verify-bank.tk/otp"
+      }
+    }
+  },
+  "reason_qrCodeDestination": {
+    "message": "A QR code resolves to $URL$. Review the destination before opening it on another device.",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "http://verify-bank.tk/otp"
+      }
+    }
+  },
+  "reason_shop_countdownReset": {
+    "message": "가짜 카운트다운"
+  },
+  "reason_shop_countdownReset_detail": {
+    "message": "The offer timer appears to reset between visits, weakening the claim that the deal is about to end."
+  },
+  "reason_shop_offPlatformPay": {
+    "message": "위험한 결제 방식"
+  },
+  "reason_shop_offPlatformPay_detail": {
+    "message": "Checkout asks for a hard-to-reverse method such as a wire, payment app, or crypto transfer."
+  },
+  "reason_shop_fakeScarcity": {
+    "message": "가짜 희소성"
+  },
+  "reason_shop_fakeScarcity_detail": {
+    "message": "The page uses injected scarcity language such as “only a few left” or viewer counters."
+  },
+  "reason_shop_badgeHotlink": {
+    "message": "가짜 신뢰 배지"
+  },
+  "reason_shop_badgeHotlink_detail": {
+    "message": "A “secure” or “verified” badge appears to be a linked or embedded image rather than independently verifiable proof."
+  },
+  "reason_shop_missingContact": {
+    "message": "연락처 정보 없음"
+  },
+  "reason_shop_missingContact_detail": {
+    "message": "The store lacks basic business contact details, making the seller harder to verify."
+  },
+  "obDocTitle": {
+    "message": "PhishGuard에 오신 것을 환영합니다"
+  },
+  "obTitle": {
+    "message": "PhishGuard가 당신을 보호하고 있습니다"
+  },
+  "obLead": {
+    "message": "PhishGuard evaluates page signals in this browser. It also downloads threat lists and may request site icons. Reports are not sent unless you configure and enable a relay."
+  },
+  "obPhishing": {
+    "message": "피싱 및 가짜 로그인"
+  },
+  "obPhishingBody": {
+    "message": "Flags forms whose credential destination does not match the site presenting them."
+  },
+  "obBrand": {
+    "message": "브랜드 위장"
+  },
+  "obBrandBody": {
+    "message": "Compares site identity signals—including known brand icons and domain patterns—to look for impersonation."
+  },
+  "obPage": {
+    "message": "페이지 분석"
+  },
+  "obPageBody": {
+    "message": "Uses local wording and layout signals to identify suspicious login pages that may not appear on a threat list yet."
+  },
+  "obWallet": {
+    "message": "암호화폐 지갑 보호"
+  },
+  "obWalletBody": {
+    "message": "Reviews supported wallet requests for dangerous token permissions and recovery-phrase traps."
+  },
+  "obClipboard": {
+    "message": "클립보드 및 \"붙여넣기\" 사기"
+  },
+  "obClipboardBody": {
+    "message": "Alerts when a page attempts to place a command or cryptocurrency address on the clipboard."
+  },
+  "obPopups": {
+    "message": "가짜 바이러스 팝업"
+  },
+  "obPopupsBody": {
+    "message": "Identifies pressure tactics such as fake support warnings and repeated dialogs, with options to leave the page."
+  },
+  "obPin": {
+    "message": "PhishGuard 고정하기"
+  },
+  "obPinBody": {
+    "message": "툴바의 퍼즐 조각 아이콘을 클릭한 다음 PhishGuard 옆의 고정 핀을 클릭하면 각 페이지의 상태를 한눈에 확인할 수 있습니다."
+  },
+  "obOpenSettings": {
+    "message": "설정 열기"
+  },
+  "blockedDocTitle": {
+    "message": "PhishGuard가 차단한 사이트"
+  },
+  "blockedTitle": {
+    "message": "PhishGuard가 이 사이트를 차단했습니다"
+  },
+  "blockedLead": {
+    "message": "$HOST$은(는) PhishGuard의 알려진 사기 및 악성 사이트 목록에 있어, 페이지가 열리기 전에 차단되었습니다. 아무것도 실행되지 않았고 입력한 내용도 전송되지 않았습니다.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "secure-paypa1-login.com"
+      }
+    }
+  },
+  "blockedLeadHot": {
+    "message": "$HOST$ appears on a recent high-risk list. PhishGuard blocked the navigation before displaying the page.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "secure-paypa1-login.com"
+      }
+    }
+  },
+  "blockedAddress": {
+    "message": "차단된 주소"
+  },
+  "blockedListedBy": {
+    "message": "$SOURCES$에 등록됨",
+    "placeholders": {
+      "sources": {
+        "content": "$1",
+        "example": "Phishing.Database, ScamSniffer"
+      }
+    }
+  },
+  "blockedListedGeneric": {
+    "message": "PhishGuard의 확인된 사기 도메인 차단 목록에 등록되어 있습니다."
+  },
+  "blockedGoBack": {
+    "message": "안전한 곳으로 돌아가기"
+  },
+  "blockedTrustSite": {
+    "message": "사기가 아닌가요? 이 사이트 신뢰하기"
+  },
+  "blockedVisitAnyway": {
+    "message": "그래도 방문하기 (권장하지 않음)"
+  },
+  "blockedVisitHint": {
+    "message": "이 사이트에서 PhishGuard를 1시간 동안 일시중지한 상태로 엽니다."
+  },
+  "blockedFooter": {
+    "message": "기기에서 차단되었습니다. 이 페이지에 대한 어떤 정보도 어디로도 전송되지 않았습니다."
+  },
+  "detailsAndOptions": {
+    "message": "세부 정보 및 기타 옵션"
+  },
+  "continuePausesHour": {
+    "message": "이 사이트에서 PhishGuard를 1시간 동안 일시 중지합니다."
+  },
+  "thisPage": {
+    "message": "이 페이지"
+  },
+  "chipBlocklist": {
+    "message": "차단된 사이트"
+  },
+  "obNote": {
+    "message": "You can send compact risk reports to a relay you trust. Reporting is off until you configure an endpoint and opt in."
+  },
+  "statsLink": {
+    "message": "통계 →"
+  },
+  "tabStats": {
+    "message": "Insights"
+  },
+  "optLang": {
+    "message": "언어"
+  },
+  "optLangHint": {
+    "message": "Changes the language used for PhishGuard alerts and controls. The selection can follow your browser setting or be chosen directly."
+  },
+  "optLangAuto": {
+    "message": "브라우저 기본값"
+  },
+  "fmtStatsSince": {
+    "message": "PhishGuard has been active in this browser since $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "12 Jun 2026"
+      }
+    }
+  },
+  "stats7d": {
+    "message": "7일"
+  },
+  "stats30d": {
+    "message": "30일"
+  },
+  "statsAll": {
+    "message": "전체 기간"
+  },
+  "statsPagesChecked": {
+    "message": "기기에서 확인한 페이지"
+  },
+  "statsThreatsStopped": {
+    "message": "차단한 위협"
+  },
+  "statsThreatsNone": {
+    "message": "이 기간에 기록된 위협이 없습니다."
+  },
+  "statsScamsBlockedOne": {
+    "message": "1 high-risk event blocked in this period"
+  },
+  "fmtStatsScamsBlocked": {
+    "message": "$COUNT$ high-risk events blocked in this period",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "8"
+      }
+    }
+  },
+  "statsPrivacyFindings": {
+    "message": "개인정보 발견 사항"
+  },
+  "statsRulesActive": {
+    "message": "활성화된 차단 목록 규칙"
+  },
+  "statsRulesActiveHint": {
+    "message": "PhishGuard에 내장된 목록을 포함해 현재 적용 중입니다."
+  },
+  "statsChartTitle7d": {
+    "message": "확인한 페이지 · 최근 7일"
+  },
+  "statsChartTitle30d": {
+    "message": "확인한 페이지 · 최근 30일"
+  },
+  "statsChartTitleAll": {
+    "message": "확인한 페이지 · 설치 이후"
+  },
+  "statsChartTitle90d": {
+    "message": "확인한 페이지 · 최근 90일"
+  },
+  "statsAxisToday": {
+    "message": "오늘"
+  },
+  "statsLegendChecked": {
+    "message": "확인한 페이지"
+  },
+  "statsLegendThreat": {
+    "message": "그날 차단한 위협"
+  },
+  "fmtStatsBarTip": {
+    "message": "$DATE$ · $COUNT$개 페이지 확인",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "21 Aug"
+      },
+      "count": {
+        "content": "$2",
+        "example": "63"
+      }
+    }
+  },
+  "fmtStatsBarTipThreat": {
+    "message": "$DATE$ · $COUNT$ pages checked · 1 high-risk event",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "21 Aug"
+      },
+      "count": {
+        "content": "$2",
+        "example": "63"
+      }
+    }
+  },
+  "fmtStatsBarTipThreats": {
+    "message": "$DATE$ · $COUNT$ pages checked · $THREATS$ high-risk events",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "21 Aug"
+      },
+      "count": {
+        "content": "$2",
+        "example": "63"
+      },
+      "threats": {
+        "content": "$3",
+        "example": "2"
+      }
+    }
+  },
+  "statsByType": {
+    "message": "유형별 위협 · 전체 기간"
+  },
+  "statsCatPhishing": {
+    "message": "피싱"
+  },
+  "statsCatFakeShop": {
+    "message": "가짜 쇼핑몰"
+  },
+  "statsCatWallet": {
+    "message": "지갑 탈취"
+  },
+  "statsCatTechSupport": {
+    "message": "기술 지원 사기"
+  },
+  "statsCatClipboard": {
+    "message": "클립보드"
+  },
+  "statsCatClickfix": {
+    "message": "가짜 CAPTCHA"
+  },
+  "statsCatFakeUpdate": {
+    "message": "가짜 업데이트"
+  },
+  "statsCatOther": {
+    "message": "기타"
+  },
+  "statsRecent": {
+    "message": "최근"
+  },
+  "statsPillBlocked": {
+    "message": "차단됨"
+  },
+  "statsPillWarned": {
+    "message": "경고됨"
+  },
+  "statsFooter": {
+    "message": "통계는 이 브라우저에 저장됩니다. 탐지 기록이 없다고 해서 세션에 위협이 없다는 보장은 없습니다. 선택적 커뮤니티 보고는 설정에서 관리할 수 있습니다."
+  },
+  "reviewAskBody": {
+    "message": "PhishGuard는 지금까지 $COUNT$건의 사기를 막아드렸습니다. 그럴 만하다고 느끼신다면, 짧은 리뷰가 다른 사람들이 이 확장 프로그램을 찾는 데 도움이 됩니다 — 무료이며 앞으로도 계속 무료입니다.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "optHotRejected": {
+    "message": "PhishGuard rejected the latest recent-risk list because its validation failed; the last accepted list remains active."
+  },
+  "interstitialFooter": {
+    "message": "PhishGuard가 이 페이지를 기기에서 확인했습니다."
+  },
+  "reason_newDomainUnvisited": {
+    "message": "This domain appears on a newly registered domains list and has no prior visit history in PhishGuard."
+  },
+  "continueOnce": {
+    "message": "이 페이지로 한 번만 이동합니다. PhishGuard는 계속 켜져 있습니다."
+  },
+  "bannerHideDay": {
+    "message": "하루 동안 숨기기"
+  },
+  "bannerHideHour": {
+    "message": "1시간 동안 숨기기"
+  },
+  "localFeedbackTitle": {
+    "message": "이 기기에 저장된 피드백"
+  },
+  "localFeedbackHint": {
+    "message": "When reporting is off, feedback is saved in this browser only. Review or delete those local records below."
+  },
+  "localFeedbackEmpty": {
+    "message": "로컬에 저장된 피드백이 없습니다."
+  },
+  "clearLocalFeedback": {
+    "message": "로컬 피드백 지우기"
+  },
+  "localFeedbackCleared": {
+    "message": "로컬 피드백을 지웠습니다."
+  },
+  "msgScoreDetails": {
+    "message": "위험 지표 점수: $1/100 · 확인한 링크: $2"
+  },
+  "msgNoSignals": {
+    "message": "명확한 사기 신호를 찾지 못했습니다. 예상치 못한 요청은 주의하세요."
+  },
+  "optReportUrlTitle": {
+    "message": "커뮤니티 보고 릴레이"
+  },
+  "optReportUrlHint": {
+    "message": "Leave this empty to keep feedback local. If you set a relay, use an HTTPS endpoint you control or trust. Saving a changed address turns reporting off until you opt in again."
+  },
+  "optReportUrlLabel": {
+    "message": "HTTPS 보고 URL"
+  },
+  "optReportUrlPlaceholder": {
+    "message": "https://your-server.example/api/report"
+  },
+  "saveReportUrl": {
+    "message": "보고 URL 저장"
+  },
+  "reportRelayMissing": {
+    "message": "보고를 사용 설정하기 전에 정보 페이지에서 HTTPS 보고 URL을 설정하세요."
+  },
+  "reportRelayInvalid": {
+    "message": "자격 증명, 쿼리 또는 프래그먼트가 없는 유효한 HTTPS URL을 입력하세요."
+  },
+  "reportRelaySaved": {
+    "message": "릴레이를 저장했습니다. 보고는 사용 설정할 때까지 꺼져 있습니다."
+  },
+  "receiptRelayNotConfigured": {
+    "message": "설정되지 않음; 보고는 로컬에 유지됩니다"
+  },
+  "reason_qrExternalAction": {
+    "message": "The QR payload tries to open an app or use a non-standard website link. Review it before continuing."
+  },
+  "reason_qrMalformedDestination": {
+    "message": "The QR code contains a malformed web address, so its destination cannot be reliably checked."
+  },
+  "qrInvalidCodeLabel": {
+    "message": "Invalid or unreadable QR code"
+  },
+  "qrValidDangerousLabel": {
+    "message": "Valid QR · Dangerous destination"
+  },
+  "qrValidSuspiciousLabel": {
+    "message": "Valid QR · Suspicious destination"
+  },
+  "qrValidSafeLabel": {
+    "message": "Valid QR · No strong destination risk found"
+  },
+  "qrDecodedMalformedLabel": {
+    "message": "Valid QR · Malformed website address"
+  },
+  "qrDecodedUnsafeLabel": {
+    "message": "Valid QR · Unsafe link type"
+  },
+  "qrDecodedExternalLabel": {
+    "message": "Valid QR · External app action"
+  },
+  "qrDecodedNonWebLabel": {
+    "message": "Valid QR · Non-website data (not safety-rated)"
+  },
+  "reason_downloadDisguisedExecutable": {
+    "message": "The shared item uses a document or image-looking filename followed by an executable extension. Do not open it."
+  },
+  "reason_downloadExecutableSurface": {
+    "message": "The page exposes an executable or installer download ($FILE$). Verify the publisher and file through an independent security scanner before opening it.",
+    "placeholders": {
+      "file": {
+        "content": "$1",
+        "example": "file.exe"
+      }
+    }
+  },
+  "reason_downloadScriptSurface": {
+    "message": "The page exposes a script or command file that can execute actions on the device. Do not run it unless you can verify its origin and contents."
+  },
+  "reason_downloadSafetyEvasion": {
+    "message": "The page asks you to weaken or bypass device security before opening a file. This is a strong malware-delivery warning."
+  },
+  "reason_downloadDeceptivePrompt": {
+    "message": "The page uses an update or verification story to persuade you to download or run a file. Verify updates through the operating system or application itself."
+  },
+  "reason_downloadArchivePressure": {
+    "message": "The shared archive is paired with instructions or pressure that may conceal an executable payload. Do not extract or run unexpected contents."
+  }
+}

@@ -1,0 +1,1813 @@
+{
+  "extName": {
+    "message": "PhishGuard — Link & Scam Defense"
+  },
+  "extShortName": {
+    "message": "PhishGuard"
+  },
+  "extDescription": {
+    "message": "Browser-side risk checks for suspicious sites, links, and messages, with explanations that help you decide what to do next."
+  },
+  "on": {
+    "message": "オン"
+  },
+  "paused": {
+    "message": "一時停止中"
+  },
+  "settings": {
+    "message": "Preferences"
+  },
+  "dismiss": {
+    "message": "閉じる"
+  },
+  "ariaDismiss": {
+    "message": "閉じる"
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "reportMistake": {
+    "message": "誤りを報告"
+  },
+  "thanks": {
+    "message": "ありがとうございます"
+  },
+  "trustThisSite": {
+    "message": "このサイトを信頼"
+  },
+  "ackTrusted": {
+    "message": "PhishGuardは今後 $HOST$ を警告しません。",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "secure-paypa1-login.com"
+      }
+    }
+  },
+  "undo": {
+    "message": "元に戻す"
+  },
+  "popupPauseMenu": {
+    "message": "Site controls ▾"
+  },
+  "whatsNewLink": {
+    "message": "新機能"
+  },
+  "unknownSite": {
+    "message": "不明なサイト"
+  },
+  "popupChecking": {
+    "message": "確認中…"
+  },
+  "popupSafe": {
+    "message": "No major warning signals found"
+  },
+  "popupSuspicious": {
+    "message": "Review before proceeding"
+  },
+  "popupDangerous": {
+    "message": "High-risk activity detected"
+  },
+  "popupUnknown": {
+    "message": "This page has not been checked"
+  },
+  "popupPausedSummary": {
+    "message": "Checks are paused for now. Resume them to inspect this page."
+  },
+  "popupNotHttp": {
+    "message": "Browser-internal pages and extension-store pages are outside PhishGuard’s scanning coverage."
+  },
+  "popupDangerSummary": {
+    "message": "Strong risk indicators were found. Avoid entering credentials, payment details, or downloading files here."
+  },
+  "popupSuspiciousSummary": {
+    "message": "Some signals deserve a closer look. Check the address and evidence before sharing information."
+  },
+  "leaveThisPage": {
+    "message": "このページを離れる"
+  },
+  "whyVerdict": {
+    "message": "なぜこの判定？"
+  },
+  "whyVerdictCountOne": {
+    "message": "・シグナル1件"
+  },
+  "fmtWhyVerdictCount": {
+    "message": "・シグナル$COUNT$件",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "takeMeToReal": {
+    "message": "本物の $BRAND$ へ移動",
+    "placeholders": {
+      "brand": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyReportBtn": {
+    "message": "レポートをコピー"
+  },
+  "copyReportHeader": {
+    "message": "⚠ PhishGuardがこのサイトを検出しました: $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "evil[.]example"
+      }
+    }
+  },
+  "copyReportVerdict": {
+    "message": "判定: $LEVEL$",
+    "placeholders": {
+      "level": {
+        "content": "$1",
+        "example": "Dangerous page"
+      }
+    }
+  },
+  "copyReportSignals": {
+    "message": "シグナル:"
+  },
+  "copyReportFooter": {
+    "message": "PhishGuard がローカルで確認しました。操作する前に根拠を確認してください。"
+  },
+  "reportScam": {
+    "message": "報告：これは詐欺です"
+  },
+  "reportSafe": {
+    "message": "報告：これは安全です"
+  },
+  "pause1h": {
+    "message": "1時間"
+  },
+  "pause1d": {
+    "message": "1日"
+  },
+  "pauseAlways": {
+    "message": "常に"
+  },
+  "resumeNow": {
+    "message": "今すぐ再開"
+  },
+  "blockedOnSite": {
+    "message": "このサイトでブロック"
+  },
+  "blockedAllTime": {
+    "message": "累計ブロック数"
+  },
+  "sinceInstall": {
+    "message": "インストール以降"
+  },
+  "thisWeek": {
+    "message": "今週"
+  },
+  "statsLink": {
+    "message": "統計 →"
+  },
+  "privacyOnPage": {
+    "message": "このページのプライバシー"
+  },
+  "shoppingCheck": {
+    "message": "ショッピング確認"
+  },
+  "checkMessageTitle": {
+    "message": "Inspect a message or destination"
+  },
+  "checkMessageHint": {
+    "message": "Message text is checked in this browser. Included links are checked against threat-list data; a matching entry may require a network lookup."
+  },
+  "checkMessagePlaceholder": {
+    "message": "Paste message text or a link to inspect…"
+  },
+  "check": {
+    "message": "確認"
+  },
+  "checkedOnDevice": {
+    "message": "Core analysis runs locally; link reputation may use threat-list data."
+  },
+  "msgSafe": {
+    "message": "No strong scam indicators found in this sample. That does not prove it is genuine."
+  },
+  "msgSuspicious": {
+    "message": "Several risk clues were found. Verify the sender and destination independently."
+  },
+  "msgDangerous": {
+    "message": "This sample contains high-risk scam signals. Do not follow its instructions."
+  },
+  "qrScanTitle": {
+    "message": "Inspect QR destinations on this page"
+  },
+  "qrScanHint": {
+    "message": "Try supported page images for QR codes, then inspect decoded web destinations without opening them."
+  },
+  "qrScanBtn": {
+    "message": "Inspect QR codes"
+  },
+  "qrScanNone": {
+    "message": "No readable web-address QR codes were found in the images checked."
+  },
+  "qrScanFoundOne": {
+    "message": "1 web destination found in a QR code"
+  },
+  "fmtQrScanFoundCount": {
+    "message": "$COUNT$ web destinations found in QR codes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "support": {
+    "message": "ヘルプと設定"
+  },
+  "footerTrustLine": {
+    "message": "Most checks run here. Threat-list and site-icon requests use the network; reports stay local unless you configure and enable a relay."
+  },
+  "takeMeToRealSite": {
+    "message": "本物のサイトへ移動"
+  },
+  "toastThanksNoted": {
+    "message": "このデバイスに保存しました。送信は行っていません。"
+  },
+  "toastThanksSent": {
+    "message": "ありがとうございます — 送信しました"
+  },
+  "toastPausedForNow": {
+    "message": "一時停止しました"
+  },
+  "toastResumed": {
+    "message": "保護を再開しました"
+  },
+  "toastCopied": {
+    "message": "コピーしました"
+  },
+  "toastExtensionError": {
+    "message": "拡張機能エラー — 開き直してください。"
+  },
+  "whatsNewBanner": {
+    "message": "PhishGuard now includes clearer local-analysis explanations, more resilient suspicious-link parsing, and improved reporting feedback."
+  },
+  "popupBrandDangerSummary": {
+    "message": "$BRAND$ may be impersonated here. Compare the domain with the service’s official address before signing in.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "PayPal"
+      }
+    }
+  },
+  "pausedUntil": {
+    "message": "$TIME$まで一時停止",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "3:45 PM"
+      }
+    }
+  },
+  "fmtProtocolPage": {
+    "message": "$PROTOCOL$ ページ",
+    "placeholders": {
+      "protocol": {
+        "content": "$1",
+        "example": "chrome"
+      }
+    }
+  },
+  "popupShopFlagFallback": {
+    "message": "フラグ"
+  },
+  "chipWhy": {
+    "message": "理由"
+  },
+  "chipDataLeak": {
+    "message": "情報漏えい"
+  },
+  "chipTracking": {
+    "message": "追跡"
+  },
+  "chipPopups": {
+    "message": "ポップアップ"
+  },
+  "chipPrivacy": {
+    "message": "プライバシー"
+  },
+  "popupPrivacyLeakPlain": {
+    "message": "A value matching your typed email or phone was sent to $HOST$ before form submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "popupPrivacyLeakHashed": {
+    "message": "A hashed match for your typed email or phone was sent to $HOST$ before form submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "popupPrivacyFingerprint": {
+    "message": "$HOST$ queried a combination of browser features that can contribute to device fingerprinting.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "popupPrivacyNotifyLure": {
+    "message": "This page used a misleading prompt to request notification permission."
+  },
+  "popupPrivacyCredExfilPassword": {
+    "message": "A password-like value was sent to $HOST$, which differs from this page’s site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "collector.example"
+      }
+    }
+  },
+  "popupPrivacyCredExfilCard": {
+    "message": "Payment-card-like data was sent to $HOST$, which differs from this page’s site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "collector.example"
+      }
+    }
+  },
+  "popupPrivacyDefaultText": {
+    "message": "プライバシーの問題を検出しました。"
+  },
+  "levelDangerous": {
+    "message": "危険なページ"
+  },
+  "levelSuspicious": {
+    "message": "不審なページ"
+  },
+  "levelSafe": {
+    "message": "不審な点はありません"
+  },
+  "levelUnknown": {
+    "message": "このページは確認できません"
+  },
+  "tabProtection": {
+    "message": "Live checks"
+  },
+  "tabTrusted": {
+    "message": "Site exceptions"
+  },
+  "tabHistory": {
+    "message": "Activity log"
+  },
+  "tabStats": {
+    "message": "Insights"
+  },
+  "tabFeed": {
+    "message": "Threat intelligence"
+  },
+  "tabAbout": {
+    "message": "System & data"
+  },
+  "protectionLead": {
+    "message": "Page checks run in this browser. PhishGuard downloads shared threat data and may request a site icon for brand comparison; uploads require a separate reporting opt-in."
+  },
+  "protectionOn": {
+    "message": "Real-time inspection"
+  },
+  "protectionOnHint": {
+    "message": "Review pages as they load. Turning this off pauses all PhishGuard page checks."
+  },
+  "grpScams": {
+    "message": "Links, domains & impersonation"
+  },
+  "grpScamsHint": {
+    "message": "Compare addresses with known threats and look for suspicious structure or brand imitation."
+  },
+  "grpPopups": {
+    "message": "Coercive prompts & clipboard activity"
+  },
+  "grpPopupsHint": {
+    "message": "Watch for fake support warnings, command-paste tricks, and unexpected clipboard changes."
+  },
+  "grpShopping": {
+    "message": "Shopping and sponsored links"
+  },
+  "grpShoppingHint": {
+    "message": "Look for storefront risk signals and mismatches between ad labels and destinations."
+  },
+  "grpCrypto": {
+    "message": "Wallet transaction safety"
+  },
+  "grpCryptoHint": {
+    "message": "Inspect selected wallet requests for unusually broad or dangerous permissions."
+  },
+  "grpPrivacy": {
+    "message": "Data exposure and tracking"
+  },
+  "grpPrivacyHint": {
+    "message": "Watch for form data sent to unrelated sites and common browser-fingerprinting techniques."
+  },
+  "optBlockKnown": {
+    "message": "Known-threat navigation block"
+  },
+  "optBlockKnownHint": {
+    "message": "Stop destinations included in the browser’s local threat rules before the page opens."
+  },
+  "optPageAnalysis": {
+    "message": "Page-signal analysis"
+  },
+  "optPageAnalysisHint": {
+    "message": "Combine page wording, form structure, address signals, and available brand clues to find risks not yet listed."
+  },
+  "optClickfix": {
+    "message": "Command-paste lure detection"
+  },
+  "optClickfixHint": {
+    "message": "Flag human-verification pages that instruct visitors to open a system command box and paste a command."
+  },
+  "optFakeupdate": {
+    "message": "Counterfeit update prompt detection"
+  },
+  "optFakeupdateHint": {
+    "message": "Identify web pages that present a download as a required browser or system update."
+  },
+  "optHide": {
+    "message": "De-emphasize scam-like page blocks"
+  },
+  "optHideHint": {
+    "message": "Visually mark selected prize and giveaway blocks when their wording matches known scam patterns."
+  },
+  "optQrScan": {
+    "message": "Automatic QR destination checks"
+  },
+  "optQrScanHint": {
+    "message": "Check eligible images for QR codes and analyze decoded HTTP(S) destinations. Cross-origin images may be unreadable to the browser."
+  },
+  "optTechscam": {
+    "message": "Fake support-page guard"
+  },
+  "optTechscamHint": {
+    "message": "Flag pages using alarm language, forced fullscreen, dialog floods, or phone-number demands to pressure visitors."
+  },
+  "optClipboard": {
+    "message": "Clipboard change alerts"
+  },
+  "optClipboardHint": {
+    "message": "Warn when a page changes the clipboard to a command or cryptocurrency address without a clear user action."
+  },
+  "optShop": {
+    "message": "Storefront risk review"
+  },
+  "optShopHint": {
+    "message": "Combine signals such as resettable countdowns, artificial scarcity, missing contact details, and high-risk payment requests."
+  },
+  "optSerp": {
+    "message": "Sponsored destination comparison"
+  },
+  "optSerpHint": {
+    "message": "On supported search pages, compare an ad’s displayed destination with its actual link and mark suspicious mismatches."
+  },
+  "optWallet": {
+    "message": "Wallet approval guard"
+  },
+  "optWalletHint": {
+    "message": "Inspect supported transaction requests for blind signing, token approvals, NFT-wide permissions, and account delegation."
+  },
+  "optLeakyForm": {
+    "message": "Cross-site form data alerts"
+  },
+  "optLeakyFormHint": {
+    "message": "Look for values typed into email or phone fields being sent to an unrelated origin before a form is submitted."
+  },
+  "optFingerprint": {
+    "message": "Browser fingerprinting signals"
+  },
+  "optFingerprintHint": {
+    "message": "Watch for repeated use of canvas, WebGL, audio, and font-measurement APIs that can help identify a browser."
+  },
+  "optNotify": {
+    "message": "Misleading notification prompts"
+  },
+  "optNotifyHint": {
+    "message": "Flag pages that pair a fake continuation step with a request to allow browser notifications."
+  },
+  "optStrict": {
+    "message": "High-caution mode"
+  },
+  "optStrictHint": {
+    "message": "Use a stricter response: pages rated suspicious receive a full-screen warning instead of the usual lighter notice."
+  },
+  "optReporting": {
+    "message": "PhishGuardをより賢くする"
+  },
+  "optReportingHint": {
+    "message": "Optionally sends a site hostname and compact risk signals to a relay you configure. Disabled by default; review the report fields below."
+  },
+  "saved": {
+    "message": "保存しました"
+  },
+  "trustedLead": {
+    "message": "Exceptions and timed pauses are listed here. Remove an entry to restore normal checks for that domain."
+  },
+  "trustedAlways": {
+    "message": "常に"
+  },
+  "trustedForAWhile": {
+    "message": "一時的に"
+  },
+  "remove": {
+    "message": "削除"
+  },
+  "trustedViaWarning": {
+    "message": "警告から信頼済み"
+  },
+  "optTenantApexBadge": {
+    "message": "This exception affects the entire shared host $APEX$. Remove it and add a narrower domain exception instead.",
+    "placeholders": {
+      "apex": {
+        "content": "$1",
+        "example": "pages.dev"
+      }
+    }
+  },
+  "mutedWarnings": {
+    "message": "消音した警告"
+  },
+  "warnAgain": {
+    "message": "再度警告する"
+  },
+  "muteKind_clipboard": {
+    "message": "クリップボード通知"
+  },
+  "muteKind_leak": {
+    "message": "フォーム漏えい警告"
+  },
+  "muteKind_notify": {
+    "message": "通知トラップ警告"
+  },
+  "muteKind_credpost": {
+    "message": "カードとパスワードフォーム警告"
+  },
+  "historyTitle": {
+    "message": "Recent security activity"
+  },
+  "historyLead": {
+    "message": "This log stays in browser storage and keeps hostnames rather than complete page addresses."
+  },
+  "clearHistory": {
+    "message": "履歴を消去"
+  },
+  "markMistake": {
+    "message": "誤りとしてマーク"
+  },
+  "feedTitle": {
+    "message": "脅威リスト"
+  },
+  "feedLead": {
+    "message": "既知の詐欺サイトの一覧で、定期的に更新されます。ライセンスを確認済みの、フィッシングとマルウェアの公開リストから作成しています。PhishGuardはこれをダウンロードするだけです。"
+  },
+  "checkNow": {
+    "message": "今すぐ確認"
+  },
+  "aboutVersion": {
+    "message": "バージョン"
+  },
+  "appearance": {
+    "message": "外観"
+  },
+  "whatLeaves": {
+    "message": "端末の外に出るもの"
+  },
+  "backupSettings": {
+    "message": "設定のバックアップ"
+  },
+  "backupHint": {
+    "message": "Download a JSON backup of preferences and site exceptions, then import that file into another browser profile when needed."
+  },
+  "exportBtn": {
+    "message": "エクスポート"
+  },
+  "importBtn": {
+    "message": "インポート"
+  },
+  "syncTitle": {
+    "message": "端末間で同期"
+  },
+  "syncHint": {
+    "message": "サインインしているすべてのブラウザで設定と一時停止したサイトを同期します。ブラウザ自体の同期機能を使用し、PhishGuardにアカウントやサーバーはありません。デフォルトではオフです。"
+  },
+  "optDocTitle": {
+    "message": "PhishGuard 設定"
+  },
+  "ariaSettingsSections": {
+    "message": "設定セクション"
+  },
+  "optWhatSentToggle": {
+    "message": "送信される内容の詳細 ▾"
+  },
+  "optWhatSentBody": {
+    "message": "When reporting is enabled, a report may include the hostname, verdict, reason codes, compact numeric risk signals, bounded hashed page-feature buckets and page-structure counts, matched brand/icon signals, extension version, and an hour-bucketed timestamp. It excludes the full URL path and query, raw page text, typed content, and cookies. The reporting server can still receive ordinary connection metadata. Retention is controlled by the relay operator."
+  },
+  "feedNeverUpdated": {
+    "message": "未更新"
+  },
+  "hotListStatus": {
+    "message": "Recent-risk list: $COUNT$ domains · refreshed $AGO$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1,204"
+      },
+      "ago": {
+        "content": "$2",
+        "example": "12 minutes ago"
+      }
+    }
+  },
+  "hotListOff": {
+    "message": "緊急リスト: オフ"
+  },
+  "hotListPending": {
+    "message": "緊急リスト: 未ダウンロード"
+  },
+  "hotListSub": {
+    "message": "A second list focuses on threats reported during the previous 48 hours and refreshes hourly."
+  },
+  "optAdvancedFeedUrl": {
+    "message": "詳細設定：フィードURL"
+  },
+  "optFeedUrlLabel": {
+    "message": "フィードURL"
+  },
+  "optFeedUrlPlaceholder": {
+    "message": "https://…/blocklist.json"
+  },
+  "resetToOfficialFeed": {
+    "message": "公式フィードにリセット"
+  },
+  "optFeedUrlHint": {
+    "message": "Only use a compatible feed URL that you control or trust. A failed override can interrupt updates; reset restores the configured default."
+  },
+  "optThemeHint": {
+    "message": "システムに従うか、選択してください。"
+  },
+  "optThemeAuto": {
+    "message": "自動"
+  },
+  "optThemeLight": {
+    "message": "ライト"
+  },
+  "optThemeDark": {
+    "message": "ダーク"
+  },
+  "optLang": {
+    "message": "言語"
+  },
+  "optLangHint": {
+    "message": "Changes the language used for PhishGuard alerts and controls. The selection can follow your browser setting or be chosen directly."
+  },
+  "optLangAuto": {
+    "message": "ブラウザの既定値"
+  },
+  "optLinksTitle": {
+    "message": "リンク"
+  },
+  "supportFreeOnDevice": {
+    "message": "PhishGuardは無料で、完全に端末上で動作します。"
+  },
+  "netNoTelemetry": {
+    "message": "Most analysis stays in this browser. Network activity is limited to threat-feed requests, selected site-icon requests, and reports only when you configure and enable a relay."
+  },
+  "receiptFeedLabel": {
+    "message": "脅威リストのダウンロード"
+  },
+  "receiptFeedDetail": {
+    "message": "PhishGuard requests shared threat-list files. These requests do not include the page you are viewing, but the feed host can receive normal connection metadata such as your IP address."
+  },
+  "receiptReportLabel": {
+    "message": "コミュニティ報告"
+  },
+  "receiptReportDetail": {
+    "message": "報告を有効にしエンドポイントを設定した場合のみ、ドメイン、判定、理由コード、簡易リスク指標が送信されます。完全な URL パス、ページ本文、入力した内容は含まれません。"
+  },
+  "receiptIconLabel": {
+    "message": "ページアイコン確認"
+  },
+  "receiptIconDetail": {
+    "message": "May request the page’s favicon for local brand comparison. The request can reveal your IP address to the icon host; no full page content is sent by this check."
+  },
+  "receiptPerPage": {
+    "message": "ページごと"
+  },
+  "receiptOnInstall12h": {
+    "message": "インストール時＋12時間ごと"
+  },
+  "receiptDisabled": {
+    "message": "無効"
+  },
+  "receiptWhenFlagged": {
+    "message": "フラグ時のみ"
+  },
+  "receiptOffDefault": {
+    "message": "オフ（デフォルト）"
+  },
+  "optExportSyncHint": {
+    "message": "Backups can be moved manually. Browser sync is optional and uses the browser account’s sync service."
+  },
+  "toastSyncOn": {
+    "message": "同期オン"
+  },
+  "toastSyncUnavailable": {
+    "message": "同期を利用できません"
+  },
+  "toastSyncOff": {
+    "message": "同期オフ"
+  },
+  "toastExported": {
+    "message": "エクスポートしました"
+  },
+  "toastImported": {
+    "message": "インポートしました"
+  },
+  "toastInvalidFile": {
+    "message": "無効なファイルです"
+  },
+  "toastCheckingUpdates": {
+    "message": "確認中…"
+  },
+  "fmtUpdatedToVersion": {
+    "message": "v$VERSION$ に更新しました",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "0.6.1"
+      }
+    }
+  },
+  "toastAlreadyUpToDate": {
+    "message": "すでに最新です"
+  },
+  "toastUpdateFailed": {
+    "message": "更新に失敗しました"
+  },
+  "toastHistoryCleared": {
+    "message": "履歴を消去しました"
+  },
+  "optNoneYet": {
+    "message": "まだありません"
+  },
+  "optNoneRightNow": {
+    "message": "現在はありません"
+  },
+  "optNothingYetGood": {
+    "message": "最近のイベントはありません。"
+  },
+  "fmtVersion": {
+    "message": "バージョン $VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "0.6.0"
+      }
+    }
+  },
+  "fmtUntilTime": {
+    "message": "$TIME$ まで",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "22 Aug, 3:45 PM"
+      }
+    }
+  },
+  "fmtUpdatedRules": {
+    "message": "$TIME$ に更新 · $COUNT$ 件のルール",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "2 h ago"
+      },
+      "count": {
+        "content": "$2",
+        "example": "12,345"
+      }
+    }
+  },
+  "fmtStatsSince": {
+    "message": "PhishGuard has been active in this browser since $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "12 Jun 2026"
+      }
+    }
+  },
+  "stats7d": {
+    "message": "7日間"
+  },
+  "stats30d": {
+    "message": "30日間"
+  },
+  "statsAll": {
+    "message": "全期間"
+  },
+  "statsPagesChecked": {
+    "message": "端末上で確認したページ数"
+  },
+  "statsThreatsStopped": {
+    "message": "阻止した脅威"
+  },
+  "statsThreatsNone": {
+    "message": "この期間に記録された脅威はありません。"
+  },
+  "statsScamsBlockedOne": {
+    "message": "1 high-risk event blocked in this period"
+  },
+  "fmtStatsScamsBlocked": {
+    "message": "$COUNT$ high-risk events blocked in this period",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "8"
+      }
+    }
+  },
+  "statsPrivacyFindings": {
+    "message": "プライバシーの検出結果"
+  },
+  "statsRulesActive": {
+    "message": "有効なブロックリストのルール数"
+  },
+  "statsRulesActiveHint": {
+    "message": "PhishGuardに組み込まれたリストを含め、現在有効なものです。"
+  },
+  "statsChartTitle7d": {
+    "message": "確認したページ数 · 過去7日間"
+  },
+  "statsChartTitle30d": {
+    "message": "確認したページ数 · 過去30日間"
+  },
+  "statsChartTitleAll": {
+    "message": "確認したページ数 · インストール以降"
+  },
+  "statsChartTitle90d": {
+    "message": "確認したページ数 · 過去90日間"
+  },
+  "statsAxisToday": {
+    "message": "今日"
+  },
+  "statsLegendChecked": {
+    "message": "確認したページ"
+  },
+  "statsLegendThreat": {
+    "message": "その日に阻止した脅威"
+  },
+  "fmtStatsBarTip": {
+    "message": "$DATE$ · $COUNT$ページ確認",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "21 Aug"
+      },
+      "count": {
+        "content": "$2",
+        "example": "63"
+      }
+    }
+  },
+  "fmtStatsBarTipThreat": {
+    "message": "$DATE$ · $COUNT$ pages checked · 1 high-risk event",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "21 Aug"
+      },
+      "count": {
+        "content": "$2",
+        "example": "63"
+      }
+    }
+  },
+  "fmtStatsBarTipThreats": {
+    "message": "$DATE$ · $COUNT$ pages checked · $THREATS$ high-risk events",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "21 Aug"
+      },
+      "count": {
+        "content": "$2",
+        "example": "63"
+      },
+      "threats": {
+        "content": "$3",
+        "example": "2"
+      }
+    }
+  },
+  "statsByType": {
+    "message": "種類別の脅威 · 全期間"
+  },
+  "statsCatPhishing": {
+    "message": "フィッシング"
+  },
+  "statsCatFakeShop": {
+    "message": "偽ショップ"
+  },
+  "statsCatWallet": {
+    "message": "ウォレットドレイナー"
+  },
+  "statsCatTechSupport": {
+    "message": "サポート詐欺"
+  },
+  "statsCatClipboard": {
+    "message": "クリップボード"
+  },
+  "statsCatClickfix": {
+    "message": "偽CAPTCHA"
+  },
+  "statsCatFakeUpdate": {
+    "message": "偽更新"
+  },
+  "statsCatOther": {
+    "message": "その他"
+  },
+  "statsRecent": {
+    "message": "最近"
+  },
+  "statsPillBlocked": {
+    "message": "ブロック済み"
+  },
+  "statsPillWarned": {
+    "message": "警告済み"
+  },
+  "statsFooter": {
+    "message": "集計値はこのブラウザーに保存されます。脅威が検出されなかったことは、セッションに脅威がないことを保証しません。任意のコミュニティ報告は設定で管理できます。"
+  },
+  "reviewAskBody": {
+    "message": "PhishGuardはこれまでに$COUNT$件の詐欺からあなたを守りました。それに見合うと感じたら、短いレビューが他の人がこの拡張機能を見つける助けになります — 無料で、これからもずっと無料です。",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "bannerDangerBrand": {
+    "message": "High risk: this address may be impersonating $BRAND$",
+    "placeholders": {
+      "brand": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerDanger": {
+    "message": "危険なページ"
+  },
+  "bannerTakeCare": {
+    "message": "このサイトに注意してください"
+  },
+  "whyShort": {
+    "message": "なぜ？"
+  },
+  "moreActions": {
+    "message": "その他のアクション"
+  },
+  "hideForToday": {
+    "message": "今日は非表示"
+  },
+  "hideForAnHour": {
+    "message": "1時間非表示"
+  },
+  "interstitialHead1": {
+    "message": "Do not continue to this destination"
+  },
+  "interstitialHead2": {
+    "message": "Pause and review this page first"
+  },
+  "interstitialHead3": {
+    "message": "先に進まないで — 詐欺の警告"
+  },
+  "interstitialReassure": {
+    "message": "If you entered a password or payment information here, change it through the service’s official app or website."
+  },
+  "continueAnyway": {
+    "message": "それでも続行"
+  },
+  "submitAnyway": {
+    "message": "それでも送信"
+  },
+  "proceedAnyway": {
+    "message": "それでも続行"
+  },
+  "cancelRecommended": {
+    "message": "キャンセル（推奨）"
+  },
+  "phishingStop": {
+    "message": "待って — フィッシングの可能性"
+  },
+  "techScamTitle": {
+    "message": "サポート詐欺の可能性"
+  },
+  "techScamBody": {
+    "message": "A web page cannot diagnose a computer infection by itself. Close this page; do not call a number or install remote-support software offered by the warning."
+  },
+  "getMeOut": {
+    "message": "ここから出して（このページを閉じる）"
+  },
+  "walletRiskyTitle": {
+    "message": "危険なウォレット要求"
+  },
+  "walletRiskyBody": {
+    "message": "Cancel if you did not expect this request. Some signatures grant ongoing token or account permissions that are difficult to reverse."
+  },
+  "compareThisSite": {
+    "message": "このサイト"
+  },
+  "compareRealSite": {
+    "message": "本物の $BRAND$",
+    "placeholders": {
+      "brand": {
+        "content": "$1"
+      }
+    }
+  },
+  "guardCountdown": {
+    "message": "$LABEL$（$COUNT$）",
+    "placeholders": {
+      "label": {
+        "content": "$1",
+        "example": "Continue anyway"
+      },
+      "count": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "ariaScamWarning": {
+    "message": "詐欺の警告"
+  },
+  "ariaPhishingWarning": {
+    "message": "フィッシングの可能性がある警告"
+  },
+  "interstitialFallback": {
+    "message": "Multiple signals indicate that this destination may be part of a scam."
+  },
+  "guardFormDestKnown": {
+    "message": "This form sends the password to $DEST$ rather than $HOST$. Only submit credentials when the destination matches the service you intended to use.",
+    "placeholders": {
+      "dest": {
+        "content": "$1",
+        "example": "evil.example"
+      },
+      "host": {
+        "content": "$2",
+        "example": "your-bank.example"
+      }
+    }
+  },
+  "guardFormDestUnknown": {
+    "message": "This form sends a password to a different site from the one displayed. That mismatch can expose your sign-in details."
+  },
+  "guardHiddenTag": {
+    "message": "PhishGuardにより非表示"
+  },
+  "guardWalletCollision": {
+    "message": "別の警告が表示されている間、PhishGuardはウォレット要求をブロックしました。閉じてから再試行してください。"
+  },
+  "guardWalletFallback": {
+    "message": "A wallet request needs review before you approve it."
+  },
+  "guardPrivacyFallback": {
+    "message": "PhishGuard observed a possible data-exposure or tracking pattern on this page."
+  },
+  "guardClipboardFallback": {
+    "message": "サイトがクリップボードを変更しました。"
+  },
+  "guardTechScamFallback": {
+    "message": "このページは脅迫的な手口を使っています。"
+  },
+  "guardClipboardBlockedPayload": {
+    "message": "PhishGuardによりブロックされました — このサイトは危険なコマンドをクリップボードに書き込みました。どこにも貼り付けないでください。"
+  },
+  "clipboardNoticeCmdTitle": {
+    "message": "A command was copied while visiting $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "ollama.com"
+      }
+    }
+  },
+  "clipboardNoticeCmdBody": {
+    "message": "Do not run it unless you independently understand and trust the command. Fake verification pages use this trick to install malware."
+  },
+  "clipboardNoticeAddrTitle": {
+    "message": "A cryptocurrency address was copied from $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "clipboardNoticeAddrBody": {
+    "message": "Compare every character with the intended recipient before transferring funds."
+  },
+  "clipboardWarnTitle": {
+    "message": "$HOST$ changed the clipboard unexpectedly",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "ackMuted": {
+    "message": "PhishGuardは今後 $HOST$ でこの警告を表示しません。",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "dontWarnHere": {
+    "message": "このサイトで警告しない"
+  },
+  "leakTitle": {
+    "message": "Form data may have been sent before submission"
+  },
+  "notifyLureTitle": {
+    "message": "ここで「許可」をクリックしないでください"
+  },
+  "credPostTitle": {
+    "message": "This form sends entered data to another site"
+  },
+  "keepMyDetails": {
+    "message": "私の情報を保持する"
+  },
+  "guardLeakyFormPlain": {
+    "message": "A value matching your email or phone was sent to $HOST$ in readable form before submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "guardLeakyFormHashed": {
+    "message": "A hashed identifier derived from your email or phone was sent to $HOST$ before submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      },
+      "algo": {
+        "content": "$2",
+        "example": "MD5"
+      }
+    }
+  },
+  "guardNotifyLure": {
+    "message": "The page is pairing a continuation prompt with a browser-notification request. Block notifications unless you expected them."
+  },
+  "serpAdMismatch": {
+    "message": "⚠ PhishGuard：この広告は $SHOWN$ ではなく $ACTUAL$ に遷移します",
+    "placeholders": {
+      "actual": {
+        "content": "$1",
+        "example": "malicious-download.example"
+      },
+      "shown": {
+        "content": "$2",
+        "example": "trusted-brand.example"
+      }
+    }
+  },
+  "serpBadgeDanger": {
+    "message": "PhishGuard: この検索結果は脅威ブロックリストに登録されています"
+  },
+  "serpBadgeCaution": {
+    "message": "PhishGuard: この検索結果には詐欺の兆候があります"
+  },
+  "chipLink": {
+    "message": "リンク"
+  },
+  "chipBrand": {
+    "message": "ブランド"
+  },
+  "chipPage": {
+    "message": "ページ"
+  },
+  "chipWallet": {
+    "message": "ウォレット"
+  },
+  "chipClipboard": {
+    "message": "クリップボード"
+  },
+  "chipTechscam": {
+    "message": "脅迫ページ"
+  },
+  "chipShop": {
+    "message": "ショップ"
+  },
+  "chipMessage": {
+    "message": "メッセージ"
+  },
+  "reason_ipHost": {
+    "message": "The destination uses a numeric IP address rather than a conventional domain name."
+  },
+  "reason_atSymbol": {
+    "message": "An at-sign in the address can make the visible text differ from the actual destination host."
+  },
+  "reason_urlUserInfo": {
+    "message": "The address contains login information before the @ sign, which can disguise the actual destination host."
+  },
+  "reason_executableScheme": {
+    "message": "This link uses an executable or active-content URL scheme rather than an ordinary web address."
+  },
+  "reason_punycodeHost": {
+    "message": "The domain is encoded with punycode, which can appear in look-alike domain attacks."
+  },
+  "reason_idnHomograph": {
+    "message": "Some characters in this domain visually resemble the real $BRAND$ name.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "paypal"
+      }
+    }
+  },
+  "reason_brandLookalike": {
+    "message": "The domain has features commonly seen in attempts to imitate a familiar brand."
+  },
+  "reason_suspiciousTld": {
+    "message": "This top-level domain has a higher-than-usual presence in scam reports."
+  },
+  "reason_noHttps": {
+    "message": "This address does not use HTTPS, so network traffic may be readable or modifiable in transit."
+  },
+  "reason_manySubdomains": {
+    "message": "異常に多くのサブドメインがあります。"
+  },
+  "reason_urgencyKeywords": {
+    "message": "The address combines several urgency or account-security terms."
+  },
+  "reason_randomHost": {
+    "message": "The host label has a high-entropy pattern often seen in disposable campaign domains."
+  },
+  "reason_brandFuzzyMatch": {
+    "message": "The hostname resembles $BRAND$’s known domain. Inspect the exact spelling before signing in.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "PayPal"
+      }
+    }
+  },
+  "reason_deepSubdomainChain": {
+    "message": "Several nested subdomains make the site owner harder to recognize at a glance."
+  },
+  "reason_longHostLabel": {
+    "message": "An unusually long hostname label may be hiding brand-like words or misleading structure."
+  },
+  "reason_shortenerHost": {
+    "message": "This link uses the shortener $HOST$, so the final site cannot be judged from this address alone.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "bit.ly"
+      }
+    }
+  },
+  "reason_riskAbusedTld": {
+    "message": "このドメインのトップレベルドメイン（$TLD$）は、PhishGuardの脅威フィードのリスクテーブルで詐欺への悪用率が高いものです。",
+    "placeholders": {
+      "tld": {
+        "content": "$1",
+        "example": ".top"
+      }
+    }
+  },
+  "reason_riskDynamicHost": {
+    "message": "This domain uses dynamic DNS or a free-hosting service that appears frequently in abuse reports."
+  },
+  "reason_brandForeignSuffix": {
+    "message": "The address uses $BRAND$’s name with an unfamiliar .$SUFFIX$ ending.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "Roblox"
+      },
+      "suffix": {
+        "content": "$2",
+        "example": "com.do"
+      }
+    }
+  },
+  "reason_gatewayRedirect": {
+    "message": "A redirect through $HOST$ led to a different destination, which can conceal the final site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "mgpxq.com"
+      }
+    }
+  },
+  "reason_feedBlock": {
+    "message": "このドメインはPhishGuardの脅威フィードに一致しており、$COUNT$件の独立した情報源で確認されています。",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "reason_feedWarn": {
+    "message": "このドメインはPhishGuardの脅威フィード内の信頼度が低いエントリ（$COUNT$件の情報源）に一致しています — 慎重に進めてください。",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "reason_remoteDestinationConfirmedMalicious": {
+    "message": "An independent remote check confirmed malicious behavior at this link destination."
+  },
+  "reason_linkedDestinationFeedBlock": {
+    "message": "A linked destination matches PhishGuard's exact-confirmed high-confidence blocklist."
+  },
+  "reason_aiEvidence": {
+    "message": "$DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1",
+        "example": "The page contains a credential form posting to an unrelated domain."
+      }
+    }
+  },
+  "reason_newDomain": {
+    "message": "The domain appears in a newly registered domain list; very new sites have little reputation history."
+  },
+  "reason_credentialFormForeignDomain": {
+    "message": "A password form sends credentials to a different domain from the page showing it."
+  },
+  "reason_crossOriginCredPost": {
+    "message": "The form sends password or card-like data to $HOST$, which differs from the current site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "collector.example"
+      }
+    }
+  },
+  "reason_hiddenIframes": {
+    "message": "The page contains hidden frames that could load content or collect input out of view."
+  },
+  "reason_scamPhrase": {
+    "message": "The page contains giveaway or reward language associated with common scam patterns: “$PHRASE$”.",
+    "placeholders": {
+      "phrase": {
+        "content": "$1",
+        "example": "you won"
+      }
+    }
+  },
+  "reason_seedPhraseAsk": {
+    "message": "The page asks for a wallet recovery phrase. Anyone who obtains it can take control of the wallet."
+  },
+  "reason_brandImpersonationContent": {
+    "message": "The page imitates the appearance or wording of $BRAND$ without using its verified domain.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "paypal"
+      }
+    }
+  },
+  "reason_deliveryFeeScam": {
+    "message": "The page imitates $BRAND$ and requests card details for a package fee. Confirm delivery notices through the carrier’s official site.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "DHL"
+      }
+    }
+  },
+  "reason_brandIconMismatch": {
+    "message": "The page displays an icon associated with $BRAND$ while using a different website address.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "PayPal"
+      }
+    }
+  },
+  "reason_credentialFormOnTenantHost": {
+    "message": "A password form appears on shared hosting ($HOST$), where unrelated users can publish their own pages.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "webflow.io"
+      }
+    }
+  },
+  "reason_brandInTenantHost": {
+    "message": "$BRAND$ appears in a shared-hosting address that requests a password.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "AT&T"
+      }
+    }
+  },
+  "reason_contentPhishingPattern": {
+    "message": "The combination of wording and page layout resembles previously observed phishing pages."
+  },
+  "reason_techScamScareText": {
+    "message": "The page uses threatening technical-support language: “$PHRASE$”.",
+    "placeholders": {
+      "phrase": {
+        "content": "$1",
+        "example": "virus detected"
+      }
+    }
+  },
+  "reason_techScamPhoneAsk": {
+    "message": "The page pressures visitors to call a support number, a frequent pattern in impersonation scams."
+  },
+  "reason_techScamFakeAlert": {
+    "message": "This appears to be a web-based system alert demanding attention. Verify alerts through the operating system, not the page."
+  },
+  "reason_techScamFullscreen": {
+    "message": "The page requested fullscreen, which can be used to make scam warnings harder to dismiss."
+  },
+  "reason_techScamAlarmAudio": {
+    "message": "The page played alarm-like audio that can pressure visitors into acting quickly."
+  },
+  "reason_techScamDialogFlood": {
+    "message": "The page generated repeated dialogs that can obstruct normal navigation."
+  },
+  "reason_techScamHistoryTrap": {
+    "message": "ページは「戻る」ボタンを乗っ取っています。"
+  },
+  "reason_walletBlindSign": {
+    "message": "The wallet was asked to sign opaque data whose effects are not obvious from the request."
+  },
+  "reason_walletPermitApproval": {
+    "message": "This Permit-style signature can grant later token or NFT transfers without another prompt."
+  },
+  "reason_walletDelegation7702": {
+    "message": "This EIP-7702 request delegates account execution to a contract; review the target and its permissions carefully."
+  },
+  "reason_walletSetApprovalAll": {
+    "message": "This request can authorize a contract to transfer every NFT in a collection."
+  },
+  "reason_walletUnlimitedApprove": {
+    "message": "This approval may let a contract spend an unlimited amount of the selected token."
+  },
+  "reason_walletTokenApprove": {
+    "message": "This request grants a contract permission to spend the selected token amount."
+  },
+  "reason_clickfixPasteRun": {
+    "message": "The page instructs you to paste and execute a system command. Treat command-paste verification as high risk."
+  },
+  "reason_clickfixFakeCaptcha": {
+    "message": "The CAPTCHA-like step asks you to open the Windows Run dialog and execute a command, which real CAPTCHA tests do not require."
+  },
+  "reason_clickfixWinR": {
+    "message": "The page directs you to the Windows Run box and asks you to paste text into it."
+  },
+  "reason_clickfixCaptchaDisguise": {
+    "message": "The command instructions are presented as a human-verification task."
+  },
+  "reason_clipboardCommand": {
+    "message": "A system command was detected on the clipboard. Do not paste it into a terminal or Run dialog unless you independently understand it."
+  },
+  "reason_clipboardCryptoAddress": {
+    "message": "A cryptocurrency address appeared on the clipboard. Verify the destination independently before using it."
+  },
+  "reason_fakeUpdatePrompt": {
+    "message": "A web page offers a browser or system update download. Updates should be obtained from the browser or operating system’s own updater."
+  },
+  "reason_msgOtpAsk": {
+    "message": "The message asks for an OTP, PIN, passcode, or password. Treat requests to share these secrets as high risk."
+  },
+  "reason_msgScamWording": {
+    "message": "The message contains wording associated with common scams: “$PHRASE$”.",
+    "placeholders": {
+      "phrase": {
+        "content": "$1",
+        "example": "delivery fee"
+      }
+    }
+  },
+  "reason_msgUrgencyDeadline": {
+    "message": "The message uses an artificial deadline or urgent demand to pressure a quick response."
+  },
+  "reason_msgDangerousLink": {
+    "message": "A link in the message triggered address-risk checks: $URL$.",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "http://verify-bank.tk/otp"
+      }
+    }
+  },
+  "reason_qrCodeDestination": {
+    "message": "A QR code resolves to $URL$. Review the destination before opening it on another device.",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "http://verify-bank.tk/otp"
+      }
+    }
+  },
+  "reason_shop_countdownReset": {
+    "message": "偽のカウントダウン"
+  },
+  "reason_shop_countdownReset_detail": {
+    "message": "The offer timer appears to reset between visits, weakening the claim that the deal is about to end."
+  },
+  "reason_shop_offPlatformPay": {
+    "message": "危険な支払い方法"
+  },
+  "reason_shop_offPlatformPay_detail": {
+    "message": "Checkout asks for a hard-to-reverse method such as a wire, payment app, or crypto transfer."
+  },
+  "reason_shop_fakeScarcity": {
+    "message": "偽の在庫切迫"
+  },
+  "reason_shop_fakeScarcity_detail": {
+    "message": "The page uses injected scarcity language such as “only a few left” or viewer counters."
+  },
+  "reason_shop_badgeHotlink": {
+    "message": "偽の信頼バッジ"
+  },
+  "reason_shop_badgeHotlink_detail": {
+    "message": "A “secure” or “verified” badge appears to be a linked or embedded image rather than independently verifiable proof."
+  },
+  "reason_shop_missingContact": {
+    "message": "連絡先情報なし"
+  },
+  "reason_shop_missingContact_detail": {
+    "message": "The store lacks basic business contact details, making the seller harder to verify."
+  },
+  "obDocTitle": {
+    "message": "PhishGuardへようこそ"
+  },
+  "obTitle": {
+    "message": "PhishGuard があなたを保護しています"
+  },
+  "obLead": {
+    "message": "PhishGuard evaluates page signals in this browser. It also downloads threat lists and may request site icons. Reports are not sent unless you configure and enable a relay."
+  },
+  "obPhishing": {
+    "message": "フィッシング・偽ログイン"
+  },
+  "obPhishingBody": {
+    "message": "Flags forms whose credential destination does not match the site presenting them."
+  },
+  "obBrand": {
+    "message": "ブランドの偽装"
+  },
+  "obBrandBody": {
+    "message": "Compares site identity signals—including known brand icons and domain patterns—to look for impersonation."
+  },
+  "obPage": {
+    "message": "ページ解析"
+  },
+  "obPageBody": {
+    "message": "Uses local wording and layout signals to identify suspicious login pages that may not appear on a threat list yet."
+  },
+  "obWallet": {
+    "message": "暗号資産ウォレット保護"
+  },
+  "obWalletBody": {
+    "message": "Reviews supported wallet requests for dangerous token permissions and recovery-phrase traps."
+  },
+  "obClipboard": {
+    "message": "クリップボード・「貼り付けて実行」詐欺"
+  },
+  "obClipboardBody": {
+    "message": "Alerts when a page attempts to place a command or cryptocurrency address on the clipboard."
+  },
+  "obPopups": {
+    "message": "偽のウイルスポップアップ"
+  },
+  "obPopupsBody": {
+    "message": "Identifies pressure tactics such as fake support warnings and repeated dialogs, with options to leave the page."
+  },
+  "obPin": {
+    "message": "PhishGuardをピン留め"
+  },
+  "obPinBody": {
+    "message": "ツールバーのパズルピースアイコンをクリックし、PhishGuardの横にあるピンをクリックすると、各ページの状態が一目でわかるようになります。"
+  },
+  "obOpenSettings": {
+    "message": "設定を開く"
+  },
+  "blockedDocTitle": {
+    "message": "PhishGuardによってブロックされたサイト"
+  },
+  "blockedTitle": {
+    "message": "PhishGuardがこのサイトをブロックしました"
+  },
+  "blockedLead": {
+    "message": "$HOST$ はPhishGuardの既知の詐欺・悪質サイトのリストに登録されているため、ページが読み込まれる前に停止しました。何も実行されておらず、入力した内容も送信されていません。",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "secure-paypa1-login.com"
+      }
+    }
+  },
+  "blockedLeadHot": {
+    "message": "$HOST$ appears on a recent high-risk list. PhishGuard blocked the navigation before displaying the page.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "secure-paypa1-login.com"
+      }
+    }
+  },
+  "blockedAddress": {
+    "message": "ブロックされたアドレス"
+  },
+  "blockedListedBy": {
+    "message": "$SOURCES$ による登録",
+    "placeholders": {
+      "sources": {
+        "content": "$1",
+        "example": "Phishing.Database, ScamSniffer"
+      }
+    }
+  },
+  "blockedListedGeneric": {
+    "message": "PhishGuardの確認済み詐欺ドメインのブロックリストに登録されています。"
+  },
+  "blockedGoBack": {
+    "message": "安全な場所へ戻る"
+  },
+  "blockedTrustSite": {
+    "message": "詐欺ではありませんか？このサイトを信頼する"
+  },
+  "blockedVisitAnyway": {
+    "message": "このまま進む（非推奨）"
+  },
+  "blockedVisitHint": {
+    "message": "このサイトのPhishGuardを1時間一時停止した状態で開きます。"
+  },
+  "blockedFooter": {
+    "message": "お使いの端末上でブロックされました。このページに関する情報はどこにも送信されていません。"
+  },
+  "detailsAndOptions": {
+    "message": "詳細と他のオプション"
+  },
+  "continuePausesHour": {
+    "message": "このサイトのPhishGuardを1時間一時停止します。"
+  },
+  "thisPage": {
+    "message": "このページ"
+  },
+  "chipBlocklist": {
+    "message": "ブロック済みサイト"
+  },
+  "obNote": {
+    "message": "You can send compact risk reports to a relay you trust. Reporting is off until you configure an endpoint and opt in."
+  },
+  "optHotRejected": {
+    "message": "PhishGuard rejected the latest recent-risk list because its validation failed; the last accepted list remains active."
+  },
+  "interstitialFooter": {
+    "message": "PhishGuardはこのページをお使いの端末上で確認しました。"
+  },
+  "reason_newDomainUnvisited": {
+    "message": "This domain appears on a newly registered domains list and has no prior visit history in PhishGuard."
+  },
+  "continueOnce": {
+    "message": "このページを一度だけ開きます。PhishGuardはオンのままです。"
+  },
+  "bannerHideDay": {
+    "message": "1日非表示"
+  },
+  "bannerHideHour": {
+    "message": "1時間非表示"
+  },
+  "localFeedbackTitle": {
+    "message": "このデバイスに保存されたフィードバック"
+  },
+  "localFeedbackHint": {
+    "message": "When reporting is off, feedback is saved in this browser only. Review or delete those local records below."
+  },
+  "localFeedbackEmpty": {
+    "message": "ローカルに保存されたフィードバックはありません。"
+  },
+  "clearLocalFeedback": {
+    "message": "ローカルのフィードバックを削除"
+  },
+  "localFeedbackCleared": {
+    "message": "ローカルのフィードバックを削除しました。"
+  },
+  "msgScoreDetails": {
+    "message": "リスク指標スコア：$1/100 · 確認したリンク：$2"
+  },
+  "msgNoSignals": {
+    "message": "明確な詐欺の兆候は見つかりませんでした。予期しない要求には注意してください。"
+  },
+  "optReportUrlTitle": {
+    "message": "コミュニティ報告リレー"
+  },
+  "optReportUrlHint": {
+    "message": "Leave this empty to keep feedback local. If you set a relay, use an HTTPS endpoint you control or trust. Saving a changed address turns reporting off until you opt in again."
+  },
+  "optReportUrlLabel": {
+    "message": "HTTPS 報告 URL"
+  },
+  "optReportUrlPlaceholder": {
+    "message": "https://your-server.example/api/report"
+  },
+  "saveReportUrl": {
+    "message": "報告 URL を保存"
+  },
+  "reportRelayMissing": {
+    "message": "報告を有効にする前に、「About」で HTTPS 報告 URL を設定してください。"
+  },
+  "reportRelayInvalid": {
+    "message": "認証情報、クエリ、フラグメントを含まない有効な HTTPS URL を入力してください。"
+  },
+  "reportRelaySaved": {
+    "message": "リレーを保存しました。報告は有効にするまでオフです。"
+  },
+  "receiptRelayNotConfigured": {
+    "message": "未設定；報告はローカルに保存されます"
+  },
+  "reason_qrExternalAction": {
+    "message": "The QR payload tries to open an app or use a non-standard website link. Review it before continuing."
+  },
+  "reason_qrMalformedDestination": {
+    "message": "The QR code contains a malformed web address, so its destination cannot be reliably checked."
+  },
+  "qrInvalidCodeLabel": {
+    "message": "Invalid or unreadable QR code"
+  },
+  "qrValidDangerousLabel": {
+    "message": "Valid QR · Dangerous destination"
+  },
+  "qrValidSuspiciousLabel": {
+    "message": "Valid QR · Suspicious destination"
+  },
+  "qrValidSafeLabel": {
+    "message": "Valid QR · No strong destination risk found"
+  },
+  "qrDecodedMalformedLabel": {
+    "message": "Valid QR · Malformed website address"
+  },
+  "qrDecodedUnsafeLabel": {
+    "message": "Valid QR · Unsafe link type"
+  },
+  "qrDecodedExternalLabel": {
+    "message": "Valid QR · External app action"
+  },
+  "qrDecodedNonWebLabel": {
+    "message": "Valid QR · Non-website data (not safety-rated)"
+  },
+  "reason_downloadDisguisedExecutable": {
+    "message": "The shared item uses a document or image-looking filename followed by an executable extension. Do not open it."
+  },
+  "reason_downloadExecutableSurface": {
+    "message": "The page exposes an executable or installer download ($FILE$). Verify the publisher and file through an independent security scanner before opening it.",
+    "placeholders": {
+      "file": {
+        "content": "$1",
+        "example": "file.exe"
+      }
+    }
+  },
+  "reason_downloadScriptSurface": {
+    "message": "The page exposes a script or command file that can execute actions on the device. Do not run it unless you can verify its origin and contents."
+  },
+  "reason_downloadSafetyEvasion": {
+    "message": "The page asks you to weaken or bypass device security before opening a file. This is a strong malware-delivery warning."
+  },
+  "reason_downloadDeceptivePrompt": {
+    "message": "The page uses an update or verification story to persuade you to download or run a file. Verify updates through the operating system or application itself."
+  },
+  "reason_downloadArchivePressure": {
+    "message": "The shared archive is paired with instructions or pressure that may conceal an executable payload. Do not extract or run unexpected contents."
+  }
+}

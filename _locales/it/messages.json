@@ -1,0 +1,1814 @@
+{
+  "extName": {
+    "message": "PhishGuard — Link & Scam Defense"
+  },
+  "extShortName": {
+    "message": "PhishGuard"
+  },
+  "extDescription": {
+    "message": "Browser-side risk checks for suspicious sites, links, and messages, with explanations that help you decide what to do next."
+  },
+  "on": {
+    "message": "Attivo"
+  },
+  "paused": {
+    "message": "In pausa"
+  },
+  "settings": {
+    "message": "Preferences"
+  },
+  "dismiss": {
+    "message": "Ignora"
+  },
+  "ariaDismiss": {
+    "message": "Ignora"
+  },
+  "cancel": {
+    "message": "Annulla"
+  },
+  "reportMistake": {
+    "message": "Segnala un errore"
+  },
+  "thanks": {
+    "message": "Grazie"
+  },
+  "trustThisSite": {
+    "message": "Considera affidabile questo sito"
+  },
+  "ackTrusted": {
+    "message": "PhishGuard non segnalerà più $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "secure-paypa1-login.com"
+      }
+    }
+  },
+  "undo": {
+    "message": "Annulla"
+  },
+  "popupPauseMenu": {
+    "message": "Site controls ▾"
+  },
+  "whatsNewLink": {
+    "message": "Novità"
+  },
+  "unknownSite": {
+    "message": "sito sconosciuto"
+  },
+  "popupChecking": {
+    "message": "Controllo in corso…"
+  },
+  "popupSafe": {
+    "message": "No major warning signals found"
+  },
+  "popupSuspicious": {
+    "message": "Review before proceeding"
+  },
+  "popupDangerous": {
+    "message": "High-risk activity detected"
+  },
+  "popupUnknown": {
+    "message": "This page has not been checked"
+  },
+  "popupPausedSummary": {
+    "message": "Checks are paused for now. Resume them to inspect this page."
+  },
+  "popupNotHttp": {
+    "message": "Browser-internal pages and extension-store pages are outside PhishGuard’s scanning coverage."
+  },
+  "popupDangerSummary": {
+    "message": "Strong risk indicators were found. Avoid entering credentials, payment details, or downloading files here."
+  },
+  "popupSuspiciousSummary": {
+    "message": "Some signals deserve a closer look. Check the address and evidence before sharing information."
+  },
+  "leaveThisPage": {
+    "message": "Lascia questa pagina"
+  },
+  "whyVerdict": {
+    "message": "Perché questo verdetto?"
+  },
+  "whyVerdictCountOne": {
+    "message": "· 1 segnale"
+  },
+  "fmtWhyVerdictCount": {
+    "message": "· $COUNT$ segnali",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "takeMeToReal": {
+    "message": "Vai al vero sito $BRAND$",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "PayPal"
+      }
+    }
+  },
+  "copyReportBtn": {
+    "message": "Copia segnalazione"
+  },
+  "copyReportHeader": {
+    "message": "⚠ PhishGuard ha segnalato questo sito: $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "evil[.]example"
+      }
+    }
+  },
+  "copyReportVerdict": {
+    "message": "Verdetto: $LEVEL$",
+    "placeholders": {
+      "level": {
+        "content": "$1",
+        "example": "Dangerous page"
+      }
+    }
+  },
+  "copyReportSignals": {
+    "message": "Segnali:"
+  },
+  "copyReportFooter": {
+    "message": "Controllato localmente da PhishGuard. Esamina gli indizi prima di agire."
+  },
+  "reportScam": {
+    "message": "Segnala: è una truffa"
+  },
+  "reportSafe": {
+    "message": "Segnala: è sicuro"
+  },
+  "pause1h": {
+    "message": "1 ora"
+  },
+  "pause1d": {
+    "message": "1 giorno"
+  },
+  "pauseAlways": {
+    "message": "Sempre"
+  },
+  "resumeNow": {
+    "message": "Riprendi ora"
+  },
+  "blockedOnSite": {
+    "message": "Bloccati su questo sito"
+  },
+  "blockedAllTime": {
+    "message": "Bloccati in totale"
+  },
+  "sinceInstall": {
+    "message": "Dall'installazione"
+  },
+  "thisWeek": {
+    "message": "Questa settimana"
+  },
+  "privacyOnPage": {
+    "message": "Privacy su questa pagina"
+  },
+  "shoppingCheck": {
+    "message": "Controllo acquisti"
+  },
+  "checkMessageTitle": {
+    "message": "Inspect a message or destination"
+  },
+  "checkMessageHint": {
+    "message": "Message text is checked in this browser. Included links are checked against threat-list data; a matching entry may require a network lookup."
+  },
+  "checkMessagePlaceholder": {
+    "message": "Paste message text or a link to inspect…"
+  },
+  "check": {
+    "message": "Controlla"
+  },
+  "checkedOnDevice": {
+    "message": "Core analysis runs locally; link reputation may use threat-list data."
+  },
+  "msgSafe": {
+    "message": "No strong scam indicators found in this sample. That does not prove it is genuine."
+  },
+  "msgSuspicious": {
+    "message": "Several risk clues were found. Verify the sender and destination independently."
+  },
+  "msgDangerous": {
+    "message": "This sample contains high-risk scam signals. Do not follow its instructions."
+  },
+  "qrScanTitle": {
+    "message": "Inspect QR destinations on this page"
+  },
+  "qrScanHint": {
+    "message": "Try supported page images for QR codes, then inspect decoded web destinations without opening them."
+  },
+  "qrScanBtn": {
+    "message": "Inspect QR codes"
+  },
+  "qrScanNone": {
+    "message": "No readable web-address QR codes were found in the images checked."
+  },
+  "qrScanFoundOne": {
+    "message": "1 web destination found in a QR code"
+  },
+  "fmtQrScanFoundCount": {
+    "message": "$COUNT$ web destinations found in QR codes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "support": {
+    "message": "Aiuto e impostazioni"
+  },
+  "footerTrustLine": {
+    "message": "Most checks run here. Threat-list and site-icon requests use the network; reports stay local unless you configure and enable a relay."
+  },
+  "takeMeToRealSite": {
+    "message": "Portami al sito vero"
+  },
+  "toastThanksNoted": {
+    "message": "Salvato su questo dispositivo; non è stato inviato nulla."
+  },
+  "toastThanksSent": {
+    "message": "Grazie: inviato"
+  },
+  "toastPausedForNow": {
+    "message": "In pausa per ora"
+  },
+  "toastResumed": {
+    "message": "Protezione ripresa"
+  },
+  "toastCopied": {
+    "message": "Copiato"
+  },
+  "toastExtensionError": {
+    "message": "Errore dell'estensione: prova a riaprirla."
+  },
+  "whatsNewBanner": {
+    "message": "PhishGuard now includes clearer local-analysis explanations, more resilient suspicious-link parsing, and improved reporting feedback."
+  },
+  "popupBrandDangerSummary": {
+    "message": "$BRAND$ may be impersonated here. Compare the domain with the service’s official address before signing in.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "PayPal"
+      }
+    }
+  },
+  "pausedUntil": {
+    "message": "In pausa fino alle $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "3:45 PM"
+      }
+    }
+  },
+  "fmtProtocolPage": {
+    "message": "Pagina $PROTOCOL$",
+    "placeholders": {
+      "protocol": {
+        "content": "$1",
+        "example": "chrome"
+      }
+    }
+  },
+  "popupShopFlagFallback": {
+    "message": "Segnalazione"
+  },
+  "chipWhy": {
+    "message": "Perché"
+  },
+  "chipDataLeak": {
+    "message": "Fuga di dati"
+  },
+  "chipTracking": {
+    "message": "Tracciamento"
+  },
+  "chipPopups": {
+    "message": "Pop-up"
+  },
+  "chipPrivacy": {
+    "message": "Privacy"
+  },
+  "popupPrivacyLeakPlain": {
+    "message": "A value matching your typed email or phone was sent to $HOST$ before form submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "popupPrivacyLeakHashed": {
+    "message": "A hashed match for your typed email or phone was sent to $HOST$ before form submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "popupPrivacyFingerprint": {
+    "message": "$HOST$ queried a combination of browser features that can contribute to device fingerprinting.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "popupPrivacyNotifyLure": {
+    "message": "This page used a misleading prompt to request notification permission."
+  },
+  "popupPrivacyCredExfilPassword": {
+    "message": "A password-like value was sent to $HOST$, which differs from this page’s site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "collector.example"
+      }
+    }
+  },
+  "popupPrivacyCredExfilCard": {
+    "message": "Payment-card-like data was sent to $HOST$, which differs from this page’s site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "collector.example"
+      }
+    }
+  },
+  "popupPrivacyDefaultText": {
+    "message": "Rilevato un problema di privacy."
+  },
+  "levelDangerous": {
+    "message": "Pagina pericolosa"
+  },
+  "levelSuspicious": {
+    "message": "Pagina sospetta"
+  },
+  "levelSafe": {
+    "message": "Niente di sospetto qui"
+  },
+  "levelUnknown": {
+    "message": "Impossibile controllare questa pagina"
+  },
+  "tabProtection": {
+    "message": "Live checks"
+  },
+  "tabTrusted": {
+    "message": "Site exceptions"
+  },
+  "tabHistory": {
+    "message": "Activity log"
+  },
+  "tabFeed": {
+    "message": "Threat intelligence"
+  },
+  "tabAbout": {
+    "message": "System & data"
+  },
+  "protectionLead": {
+    "message": "Page checks run in this browser. PhishGuard downloads shared threat data and may request a site icon for brand comparison; uploads require a separate reporting opt-in."
+  },
+  "protectionOn": {
+    "message": "Real-time inspection"
+  },
+  "protectionOnHint": {
+    "message": "Review pages as they load. Turning this off pauses all PhishGuard page checks."
+  },
+  "grpScams": {
+    "message": "Links, domains & impersonation"
+  },
+  "grpScamsHint": {
+    "message": "Compare addresses with known threats and look for suspicious structure or brand imitation."
+  },
+  "grpPopups": {
+    "message": "Coercive prompts & clipboard activity"
+  },
+  "grpPopupsHint": {
+    "message": "Watch for fake support warnings, command-paste tricks, and unexpected clipboard changes."
+  },
+  "grpShopping": {
+    "message": "Shopping and sponsored links"
+  },
+  "grpShoppingHint": {
+    "message": "Look for storefront risk signals and mismatches between ad labels and destinations."
+  },
+  "grpCrypto": {
+    "message": "Wallet transaction safety"
+  },
+  "grpCryptoHint": {
+    "message": "Inspect selected wallet requests for unusually broad or dangerous permissions."
+  },
+  "grpPrivacy": {
+    "message": "Data exposure and tracking"
+  },
+  "grpPrivacyHint": {
+    "message": "Watch for form data sent to unrelated sites and common browser-fingerprinting techniques."
+  },
+  "optBlockKnown": {
+    "message": "Known-threat navigation block"
+  },
+  "optBlockKnownHint": {
+    "message": "Stop destinations included in the browser’s local threat rules before the page opens."
+  },
+  "optPageAnalysis": {
+    "message": "Page-signal analysis"
+  },
+  "optPageAnalysisHint": {
+    "message": "Combine page wording, form structure, address signals, and available brand clues to find risks not yet listed."
+  },
+  "optClickfix": {
+    "message": "Command-paste lure detection"
+  },
+  "optClickfixHint": {
+    "message": "Flag human-verification pages that instruct visitors to open a system command box and paste a command."
+  },
+  "optFakeupdate": {
+    "message": "Counterfeit update prompt detection"
+  },
+  "optFakeupdateHint": {
+    "message": "Identify web pages that present a download as a required browser or system update."
+  },
+  "optHide": {
+    "message": "De-emphasize scam-like page blocks"
+  },
+  "optHideHint": {
+    "message": "Visually mark selected prize and giveaway blocks when their wording matches known scam patterns."
+  },
+  "optQrScan": {
+    "message": "Automatic QR destination checks"
+  },
+  "optQrScanHint": {
+    "message": "Check eligible images for QR codes and analyze decoded HTTP(S) destinations. Cross-origin images may be unreadable to the browser."
+  },
+  "optTechscam": {
+    "message": "Fake support-page guard"
+  },
+  "optTechscamHint": {
+    "message": "Flag pages using alarm language, forced fullscreen, dialog floods, or phone-number demands to pressure visitors."
+  },
+  "optClipboard": {
+    "message": "Clipboard change alerts"
+  },
+  "optClipboardHint": {
+    "message": "Warn when a page changes the clipboard to a command or cryptocurrency address without a clear user action."
+  },
+  "optShop": {
+    "message": "Storefront risk review"
+  },
+  "optShopHint": {
+    "message": "Combine signals such as resettable countdowns, artificial scarcity, missing contact details, and high-risk payment requests."
+  },
+  "optSerp": {
+    "message": "Sponsored destination comparison"
+  },
+  "optSerpHint": {
+    "message": "On supported search pages, compare an ad’s displayed destination with its actual link and mark suspicious mismatches."
+  },
+  "optWallet": {
+    "message": "Wallet approval guard"
+  },
+  "optWalletHint": {
+    "message": "Inspect supported transaction requests for blind signing, token approvals, NFT-wide permissions, and account delegation."
+  },
+  "optLeakyForm": {
+    "message": "Cross-site form data alerts"
+  },
+  "optLeakyFormHint": {
+    "message": "Look for values typed into email or phone fields being sent to an unrelated origin before a form is submitted."
+  },
+  "optFingerprint": {
+    "message": "Browser fingerprinting signals"
+  },
+  "optFingerprintHint": {
+    "message": "Watch for repeated use of canvas, WebGL, audio, and font-measurement APIs that can help identify a browser."
+  },
+  "optNotify": {
+    "message": "Misleading notification prompts"
+  },
+  "optNotifyHint": {
+    "message": "Flag pages that pair a fake continuation step with a request to allow browser notifications."
+  },
+  "optStrict": {
+    "message": "High-caution mode"
+  },
+  "optStrictHint": {
+    "message": "Use a stricter response: pages rated suspicious receive a full-screen warning instead of the usual lighter notice."
+  },
+  "optReporting": {
+    "message": "Aiuta a rendere PhishGuard più intelligente"
+  },
+  "optReportingHint": {
+    "message": "Optionally sends a site hostname and compact risk signals to a relay you configure. Disabled by default; review the report fields below."
+  },
+  "saved": {
+    "message": "Salvato"
+  },
+  "trustedLead": {
+    "message": "Exceptions and timed pauses are listed here. Remove an entry to restore normal checks for that domain."
+  },
+  "trustedAlways": {
+    "message": "Sempre"
+  },
+  "trustedForAWhile": {
+    "message": "Per un po'"
+  },
+  "remove": {
+    "message": "Rimuovi"
+  },
+  "trustedViaWarning": {
+    "message": "Approvato da un avviso"
+  },
+  "optTenantApexBadge": {
+    "message": "This exception affects the entire shared host $APEX$. Remove it and add a narrower domain exception instead.",
+    "placeholders": {
+      "apex": {
+        "content": "$1",
+        "example": "pages.dev"
+      }
+    }
+  },
+  "mutedWarnings": {
+    "message": "Avvisi disattivati"
+  },
+  "warnAgain": {
+    "message": "Avvisa di nuovo"
+  },
+  "muteKind_clipboard": {
+    "message": "Notifiche sugli appunti"
+  },
+  "muteKind_leak": {
+    "message": "Avvisi di fuga di dati dai moduli"
+  },
+  "muteKind_notify": {
+    "message": "Avvisi di trappola delle notifiche"
+  },
+  "muteKind_credpost": {
+    "message": "Avvisi su moduli con carta e password"
+  },
+  "historyTitle": {
+    "message": "Recent security activity"
+  },
+  "historyLead": {
+    "message": "This log stays in browser storage and keeps hostnames rather than complete page addresses."
+  },
+  "clearHistory": {
+    "message": "Cancella cronologia"
+  },
+  "markMistake": {
+    "message": "Segna come errore"
+  },
+  "feedTitle": {
+    "message": "Elenco minacce"
+  },
+  "feedLead": {
+    "message": "Un elenco di siti truffa noti, aggiornato con regolarità e costruito da elenchi pubblici di phishing e malware con licenze verificate. PhishGuard lo scarica soltanto."
+  },
+  "checkNow": {
+    "message": "Controlla ora"
+  },
+  "aboutVersion": {
+    "message": "Versione"
+  },
+  "appearance": {
+    "message": "Aspetto"
+  },
+  "whatLeaves": {
+    "message": "Cosa lascia il tuo dispositivo"
+  },
+  "backupSettings": {
+    "message": "Backup delle impostazioni"
+  },
+  "backupHint": {
+    "message": "Download a JSON backup of preferences and site exceptions, then import that file into another browser profile when needed."
+  },
+  "exportBtn": {
+    "message": "Esporta"
+  },
+  "importBtn": {
+    "message": "Importa"
+  },
+  "syncTitle": {
+    "message": "Sincronizza sui miei dispositivi"
+  },
+  "syncHint": {
+    "message": "Mantiene le tue impostazioni e i siti in pausa allineati su ogni browser in cui hai effettuato l'accesso. Usa la sincronizzazione del tuo browser: PhishGuard continua a non avere account né server. Disattivato per impostazione predefinita."
+  },
+  "optDocTitle": {
+    "message": "Impostazioni di PhishGuard"
+  },
+  "ariaSettingsSections": {
+    "message": "Sezioni delle impostazioni"
+  },
+  "optWhatSentToggle": {
+    "message": "Cosa viene inviato esattamente ▾"
+  },
+  "optWhatSentBody": {
+    "message": "When reporting is enabled, a report may include the hostname, verdict, reason codes, compact numeric risk signals, bounded hashed page-feature buckets and page-structure counts, matched brand/icon signals, extension version, and an hour-bucketed timestamp. It excludes the full URL path and query, raw page text, typed content, and cookies. The reporting server can still receive ordinary connection metadata. Retention is controlled by the relay operator."
+  },
+  "feedNeverUpdated": {
+    "message": "Mai aggiornato"
+  },
+  "hotListPending": {
+    "message": "Elenco urgente: non ancora scaricato"
+  },
+  "hotListStatus": {
+    "message": "Recent-risk list: $COUNT$ domains · refreshed $AGO$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1,204"
+      },
+      "ago": {
+        "content": "$2",
+        "example": "12 minutes ago"
+      }
+    }
+  },
+  "hotListOff": {
+    "message": "Elenco urgente: disattivato"
+  },
+  "hotListSub": {
+    "message": "A second list focuses on threats reported during the previous 48 hours and refreshes hourly."
+  },
+  "optAdvancedFeedUrl": {
+    "message": "Avanzate: URL del feed"
+  },
+  "optFeedUrlLabel": {
+    "message": "URL del feed"
+  },
+  "optFeedUrlPlaceholder": {
+    "message": "https://…/blocklist.json"
+  },
+  "resetToOfficialFeed": {
+    "message": "Ripristina il feed ufficiale"
+  },
+  "optFeedUrlHint": {
+    "message": "Only use a compatible feed URL that you control or trust. A failed override can interrupt updates; reset restores the configured default."
+  },
+  "optThemeHint": {
+    "message": "Segui il sistema oppure scegline uno."
+  },
+  "optThemeAuto": {
+    "message": "Automatico"
+  },
+  "optThemeLight": {
+    "message": "Chiaro"
+  },
+  "optThemeDark": {
+    "message": "Scuro"
+  },
+  "optLinksTitle": {
+    "message": "Link"
+  },
+  "supportFreeOnDevice": {
+    "message": "PhishGuard è gratuito e funziona interamente sul tuo dispositivo."
+  },
+  "netNoTelemetry": {
+    "message": "Most analysis stays in this browser. Network activity is limited to threat-feed requests, selected site-icon requests, and reports only when you configure and enable a relay."
+  },
+  "receiptFeedLabel": {
+    "message": "Download dell'elenco minacce"
+  },
+  "receiptFeedDetail": {
+    "message": "PhishGuard requests shared threat-list files. These requests do not include the page you are viewing, but the feed host can receive normal connection metadata such as your IP address."
+  },
+  "receiptReportLabel": {
+    "message": "Segnalazioni della community"
+  },
+  "receiptReportDetail": {
+    "message": "Solo se attivi le segnalazioni e configuri un endpoint: dominio, verdetto, codici motivo e segnali di rischio sintetici. Percorsi URL completi, testo della pagina e contenuto digitato non sono inclusi."
+  },
+  "receiptIconLabel": {
+    "message": "Controllo dell'icona della pagina"
+  },
+  "receiptIconDetail": {
+    "message": "May request the page’s favicon for local brand comparison. The request can reveal your IP address to the icon host; no full page content is sent by this check."
+  },
+  "receiptPerPage": {
+    "message": "per pagina"
+  },
+  "receiptOnInstall12h": {
+    "message": "all'installazione + ogni 12 ore"
+  },
+  "receiptDisabled": {
+    "message": "disattivato"
+  },
+  "receiptWhenFlagged": {
+    "message": "quando segnalato"
+  },
+  "receiptOffDefault": {
+    "message": "disattivato (predefinito)"
+  },
+  "optExportSyncHint": {
+    "message": "Backups can be moved manually. Browser sync is optional and uses the browser account’s sync service."
+  },
+  "toastSyncOn": {
+    "message": "Sincronizzazione attivata"
+  },
+  "toastSyncUnavailable": {
+    "message": "Sincronizzazione non disponibile"
+  },
+  "toastSyncOff": {
+    "message": "Sincronizzazione disattivata"
+  },
+  "toastExported": {
+    "message": "Esportato"
+  },
+  "toastImported": {
+    "message": "Importato"
+  },
+  "toastInvalidFile": {
+    "message": "File non valido"
+  },
+  "toastCheckingUpdates": {
+    "message": "Controllo in corso…"
+  },
+  "fmtUpdatedToVersion": {
+    "message": "Aggiornato alla v$VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "0.6.1"
+      }
+    }
+  },
+  "toastAlreadyUpToDate": {
+    "message": "Già aggiornato"
+  },
+  "toastUpdateFailed": {
+    "message": "Aggiornamento non riuscito"
+  },
+  "toastHistoryCleared": {
+    "message": "Cronologia cancellata"
+  },
+  "optNoneYet": {
+    "message": "Ancora nessuno"
+  },
+  "optNoneRightNow": {
+    "message": "Nessuno al momento"
+  },
+  "optNothingYetGood": {
+    "message": "Nessun evento recente."
+  },
+  "fmtVersion": {
+    "message": "Versione $VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "0.6.0"
+      }
+    }
+  },
+  "fmtUntilTime": {
+    "message": "fino a $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "22 Aug, 3:45 PM"
+      }
+    }
+  },
+  "fmtUpdatedRules": {
+    "message": "Aggiornato $TIME$ · $COUNT$ regole",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "2 h ago"
+      },
+      "count": {
+        "content": "$2",
+        "example": "12,345"
+      }
+    }
+  },
+  "bannerDangerBrand": {
+    "message": "High risk: this address may be impersonating $BRAND$",
+    "placeholders": {
+      "brand": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerDanger": {
+    "message": "Pagina pericolosa"
+  },
+  "bannerTakeCare": {
+    "message": "Fai attenzione su questo sito"
+  },
+  "whyShort": {
+    "message": "Perché?"
+  },
+  "moreActions": {
+    "message": "Altre azioni"
+  },
+  "hideForToday": {
+    "message": "Nascondi per oggi"
+  },
+  "hideForAnHour": {
+    "message": "Nascondi per un'ora"
+  },
+  "interstitialHead1": {
+    "message": "Do not continue to this destination"
+  },
+  "interstitialHead2": {
+    "message": "Pause and review this page first"
+  },
+  "interstitialHead3": {
+    "message": "Non proseguire: avviso di truffa"
+  },
+  "interstitialReassure": {
+    "message": "If you entered a password or payment information here, change it through the service’s official app or website."
+  },
+  "continueAnyway": {
+    "message": "Continua comunque"
+  },
+  "submitAnyway": {
+    "message": "Invia comunque"
+  },
+  "proceedAnyway": {
+    "message": "Procedi comunque"
+  },
+  "cancelRecommended": {
+    "message": "Annulla (consigliato)"
+  },
+  "phishingStop": {
+    "message": "Fermati: possibile phishing"
+  },
+  "techScamTitle": {
+    "message": "Possibile truffa di supporto tecnico"
+  },
+  "techScamBody": {
+    "message": "A web page cannot diagnose a computer infection by itself. Close this page; do not call a number or install remote-support software offered by the warning."
+  },
+  "getMeOut": {
+    "message": "Fammi uscire (chiudi questa pagina)"
+  },
+  "walletRiskyTitle": {
+    "message": "Richiesta del wallet rischiosa"
+  },
+  "walletRiskyBody": {
+    "message": "Cancel if you did not expect this request. Some signatures grant ongoing token or account permissions that are difficult to reverse."
+  },
+  "compareThisSite": {
+    "message": "Questo sito"
+  },
+  "compareRealSite": {
+    "message": "$BRAND$ reale",
+    "placeholders": {
+      "brand": {
+        "content": "$1"
+      }
+    }
+  },
+  "guardCountdown": {
+    "message": "$LABEL$ ($COUNT$)",
+    "placeholders": {
+      "label": {
+        "content": "$1",
+        "example": "Continue anyway"
+      },
+      "count": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "ariaScamWarning": {
+    "message": "Avviso di truffa"
+  },
+  "ariaPhishingWarning": {
+    "message": "Avviso di possibile phishing"
+  },
+  "interstitialFallback": {
+    "message": "Multiple signals indicate that this destination may be part of a scam."
+  },
+  "guardFormDestKnown": {
+    "message": "This form sends the password to $DEST$ rather than $HOST$. Only submit credentials when the destination matches the service you intended to use.",
+    "placeholders": {
+      "dest": {
+        "content": "$1",
+        "example": "evil.example"
+      },
+      "host": {
+        "content": "$2",
+        "example": "your-bank.example"
+      }
+    }
+  },
+  "guardFormDestUnknown": {
+    "message": "This form sends a password to a different site from the one displayed. That mismatch can expose your sign-in details."
+  },
+  "guardHiddenTag": {
+    "message": "Nascosto da PhishGuard"
+  },
+  "guardWalletCollision": {
+    "message": "PhishGuard ha bloccato una richiesta del wallet mentre era aperto un altro avviso. Chiudilo e riprova."
+  },
+  "guardWalletFallback": {
+    "message": "A wallet request needs review before you approve it."
+  },
+  "guardPrivacyFallback": {
+    "message": "PhishGuard observed a possible data-exposure or tracking pattern on this page."
+  },
+  "guardClipboardFallback": {
+    "message": "Un sito ha modificato i tuoi appunti."
+  },
+  "guardTechScamFallback": {
+    "message": "Questa pagina utilizza tattiche intimidatorie."
+  },
+  "guardClipboardBlockedPayload": {
+    "message": "Bloccato da PhishGuard: questo sito ha inserito un comando pericoloso negli appunti. Non incollarlo da nessuna parte."
+  },
+  "clipboardNoticeCmdTitle": {
+    "message": "A command was copied while visiting $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "ollama.com"
+      }
+    }
+  },
+  "clipboardNoticeCmdBody": {
+    "message": "Do not run it unless you independently understand and trust the command. Fake verification pages use this trick to install malware."
+  },
+  "clipboardNoticeAddrTitle": {
+    "message": "A cryptocurrency address was copied from $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "clipboardNoticeAddrBody": {
+    "message": "Compare every character with the intended recipient before transferring funds."
+  },
+  "clipboardWarnTitle": {
+    "message": "$HOST$ changed the clipboard unexpectedly",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "ackMuted": {
+    "message": "PhishGuard non mostrerà più questo avviso su $HOST$.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "dontWarnHere": {
+    "message": "Non avvisarmi su questo sito"
+  },
+  "leakTitle": {
+    "message": "Form data may have been sent before submission"
+  },
+  "notifyLureTitle": {
+    "message": "Non fare clic su Consenti qui"
+  },
+  "credPostTitle": {
+    "message": "This form sends entered data to another site"
+  },
+  "keepMyDetails": {
+    "message": "Mantieni i miei dati"
+  },
+  "guardLeakyFormPlain": {
+    "message": "A value matching your email or phone was sent to $HOST$ in readable form before submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "guardLeakyFormHashed": {
+    "message": "A hashed identifier derived from your email or phone was sent to $HOST$ before submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      },
+      "algo": {
+        "content": "$2",
+        "example": "MD5"
+      }
+    }
+  },
+  "guardNotifyLure": {
+    "message": "The page is pairing a continuation prompt with a browser-notification request. Block notifications unless you expected them."
+  },
+  "serpAdMismatch": {
+    "message": "⚠ PhishGuard: questo annuncio porta a $ACTUAL$, non a $SHOWN$",
+    "placeholders": {
+      "actual": {
+        "content": "$1",
+        "example": "malicious-download.example"
+      },
+      "shown": {
+        "content": "$2",
+        "example": "trusted-brand.example"
+      }
+    }
+  },
+  "serpBadgeDanger": {
+    "message": "PhishGuard: questo risultato è nella nostra lista di blocco delle minacce"
+  },
+  "serpBadgeCaution": {
+    "message": "PhishGuard: questo risultato mostra segnali di truffa"
+  },
+  "chipLink": {
+    "message": "Link"
+  },
+  "chipBrand": {
+    "message": "Marchio"
+  },
+  "chipPage": {
+    "message": "Pagina"
+  },
+  "chipWallet": {
+    "message": "Wallet"
+  },
+  "chipClipboard": {
+    "message": "Appunti"
+  },
+  "chipTechscam": {
+    "message": "Pagina intimidatoria"
+  },
+  "chipShop": {
+    "message": "Negozio"
+  },
+  "chipMessage": {
+    "message": "Messaggio"
+  },
+  "reason_ipHost": {
+    "message": "The destination uses a numeric IP address rather than a conventional domain name."
+  },
+  "reason_atSymbol": {
+    "message": "An at-sign in the address can make the visible text differ from the actual destination host."
+  },
+  "reason_urlUserInfo": {
+    "message": "The address contains login information before the @ sign, which can disguise the actual destination host."
+  },
+  "reason_executableScheme": {
+    "message": "This link uses an executable or active-content URL scheme rather than an ordinary web address."
+  },
+  "reason_punycodeHost": {
+    "message": "The domain is encoded with punycode, which can appear in look-alike domain attacks."
+  },
+  "reason_idnHomograph": {
+    "message": "Some characters in this domain visually resemble the real $BRAND$ name.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "paypal"
+      }
+    }
+  },
+  "reason_brandLookalike": {
+    "message": "The domain has features commonly seen in attempts to imitate a familiar brand."
+  },
+  "reason_suspiciousTld": {
+    "message": "This top-level domain has a higher-than-usual presence in scam reports."
+  },
+  "reason_noHttps": {
+    "message": "This address does not use HTTPS, so network traffic may be readable or modifiable in transit."
+  },
+  "reason_manySubdomains": {
+    "message": "Numero insolitamente elevato di sottodomini."
+  },
+  "reason_urgencyKeywords": {
+    "message": "The address combines several urgency or account-security terms."
+  },
+  "reason_randomHost": {
+    "message": "The host label has a high-entropy pattern often seen in disposable campaign domains."
+  },
+  "reason_brandFuzzyMatch": {
+    "message": "The hostname resembles $BRAND$’s known domain. Inspect the exact spelling before signing in.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "PayPal"
+      }
+    }
+  },
+  "reason_deepSubdomainChain": {
+    "message": "Several nested subdomains make the site owner harder to recognize at a glance."
+  },
+  "reason_longHostLabel": {
+    "message": "An unusually long hostname label may be hiding brand-like words or misleading structure."
+  },
+  "reason_shortenerHost": {
+    "message": "This link uses the shortener $HOST$, so the final site cannot be judged from this address alone.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "bit.ly"
+      }
+    }
+  },
+  "reason_riskAbusedTld": {
+    "message": "Il dominio di primo livello ($TLD$) di questo sito ha un alto tasso di abuso per truffe nelle tabelle di rischio del feed delle minacce di PhishGuard.",
+    "placeholders": {
+      "tld": {
+        "content": "$1",
+        "example": ".top"
+      }
+    }
+  },
+  "reason_riskDynamicHost": {
+    "message": "This domain uses dynamic DNS or a free-hosting service that appears frequently in abuse reports."
+  },
+  "reason_brandForeignSuffix": {
+    "message": "The address uses $BRAND$’s name with an unfamiliar .$SUFFIX$ ending.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "Roblox"
+      },
+      "suffix": {
+        "content": "$2",
+        "example": "com.do"
+      }
+    }
+  },
+  "reason_gatewayRedirect": {
+    "message": "A redirect through $HOST$ led to a different destination, which can conceal the final site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "mgpxq.com"
+      }
+    }
+  },
+  "reason_feedBlock": {
+    "message": "Questo dominio corrisponde all'elenco minacce di PhishGuard, confermato da $COUNT$ fonte/i indipendente/i.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "reason_feedWarn": {
+    "message": "Questo dominio corrisponde a una voce a bassa affidabilità nell'elenco minacce di PhishGuard ($COUNT$ fonte/i): procedi con cautela.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "reason_remoteDestinationConfirmedMalicious": {
+    "message": "An independent remote check confirmed malicious behavior at this link destination."
+  },
+  "reason_linkedDestinationFeedBlock": {
+    "message": "A linked destination matches PhishGuard's exact-confirmed high-confidence blocklist."
+  },
+  "reason_aiEvidence": {
+    "message": "$DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1",
+        "example": "The page contains a credential form posting to an unrelated domain."
+      }
+    }
+  },
+  "reason_newDomain": {
+    "message": "The domain appears in a newly registered domain list; very new sites have little reputation history."
+  },
+  "reason_credentialFormForeignDomain": {
+    "message": "A password form sends credentials to a different domain from the page showing it."
+  },
+  "reason_crossOriginCredPost": {
+    "message": "The form sends password or card-like data to $HOST$, which differs from the current site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "collector.example"
+      }
+    }
+  },
+  "reason_hiddenIframes": {
+    "message": "The page contains hidden frames that could load content or collect input out of view."
+  },
+  "reason_scamPhrase": {
+    "message": "The page contains giveaway or reward language associated with common scam patterns: “$PHRASE$”.",
+    "placeholders": {
+      "phrase": {
+        "content": "$1",
+        "example": "you won"
+      }
+    }
+  },
+  "reason_seedPhraseAsk": {
+    "message": "The page asks for a wallet recovery phrase. Anyone who obtains it can take control of the wallet."
+  },
+  "reason_brandImpersonationContent": {
+    "message": "The page imitates the appearance or wording of $BRAND$ without using its verified domain.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "paypal"
+      }
+    }
+  },
+  "reason_deliveryFeeScam": {
+    "message": "The page imitates $BRAND$ and requests card details for a package fee. Confirm delivery notices through the carrier’s official site.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "DHL"
+      }
+    }
+  },
+  "reason_brandIconMismatch": {
+    "message": "The page displays an icon associated with $BRAND$ while using a different website address.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "PayPal"
+      }
+    }
+  },
+  "reason_credentialFormOnTenantHost": {
+    "message": "A password form appears on shared hosting ($HOST$), where unrelated users can publish their own pages.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "webflow.io"
+      }
+    }
+  },
+  "reason_brandInTenantHost": {
+    "message": "$BRAND$ appears in a shared-hosting address that requests a password.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "AT&T"
+      }
+    }
+  },
+  "reason_contentPhishingPattern": {
+    "message": "The combination of wording and page layout resembles previously observed phishing pages."
+  },
+  "reason_techScamScareText": {
+    "message": "The page uses threatening technical-support language: “$PHRASE$”.",
+    "placeholders": {
+      "phrase": {
+        "content": "$1",
+        "example": "virus detected"
+      }
+    }
+  },
+  "reason_techScamPhoneAsk": {
+    "message": "The page pressures visitors to call a support number, a frequent pattern in impersonation scams."
+  },
+  "reason_techScamFakeAlert": {
+    "message": "This appears to be a web-based system alert demanding attention. Verify alerts through the operating system, not the page."
+  },
+  "reason_techScamFullscreen": {
+    "message": "The page requested fullscreen, which can be used to make scam warnings harder to dismiss."
+  },
+  "reason_techScamAlarmAudio": {
+    "message": "The page played alarm-like audio that can pressure visitors into acting quickly."
+  },
+  "reason_techScamDialogFlood": {
+    "message": "The page generated repeated dialogs that can obstruct normal navigation."
+  },
+  "reason_techScamHistoryTrap": {
+    "message": "La pagina sta dirottando il pulsante Indietro."
+  },
+  "reason_walletBlindSign": {
+    "message": "The wallet was asked to sign opaque data whose effects are not obvious from the request."
+  },
+  "reason_walletPermitApproval": {
+    "message": "This Permit-style signature can grant later token or NFT transfers without another prompt."
+  },
+  "reason_walletDelegation7702": {
+    "message": "This EIP-7702 request delegates account execution to a contract; review the target and its permissions carefully."
+  },
+  "reason_walletSetApprovalAll": {
+    "message": "This request can authorize a contract to transfer every NFT in a collection."
+  },
+  "reason_walletUnlimitedApprove": {
+    "message": "This approval may let a contract spend an unlimited amount of the selected token."
+  },
+  "reason_walletTokenApprove": {
+    "message": "This request grants a contract permission to spend the selected token amount."
+  },
+  "reason_clickfixPasteRun": {
+    "message": "The page instructs you to paste and execute a system command. Treat command-paste verification as high risk."
+  },
+  "reason_clickfixFakeCaptcha": {
+    "message": "The CAPTCHA-like step asks you to open the Windows Run dialog and execute a command, which real CAPTCHA tests do not require."
+  },
+  "reason_clickfixWinR": {
+    "message": "The page directs you to the Windows Run box and asks you to paste text into it."
+  },
+  "reason_clickfixCaptchaDisguise": {
+    "message": "The command instructions are presented as a human-verification task."
+  },
+  "reason_clipboardCommand": {
+    "message": "A system command was detected on the clipboard. Do not paste it into a terminal or Run dialog unless you independently understand it."
+  },
+  "reason_clipboardCryptoAddress": {
+    "message": "A cryptocurrency address appeared on the clipboard. Verify the destination independently before using it."
+  },
+  "reason_fakeUpdatePrompt": {
+    "message": "A web page offers a browser or system update download. Updates should be obtained from the browser or operating system’s own updater."
+  },
+  "reason_msgOtpAsk": {
+    "message": "The message asks for an OTP, PIN, passcode, or password. Treat requests to share these secrets as high risk."
+  },
+  "reason_msgScamWording": {
+    "message": "The message contains wording associated with common scams: “$PHRASE$”.",
+    "placeholders": {
+      "phrase": {
+        "content": "$1",
+        "example": "delivery fee"
+      }
+    }
+  },
+  "reason_msgUrgencyDeadline": {
+    "message": "The message uses an artificial deadline or urgent demand to pressure a quick response."
+  },
+  "reason_msgDangerousLink": {
+    "message": "A link in the message triggered address-risk checks: $URL$.",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "http://verify-bank.tk/otp"
+      }
+    }
+  },
+  "reason_qrCodeDestination": {
+    "message": "A QR code resolves to $URL$. Review the destination before opening it on another device.",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "http://verify-bank.tk/otp"
+      }
+    }
+  },
+  "reason_shop_countdownReset": {
+    "message": "Falso conto alla rovescia"
+  },
+  "reason_shop_countdownReset_detail": {
+    "message": "The offer timer appears to reset between visits, weakening the claim that the deal is about to end."
+  },
+  "reason_shop_offPlatformPay": {
+    "message": "Pagamento rischioso"
+  },
+  "reason_shop_offPlatformPay_detail": {
+    "message": "Checkout asks for a hard-to-reverse method such as a wire, payment app, or crypto transfer."
+  },
+  "reason_shop_fakeScarcity": {
+    "message": "Falsa scarsità"
+  },
+  "reason_shop_fakeScarcity_detail": {
+    "message": "The page uses injected scarcity language such as “only a few left” or viewer counters."
+  },
+  "reason_shop_badgeHotlink": {
+    "message": "Falso badge di fiducia"
+  },
+  "reason_shop_badgeHotlink_detail": {
+    "message": "A “secure” or “verified” badge appears to be a linked or embedded image rather than independently verifiable proof."
+  },
+  "reason_shop_missingContact": {
+    "message": "Nessun contatto"
+  },
+  "reason_shop_missingContact_detail": {
+    "message": "The store lacks basic business contact details, making the seller harder to verify."
+  },
+  "obDocTitle": {
+    "message": "Benvenuto in PhishGuard"
+  },
+  "obTitle": {
+    "message": "PhishGuard ti sta proteggendo"
+  },
+  "obLead": {
+    "message": "PhishGuard evaluates page signals in this browser. It also downloads threat lists and may request site icons. Reports are not sent unless you configure and enable a relay."
+  },
+  "obPhishing": {
+    "message": "Phishing e login falsi"
+  },
+  "obPhishingBody": {
+    "message": "Flags forms whose credential destination does not match the site presenting them."
+  },
+  "obBrand": {
+    "message": "Imitazioni di marchi"
+  },
+  "obBrandBody": {
+    "message": "Compares site identity signals—including known brand icons and domain patterns—to look for impersonation."
+  },
+  "obPage": {
+    "message": "Analisi della pagina"
+  },
+  "obPageBody": {
+    "message": "Uses local wording and layout signals to identify suspicious login pages that may not appear on a threat list yet."
+  },
+  "obWallet": {
+    "message": "Protezione del wallet crypto"
+  },
+  "obWalletBody": {
+    "message": "Reviews supported wallet requests for dangerous token permissions and recovery-phrase traps."
+  },
+  "obClipboard": {
+    "message": "Appunti e truffe \"incolla questo\""
+  },
+  "obClipboardBody": {
+    "message": "Alerts when a page attempts to place a command or cryptocurrency address on the clipboard."
+  },
+  "obPopups": {
+    "message": "Falsi pop-up di virus"
+  },
+  "obPopupsBody": {
+    "message": "Identifies pressure tactics such as fake support warnings and repeated dialogs, with options to leave the page."
+  },
+  "obPin": {
+    "message": "Blocca PhishGuard nella barra"
+  },
+  "obPinBody": {
+    "message": "Fai clic sull'icona a forma di puzzle nella barra degli strumenti, poi sulla puntina accanto a PhishGuard, per vedere lo stato di ogni pagina a colpo d'occhio."
+  },
+  "obOpenSettings": {
+    "message": "Apri impostazioni"
+  },
+  "blockedDocTitle": {
+    "message": "Sito bloccato da PhishGuard"
+  },
+  "blockedTitle": {
+    "message": "PhishGuard ha bloccato questo sito"
+  },
+  "blockedLead": {
+    "message": "$HOST$ è nell'elenco di PhishGuard dei siti di truffa e malevoli conosciuti, quindi la pagina è stata bloccata prima che potesse caricarsi. Non è stato eseguito nulla e non è stato inviato nulla di ciò che hai digitato.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "secure-paypa1-login.com"
+      }
+    }
+  },
+  "blockedLeadHot": {
+    "message": "$HOST$ appears on a recent high-risk list. PhishGuard blocked the navigation before displaying the page.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "secure-paypa1-login.com"
+      }
+    }
+  },
+  "blockedAddress": {
+    "message": "Indirizzo bloccato"
+  },
+  "blockedListedBy": {
+    "message": "Segnalato da $SOURCES$",
+    "placeholders": {
+      "sources": {
+        "content": "$1",
+        "example": "Phishing.Database, ScamSniffer"
+      }
+    }
+  },
+  "blockedListedGeneric": {
+    "message": "Presente nell'elenco di PhishGuard dei domini di truffa confermati."
+  },
+  "blockedGoBack": {
+    "message": "Torna al sicuro"
+  },
+  "blockedTrustSite": {
+    "message": "Non è una truffa? Considera affidabile questo sito"
+  },
+  "blockedVisitAnyway": {
+    "message": "Visita comunque (sconsigliato)"
+  },
+  "blockedVisitHint": {
+    "message": "Apre il sito con PhishGuard messo in pausa su di esso per 1 ora."
+  },
+  "blockedFooter": {
+    "message": "Bloccato sul tuo dispositivo. Nessuna informazione su questa pagina è stata inviata altrove."
+  },
+  "detailsAndOptions": {
+    "message": "Dettagli e altre opzioni"
+  },
+  "continuePausesHour": {
+    "message": "Mette in pausa PhishGuard su questo sito per 1 ora."
+  },
+  "thisPage": {
+    "message": "Questa pagina"
+  },
+  "chipBlocklist": {
+    "message": "Sito bloccato"
+  },
+  "obNote": {
+    "message": "You can send compact risk reports to a relay you trust. Reporting is off until you configure an endpoint and opt in."
+  },
+  "statsLink": {
+    "message": "Statistiche →"
+  },
+  "tabStats": {
+    "message": "Insights"
+  },
+  "optLang": {
+    "message": "Lingua"
+  },
+  "optLangHint": {
+    "message": "Changes the language used for PhishGuard alerts and controls. The selection can follow your browser setting or be chosen directly."
+  },
+  "optLangAuto": {
+    "message": "Predefinita del browser"
+  },
+  "fmtStatsSince": {
+    "message": "PhishGuard has been active in this browser since $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "12 Jun 2026"
+      }
+    }
+  },
+  "stats7d": {
+    "message": "7 giorni"
+  },
+  "stats30d": {
+    "message": "30 giorni"
+  },
+  "statsAll": {
+    "message": "Sempre"
+  },
+  "statsPagesChecked": {
+    "message": "Pagine controllate sul dispositivo"
+  },
+  "statsThreatsStopped": {
+    "message": "Minacce bloccate"
+  },
+  "statsThreatsNone": {
+    "message": "Nessuna minaccia registrata in questo periodo."
+  },
+  "statsScamsBlockedOne": {
+    "message": "1 high-risk event blocked in this period"
+  },
+  "fmtStatsScamsBlocked": {
+    "message": "$COUNT$ high-risk events blocked in this period",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "8"
+      }
+    }
+  },
+  "statsPrivacyFindings": {
+    "message": "Rilevazioni sulla privacy"
+  },
+  "statsRulesActive": {
+    "message": "Regole della blocklist attive"
+  },
+  "statsRulesActiveHint": {
+    "message": "In vigore in questo momento, incluso l'elenco integrato in PhishGuard."
+  },
+  "statsChartTitle7d": {
+    "message": "Pagine controllate · ultimi 7 giorni"
+  },
+  "statsChartTitle30d": {
+    "message": "Pagine controllate · ultimi 30 giorni"
+  },
+  "statsChartTitleAll": {
+    "message": "Pagine controllate · dall'installazione"
+  },
+  "statsChartTitle90d": {
+    "message": "Pagine controllate · ultimi 90 giorni"
+  },
+  "statsAxisToday": {
+    "message": "Oggi"
+  },
+  "statsLegendChecked": {
+    "message": "Pagine controllate"
+  },
+  "statsLegendThreat": {
+    "message": "Minaccia bloccata quel giorno"
+  },
+  "fmtStatsBarTip": {
+    "message": "$DATE$ · $COUNT$ pagine controllate",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "21 Aug"
+      },
+      "count": {
+        "content": "$2",
+        "example": "63"
+      }
+    }
+  },
+  "fmtStatsBarTipThreat": {
+    "message": "$DATE$ · $COUNT$ pages checked · 1 high-risk event",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "21 Aug"
+      },
+      "count": {
+        "content": "$2",
+        "example": "63"
+      }
+    }
+  },
+  "fmtStatsBarTipThreats": {
+    "message": "$DATE$ · $COUNT$ pages checked · $THREATS$ high-risk events",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "21 Aug"
+      },
+      "count": {
+        "content": "$2",
+        "example": "63"
+      },
+      "threats": {
+        "content": "$3",
+        "example": "2"
+      }
+    }
+  },
+  "statsByType": {
+    "message": "Minacce per tipo · sempre"
+  },
+  "statsCatPhishing": {
+    "message": "Phishing"
+  },
+  "statsCatFakeShop": {
+    "message": "Negozio falso"
+  },
+  "statsCatWallet": {
+    "message": "Wallet drainer"
+  },
+  "statsCatTechSupport": {
+    "message": "Supporto tecnico"
+  },
+  "statsCatClipboard": {
+    "message": "Appunti"
+  },
+  "statsCatClickfix": {
+    "message": "CAPTCHA falso"
+  },
+  "statsCatFakeUpdate": {
+    "message": "Aggiornamento falso"
+  },
+  "statsCatOther": {
+    "message": "Altro"
+  },
+  "statsRecent": {
+    "message": "Recenti"
+  },
+  "statsPillBlocked": {
+    "message": "Bloccato"
+  },
+  "statsPillWarned": {
+    "message": "Avvisato"
+  },
+  "statsFooter": {
+    "message": "I conteggi sono salvati in questo browser. L’assenza di rilevamenti non garantisce una sessione priva di minacce. Le segnalazioni facoltative si gestiscono nelle Impostazioni."
+  },
+  "reviewAskBody": {
+    "message": "PhishGuard ha ormai bloccato $COUNT$ truffe per te. Se pensi che se lo sia meritato, una breve recensione aiuta altre persone a trovarlo — è gratis e lo sarà sempre.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "optHotRejected": {
+    "message": "PhishGuard rejected the latest recent-risk list because its validation failed; the last accepted list remains active."
+  },
+  "interstitialFooter": {
+    "message": "PhishGuard ha controllato questa pagina sul tuo dispositivo."
+  },
+  "reason_newDomainUnvisited": {
+    "message": "This domain appears on a newly registered domains list and has no prior visit history in PhishGuard."
+  },
+  "continueOnce": {
+    "message": "Apre questa pagina una sola volta. PhishGuard resta attivo."
+  },
+  "bannerHideDay": {
+    "message": "Nascondi per un giorno"
+  },
+  "bannerHideHour": {
+    "message": "Nascondi per un'ora"
+  },
+  "localFeedbackTitle": {
+    "message": "Feedback salvato su questo dispositivo"
+  },
+  "localFeedbackHint": {
+    "message": "When reporting is off, feedback is saved in this browser only. Review or delete those local records below."
+  },
+  "localFeedbackEmpty": {
+    "message": "Nessun feedback salvato localmente."
+  },
+  "clearLocalFeedback": {
+    "message": "Cancella feedback locale"
+  },
+  "localFeedbackCleared": {
+    "message": "Feedback locale cancellato."
+  },
+  "msgScoreDetails": {
+    "message": "Punteggio degli indicatori di rischio: $1/100 · Link controllati: $2"
+  },
+  "msgNoSignals": {
+    "message": "Non sono stati trovati segnali chiari di truffa. Fai attenzione alle richieste inattese."
+  },
+  "optReportUrlTitle": {
+    "message": "Relay per segnalazioni della community"
+  },
+  "optReportUrlHint": {
+    "message": "Leave this empty to keep feedback local. If you set a relay, use an HTTPS endpoint you control or trust. Saving a changed address turns reporting off until you opt in again."
+  },
+  "optReportUrlLabel": {
+    "message": "URL HTTPS per segnalazioni"
+  },
+  "optReportUrlPlaceholder": {
+    "message": "https://your-server.example/api/report"
+  },
+  "saveReportUrl": {
+    "message": "Salva URL segnalazioni"
+  },
+  "reportRelayMissing": {
+    "message": "Configura un URL HTTPS nella sezione Informazioni prima di attivare le segnalazioni."
+  },
+  "reportRelayInvalid": {
+    "message": "Inserisci un URL HTTPS valido senza credenziali, query o frammento."
+  },
+  "reportRelaySaved": {
+    "message": "Relay salvato. Le segnalazioni restano disattivate finché non le attivi."
+  },
+  "receiptRelayNotConfigured": {
+    "message": "Non configurato; le segnalazioni restano locali"
+  },
+  "reason_qrExternalAction": {
+    "message": "The QR payload tries to open an app or use a non-standard website link. Review it before continuing."
+  },
+  "reason_qrMalformedDestination": {
+    "message": "The QR code contains a malformed web address, so its destination cannot be reliably checked."
+  },
+  "qrInvalidCodeLabel": {
+    "message": "Invalid or unreadable QR code"
+  },
+  "qrValidDangerousLabel": {
+    "message": "Valid QR · Dangerous destination"
+  },
+  "qrValidSuspiciousLabel": {
+    "message": "Valid QR · Suspicious destination"
+  },
+  "qrValidSafeLabel": {
+    "message": "Valid QR · No strong destination risk found"
+  },
+  "qrDecodedMalformedLabel": {
+    "message": "Valid QR · Malformed website address"
+  },
+  "qrDecodedUnsafeLabel": {
+    "message": "Valid QR · Unsafe link type"
+  },
+  "qrDecodedExternalLabel": {
+    "message": "Valid QR · External app action"
+  },
+  "qrDecodedNonWebLabel": {
+    "message": "Valid QR · Non-website data (not safety-rated)"
+  },
+  "reason_downloadDisguisedExecutable": {
+    "message": "The shared item uses a document or image-looking filename followed by an executable extension. Do not open it."
+  },
+  "reason_downloadExecutableSurface": {
+    "message": "The page exposes an executable or installer download ($FILE$). Verify the publisher and file through an independent security scanner before opening it.",
+    "placeholders": {
+      "file": {
+        "content": "$1",
+        "example": "file.exe"
+      }
+    }
+  },
+  "reason_downloadScriptSurface": {
+    "message": "The page exposes a script or command file that can execute actions on the device. Do not run it unless you can verify its origin and contents."
+  },
+  "reason_downloadSafetyEvasion": {
+    "message": "The page asks you to weaken or bypass device security before opening a file. This is a strong malware-delivery warning."
+  },
+  "reason_downloadDeceptivePrompt": {
+    "message": "The page uses an update or verification story to persuade you to download or run a file. Verify updates through the operating system or application itself."
+  },
+  "reason_downloadArchivePressure": {
+    "message": "The shared archive is paired with instructions or pressure that may conceal an executable payload. Do not extract or run unexpected contents."
+  }
+}

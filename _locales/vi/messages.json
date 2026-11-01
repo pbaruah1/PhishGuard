@@ -1,0 +1,1813 @@
+{
+  "extName": {
+    "message": "PhishGuard — Link & Scam Defense"
+  },
+  "extShortName": {
+    "message": "PhishGuard"
+  },
+  "extDescription": {
+    "message": "Browser-side risk checks for suspicious sites, links, and messages, with explanations that help you decide what to do next."
+  },
+  "on": {
+    "message": "Bật"
+  },
+  "paused": {
+    "message": "Đã tạm dừng"
+  },
+  "settings": {
+    "message": "Preferences"
+  },
+  "dismiss": {
+    "message": "Bỏ qua"
+  },
+  "ariaDismiss": {
+    "message": "Bỏ qua"
+  },
+  "cancel": {
+    "message": "Hủy"
+  },
+  "reportMistake": {
+    "message": "Báo lỗi"
+  },
+  "thanks": {
+    "message": "Cảm ơn"
+  },
+  "trustThisSite": {
+    "message": "Tin cậy trang này"
+  },
+  "ackTrusted": {
+    "message": "PhishGuard sẽ không gắn cờ $HOST$ nữa.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "secure-paypa1-login.com"
+      }
+    }
+  },
+  "undo": {
+    "message": "Hoàn tác"
+  },
+  "popupPauseMenu": {
+    "message": "Site controls ▾"
+  },
+  "whatsNewLink": {
+    "message": "Có gì mới"
+  },
+  "unknownSite": {
+    "message": "trang không xác định"
+  },
+  "popupChecking": {
+    "message": "Đang kiểm tra…"
+  },
+  "popupSafe": {
+    "message": "No major warning signals found"
+  },
+  "popupSuspicious": {
+    "message": "Review before proceeding"
+  },
+  "popupDangerous": {
+    "message": "High-risk activity detected"
+  },
+  "popupUnknown": {
+    "message": "This page has not been checked"
+  },
+  "popupPausedSummary": {
+    "message": "Checks are paused for now. Resume them to inspect this page."
+  },
+  "popupNotHttp": {
+    "message": "Browser-internal pages and extension-store pages are outside PhishGuard’s scanning coverage."
+  },
+  "popupDangerSummary": {
+    "message": "Strong risk indicators were found. Avoid entering credentials, payment details, or downloading files here."
+  },
+  "popupSuspiciousSummary": {
+    "message": "Some signals deserve a closer look. Check the address and evidence before sharing information."
+  },
+  "leaveThisPage": {
+    "message": "Rời khỏi trang này"
+  },
+  "whyVerdict": {
+    "message": "Vì sao có kết luận này?"
+  },
+  "whyVerdictCountOne": {
+    "message": "· 1 dấu hiệu"
+  },
+  "fmtWhyVerdictCount": {
+    "message": "· $COUNT$ dấu hiệu",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "takeMeToReal": {
+    "message": "Đưa tôi đến trang $BRAND$ thật",
+    "placeholders": {
+      "brand": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyReportBtn": {
+    "message": "Sao chép báo cáo"
+  },
+  "copyReportHeader": {
+    "message": "⚠ PhishGuard đã gắn cờ trang này: $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "evil[.]example"
+      }
+    }
+  },
+  "copyReportVerdict": {
+    "message": "Kết luận: $LEVEL$",
+    "placeholders": {
+      "level": {
+        "content": "$1",
+        "example": "Dangerous page"
+      }
+    }
+  },
+  "copyReportSignals": {
+    "message": "Dấu hiệu:"
+  },
+  "copyReportFooter": {
+    "message": "PhishGuard đã kiểm tra cục bộ. Hãy xem xét bằng chứng trước khi hành động."
+  },
+  "reportScam": {
+    "message": "Báo cáo: đây là lừa đảo"
+  },
+  "reportSafe": {
+    "message": "Báo cáo: cái này an toàn"
+  },
+  "pause1h": {
+    "message": "1 giờ"
+  },
+  "pause1d": {
+    "message": "1 ngày"
+  },
+  "pauseAlways": {
+    "message": "Luôn luôn"
+  },
+  "resumeNow": {
+    "message": "Tiếp tục ngay"
+  },
+  "blockedOnSite": {
+    "message": "Đã chặn trên trang này"
+  },
+  "blockedAllTime": {
+    "message": "Tổng số đã chặn"
+  },
+  "sinceInstall": {
+    "message": "Kể từ khi cài đặt"
+  },
+  "thisWeek": {
+    "message": "Tuần này"
+  },
+  "statsLink": {
+    "message": "Thống kê →"
+  },
+  "privacyOnPage": {
+    "message": "Quyền riêng tư trên trang này"
+  },
+  "shoppingCheck": {
+    "message": "Kiểm tra mua sắm"
+  },
+  "checkMessageTitle": {
+    "message": "Inspect a message or destination"
+  },
+  "checkMessageHint": {
+    "message": "Message text is checked in this browser. Included links are checked against threat-list data; a matching entry may require a network lookup."
+  },
+  "checkMessagePlaceholder": {
+    "message": "Paste message text or a link to inspect…"
+  },
+  "check": {
+    "message": "Kiểm tra"
+  },
+  "checkedOnDevice": {
+    "message": "Core analysis runs locally; link reputation may use threat-list data."
+  },
+  "msgSafe": {
+    "message": "No strong scam indicators found in this sample. That does not prove it is genuine."
+  },
+  "msgSuspicious": {
+    "message": "Several risk clues were found. Verify the sender and destination independently."
+  },
+  "msgDangerous": {
+    "message": "This sample contains high-risk scam signals. Do not follow its instructions."
+  },
+  "qrScanTitle": {
+    "message": "Inspect QR destinations on this page"
+  },
+  "qrScanHint": {
+    "message": "Try supported page images for QR codes, then inspect decoded web destinations without opening them."
+  },
+  "qrScanBtn": {
+    "message": "Inspect QR codes"
+  },
+  "qrScanNone": {
+    "message": "No readable web-address QR codes were found in the images checked."
+  },
+  "qrScanFoundOne": {
+    "message": "1 web destination found in a QR code"
+  },
+  "fmtQrScanFoundCount": {
+    "message": "$COUNT$ web destinations found in QR codes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "support": {
+    "message": "Trợ giúp & cài đặt"
+  },
+  "footerTrustLine": {
+    "message": "Most checks run here. Threat-list and site-icon requests use the network; reports stay local unless you configure and enable a relay."
+  },
+  "takeMeToRealSite": {
+    "message": "Đưa tôi đến trang thật"
+  },
+  "toastThanksNoted": {
+    "message": "Đã lưu trên thiết bị này; không gửi dữ liệu nào."
+  },
+  "toastThanksSent": {
+    "message": "Cảm ơn — đã gửi"
+  },
+  "toastPausedForNow": {
+    "message": "Đã tạm dừng"
+  },
+  "toastResumed": {
+    "message": "Đã tiếp tục bảo vệ"
+  },
+  "toastCopied": {
+    "message": "Đã sao chép"
+  },
+  "toastExtensionError": {
+    "message": "Lỗi tiện ích — hãy thử mở lại."
+  },
+  "whatsNewBanner": {
+    "message": "PhishGuard now includes clearer local-analysis explanations, more resilient suspicious-link parsing, and improved reporting feedback."
+  },
+  "popupBrandDangerSummary": {
+    "message": "$BRAND$ may be impersonated here. Compare the domain with the service’s official address before signing in.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "PayPal"
+      }
+    }
+  },
+  "pausedUntil": {
+    "message": "Tạm dừng đến $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "3:45 PM"
+      }
+    }
+  },
+  "fmtProtocolPage": {
+    "message": "Trang $PROTOCOL$",
+    "placeholders": {
+      "protocol": {
+        "content": "$1",
+        "example": "chrome"
+      }
+    }
+  },
+  "popupShopFlagFallback": {
+    "message": "Cảnh báo"
+  },
+  "chipWhy": {
+    "message": "Lý do"
+  },
+  "chipDataLeak": {
+    "message": "Rò rỉ dữ liệu"
+  },
+  "chipTracking": {
+    "message": "Theo dõi"
+  },
+  "chipPopups": {
+    "message": "Cửa sổ bật lên"
+  },
+  "chipPrivacy": {
+    "message": "Riêng tư"
+  },
+  "popupPrivacyLeakPlain": {
+    "message": "A value matching your typed email or phone was sent to $HOST$ before form submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "popupPrivacyLeakHashed": {
+    "message": "A hashed match for your typed email or phone was sent to $HOST$ before form submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "popupPrivacyFingerprint": {
+    "message": "$HOST$ queried a combination of browser features that can contribute to device fingerprinting.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "popupPrivacyNotifyLure": {
+    "message": "This page used a misleading prompt to request notification permission."
+  },
+  "popupPrivacyCredExfilPassword": {
+    "message": "A password-like value was sent to $HOST$, which differs from this page’s site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "collector.example"
+      }
+    }
+  },
+  "popupPrivacyCredExfilCard": {
+    "message": "Payment-card-like data was sent to $HOST$, which differs from this page’s site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "collector.example"
+      }
+    }
+  },
+  "popupPrivacyDefaultText": {
+    "message": "Đã phát hiện vấn đề về quyền riêng tư."
+  },
+  "levelDangerous": {
+    "message": "Trang nguy hiểm"
+  },
+  "levelSuspicious": {
+    "message": "Trang đáng ngờ"
+  },
+  "levelSafe": {
+    "message": "Không có gì đáng ngờ ở đây"
+  },
+  "levelUnknown": {
+    "message": "Không kiểm tra được trang này"
+  },
+  "tabProtection": {
+    "message": "Live checks"
+  },
+  "tabTrusted": {
+    "message": "Site exceptions"
+  },
+  "tabHistory": {
+    "message": "Activity log"
+  },
+  "tabStats": {
+    "message": "Insights"
+  },
+  "tabFeed": {
+    "message": "Threat intelligence"
+  },
+  "tabAbout": {
+    "message": "System & data"
+  },
+  "protectionLead": {
+    "message": "Page checks run in this browser. PhishGuard downloads shared threat data and may request a site icon for brand comparison; uploads require a separate reporting opt-in."
+  },
+  "protectionOn": {
+    "message": "Real-time inspection"
+  },
+  "protectionOnHint": {
+    "message": "Review pages as they load. Turning this off pauses all PhishGuard page checks."
+  },
+  "grpScams": {
+    "message": "Links, domains & impersonation"
+  },
+  "grpScamsHint": {
+    "message": "Compare addresses with known threats and look for suspicious structure or brand imitation."
+  },
+  "grpPopups": {
+    "message": "Coercive prompts & clipboard activity"
+  },
+  "grpPopupsHint": {
+    "message": "Watch for fake support warnings, command-paste tricks, and unexpected clipboard changes."
+  },
+  "grpShopping": {
+    "message": "Shopping and sponsored links"
+  },
+  "grpShoppingHint": {
+    "message": "Look for storefront risk signals and mismatches between ad labels and destinations."
+  },
+  "grpCrypto": {
+    "message": "Wallet transaction safety"
+  },
+  "grpCryptoHint": {
+    "message": "Inspect selected wallet requests for unusually broad or dangerous permissions."
+  },
+  "grpPrivacy": {
+    "message": "Data exposure and tracking"
+  },
+  "grpPrivacyHint": {
+    "message": "Watch for form data sent to unrelated sites and common browser-fingerprinting techniques."
+  },
+  "optBlockKnown": {
+    "message": "Known-threat navigation block"
+  },
+  "optBlockKnownHint": {
+    "message": "Stop destinations included in the browser’s local threat rules before the page opens."
+  },
+  "optPageAnalysis": {
+    "message": "Page-signal analysis"
+  },
+  "optPageAnalysisHint": {
+    "message": "Combine page wording, form structure, address signals, and available brand clues to find risks not yet listed."
+  },
+  "optClickfix": {
+    "message": "Command-paste lure detection"
+  },
+  "optClickfixHint": {
+    "message": "Flag human-verification pages that instruct visitors to open a system command box and paste a command."
+  },
+  "optFakeupdate": {
+    "message": "Counterfeit update prompt detection"
+  },
+  "optFakeupdateHint": {
+    "message": "Identify web pages that present a download as a required browser or system update."
+  },
+  "optHide": {
+    "message": "De-emphasize scam-like page blocks"
+  },
+  "optHideHint": {
+    "message": "Visually mark selected prize and giveaway blocks when their wording matches known scam patterns."
+  },
+  "optQrScan": {
+    "message": "Automatic QR destination checks"
+  },
+  "optQrScanHint": {
+    "message": "Check eligible images for QR codes and analyze decoded HTTP(S) destinations. Cross-origin images may be unreadable to the browser."
+  },
+  "optTechscam": {
+    "message": "Fake support-page guard"
+  },
+  "optTechscamHint": {
+    "message": "Flag pages using alarm language, forced fullscreen, dialog floods, or phone-number demands to pressure visitors."
+  },
+  "optClipboard": {
+    "message": "Clipboard change alerts"
+  },
+  "optClipboardHint": {
+    "message": "Warn when a page changes the clipboard to a command or cryptocurrency address without a clear user action."
+  },
+  "optShop": {
+    "message": "Storefront risk review"
+  },
+  "optShopHint": {
+    "message": "Combine signals such as resettable countdowns, artificial scarcity, missing contact details, and high-risk payment requests."
+  },
+  "optSerp": {
+    "message": "Sponsored destination comparison"
+  },
+  "optSerpHint": {
+    "message": "On supported search pages, compare an ad’s displayed destination with its actual link and mark suspicious mismatches."
+  },
+  "optWallet": {
+    "message": "Wallet approval guard"
+  },
+  "optWalletHint": {
+    "message": "Inspect supported transaction requests for blind signing, token approvals, NFT-wide permissions, and account delegation."
+  },
+  "optLeakyForm": {
+    "message": "Cross-site form data alerts"
+  },
+  "optLeakyFormHint": {
+    "message": "Look for values typed into email or phone fields being sent to an unrelated origin before a form is submitted."
+  },
+  "optFingerprint": {
+    "message": "Browser fingerprinting signals"
+  },
+  "optFingerprintHint": {
+    "message": "Watch for repeated use of canvas, WebGL, audio, and font-measurement APIs that can help identify a browser."
+  },
+  "optNotify": {
+    "message": "Misleading notification prompts"
+  },
+  "optNotifyHint": {
+    "message": "Flag pages that pair a fake continuation step with a request to allow browser notifications."
+  },
+  "optStrict": {
+    "message": "High-caution mode"
+  },
+  "optStrictHint": {
+    "message": "Use a stricter response: pages rated suspicious receive a full-screen warning instead of the usual lighter notice."
+  },
+  "optReporting": {
+    "message": "Giúp PhishGuard thông minh hơn"
+  },
+  "optReportingHint": {
+    "message": "Optionally sends a site hostname and compact risk signals to a relay you configure. Disabled by default; review the report fields below."
+  },
+  "saved": {
+    "message": "Đã lưu"
+  },
+  "trustedLead": {
+    "message": "Exceptions and timed pauses are listed here. Remove an entry to restore normal checks for that domain."
+  },
+  "trustedAlways": {
+    "message": "Luôn luôn"
+  },
+  "trustedForAWhile": {
+    "message": "Trong một thời gian"
+  },
+  "remove": {
+    "message": "Xóa"
+  },
+  "trustedViaWarning": {
+    "message": "Tin cậy từ cảnh báo"
+  },
+  "optTenantApexBadge": {
+    "message": "This exception affects the entire shared host $APEX$. Remove it and add a narrower domain exception instead.",
+    "placeholders": {
+      "apex": {
+        "content": "$1",
+        "example": "pages.dev"
+      }
+    }
+  },
+  "mutedWarnings": {
+    "message": "Các cảnh báo bị tắt tiếng"
+  },
+  "warnAgain": {
+    "message": "Cảnh báo lại"
+  },
+  "muteKind_clipboard": {
+    "message": "Thông báo clipboard"
+  },
+  "muteKind_leak": {
+    "message": "Cảnh báo rò rỉ biểu mẫu"
+  },
+  "muteKind_notify": {
+    "message": "Cảnh báo bẫy thông báo"
+  },
+  "muteKind_credpost": {
+    "message": "Cảnh báo biểu mẫu thẻ và mật khẩu"
+  },
+  "historyTitle": {
+    "message": "Recent security activity"
+  },
+  "historyLead": {
+    "message": "This log stays in browser storage and keeps hostnames rather than complete page addresses."
+  },
+  "clearHistory": {
+    "message": "Xóa lịch sử"
+  },
+  "markMistake": {
+    "message": "Đánh dấu là nhầm"
+  },
+  "feedTitle": {
+    "message": "Danh sách mối đe dọa"
+  },
+  "feedLead": {
+    "message": "Danh sách các trang lừa đảo đã biết, được cập nhật thường xuyên, tổng hợp từ các danh sách lừa đảo mạo danh và mã độc công khai đã kiểm tra giấy phép. PhishGuard chỉ tải danh sách này về."
+  },
+  "checkNow": {
+    "message": "Kiểm tra ngay"
+  },
+  "aboutVersion": {
+    "message": "Phiên bản"
+  },
+  "appearance": {
+    "message": "Giao diện"
+  },
+  "whatLeaves": {
+    "message": "Những gì rời khỏi thiết bị của bạn"
+  },
+  "backupSettings": {
+    "message": "Sao lưu cài đặt"
+  },
+  "backupHint": {
+    "message": "Download a JSON backup of preferences and site exceptions, then import that file into another browser profile when needed."
+  },
+  "exportBtn": {
+    "message": "Xuất"
+  },
+  "importBtn": {
+    "message": "Nhập"
+  },
+  "syncTitle": {
+    "message": "Đồng bộ giữa các thiết bị của tôi"
+  },
+  "syncHint": {
+    "message": "Giữ cài đặt và các trang đã tạm dừng giống nhau trên mọi trình duyệt bạn đã đăng nhập. Dùng chính tính năng đồng bộ của trình duyệt — PhishGuard vẫn không có tài khoản hay máy chủ. Mặc định tắt."
+  },
+  "optDocTitle": {
+    "message": "Cài đặt PhishGuard"
+  },
+  "ariaSettingsSections": {
+    "message": "Các mục cài đặt"
+  },
+  "optWhatSentToggle": {
+    "message": "Chính xác thì gửi những gì ▾"
+  },
+  "optWhatSentBody": {
+    "message": "When reporting is enabled, a report may include the hostname, verdict, reason codes, compact numeric risk signals, bounded hashed page-feature buckets and page-structure counts, matched brand/icon signals, extension version, and an hour-bucketed timestamp. It excludes the full URL path and query, raw page text, typed content, and cookies. The reporting server can still receive ordinary connection metadata. Retention is controlled by the relay operator."
+  },
+  "feedNeverUpdated": {
+    "message": "Chưa bao giờ cập nhật"
+  },
+  "hotListStatus": {
+    "message": "Recent-risk list: $COUNT$ domains · refreshed $AGO$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1,204"
+      },
+      "ago": {
+        "content": "$2",
+        "example": "12 minutes ago"
+      }
+    }
+  },
+  "hotListOff": {
+    "message": "Danh sách khẩn: tắt"
+  },
+  "hotListPending": {
+    "message": "Danh sách khẩn: chưa tải về"
+  },
+  "hotListSub": {
+    "message": "A second list focuses on threats reported during the previous 48 hours and refreshes hourly."
+  },
+  "optAdvancedFeedUrl": {
+    "message": "Nâng cao: URL nguồn cấp"
+  },
+  "optFeedUrlLabel": {
+    "message": "URL nguồn cấp"
+  },
+  "optFeedUrlPlaceholder": {
+    "message": "https://…/blocklist.json"
+  },
+  "resetToOfficialFeed": {
+    "message": "Khôi phục nguồn cấp chính thức"
+  },
+  "optFeedUrlHint": {
+    "message": "Only use a compatible feed URL that you control or trust. A failed override can interrupt updates; reset restores the configured default."
+  },
+  "optThemeHint": {
+    "message": "Theo hệ thống, hoặc chọn một kiểu."
+  },
+  "optThemeAuto": {
+    "message": "Tự động"
+  },
+  "optThemeLight": {
+    "message": "Sáng"
+  },
+  "optThemeDark": {
+    "message": "Tối"
+  },
+  "optLang": {
+    "message": "Ngôn ngữ"
+  },
+  "optLangHint": {
+    "message": "Changes the language used for PhishGuard alerts and controls. The selection can follow your browser setting or be chosen directly."
+  },
+  "optLangAuto": {
+    "message": "Mặc định của trình duyệt"
+  },
+  "optLinksTitle": {
+    "message": "Liên kết"
+  },
+  "supportFreeOnDevice": {
+    "message": "PhishGuard miễn phí và chạy hoàn toàn trên thiết bị của bạn."
+  },
+  "netNoTelemetry": {
+    "message": "Most analysis stays in this browser. Network activity is limited to threat-feed requests, selected site-icon requests, and reports only when you configure and enable a relay."
+  },
+  "receiptFeedLabel": {
+    "message": "Tải danh sách mối đe dọa"
+  },
+  "receiptFeedDetail": {
+    "message": "PhishGuard requests shared threat-list files. These requests do not include the page you are viewing, but the feed host can receive normal connection metadata such as your IP address."
+  },
+  "receiptReportLabel": {
+    "message": "Báo cáo cộng đồng"
+  },
+  "receiptReportDetail": {
+    "message": "Chỉ khi bật báo cáo và cấu hình endpoint: tên miền, kết luận, mã lý do và tín hiệu rủi ro rút gọn. Không gồm đường dẫn URL đầy đủ, nội dung trang hoặc văn bản đã nhập."
+  },
+  "receiptIconLabel": {
+    "message": "Kiểm tra biểu tượng trang"
+  },
+  "receiptIconDetail": {
+    "message": "May request the page’s favicon for local brand comparison. The request can reveal your IP address to the icon host; no full page content is sent by this check."
+  },
+  "receiptPerPage": {
+    "message": "mỗi trang"
+  },
+  "receiptOnInstall12h": {
+    "message": "khi cài đặt + mỗi 12 giờ"
+  },
+  "receiptDisabled": {
+    "message": "đã tắt"
+  },
+  "receiptWhenFlagged": {
+    "message": "khi bị đánh dấu"
+  },
+  "receiptOffDefault": {
+    "message": "tắt (mặc định)"
+  },
+  "optExportSyncHint": {
+    "message": "Backups can be moved manually. Browser sync is optional and uses the browser account’s sync service."
+  },
+  "toastSyncOn": {
+    "message": "Đã bật đồng bộ"
+  },
+  "toastSyncUnavailable": {
+    "message": "Không dùng được đồng bộ"
+  },
+  "toastSyncOff": {
+    "message": "Đã tắt đồng bộ"
+  },
+  "toastExported": {
+    "message": "Đã xuất"
+  },
+  "toastImported": {
+    "message": "Đã nhập"
+  },
+  "toastInvalidFile": {
+    "message": "Tệp không hợp lệ"
+  },
+  "toastCheckingUpdates": {
+    "message": "Đang kiểm tra…"
+  },
+  "fmtUpdatedToVersion": {
+    "message": "Đã cập nhật lên v$VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "0.6.1"
+      }
+    }
+  },
+  "toastAlreadyUpToDate": {
+    "message": "Đã là bản mới nhất"
+  },
+  "toastUpdateFailed": {
+    "message": "Cập nhật thất bại"
+  },
+  "toastHistoryCleared": {
+    "message": "Đã xóa lịch sử"
+  },
+  "optNoneYet": {
+    "message": "Chưa có gì"
+  },
+  "optNoneRightNow": {
+    "message": "Hiện không có gì"
+  },
+  "optNothingYetGood": {
+    "message": "Không có sự kiện gần đây."
+  },
+  "fmtVersion": {
+    "message": "Phiên bản $VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "0.6.0"
+      }
+    }
+  },
+  "fmtUntilTime": {
+    "message": "đến $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "22 Aug, 3:45 PM"
+      }
+    }
+  },
+  "fmtUpdatedRules": {
+    "message": "Cập nhật $TIME$ · $COUNT$ quy tắc",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "2 h ago"
+      },
+      "count": {
+        "content": "$2",
+        "example": "12,345"
+      }
+    }
+  },
+  "fmtStatsSince": {
+    "message": "PhishGuard has been active in this browser since $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "12 Jun 2026"
+      }
+    }
+  },
+  "stats7d": {
+    "message": "7 ngày"
+  },
+  "stats30d": {
+    "message": "30 ngày"
+  },
+  "statsAll": {
+    "message": "Toàn thời gian"
+  },
+  "statsPagesChecked": {
+    "message": "Số trang đã kiểm tra trên thiết bị"
+  },
+  "statsThreatsStopped": {
+    "message": "Mối đe dọa đã chặn"
+  },
+  "statsThreatsNone": {
+    "message": "Không có mối đe dọa nào được ghi nhận trong giai đoạn này."
+  },
+  "statsScamsBlockedOne": {
+    "message": "1 high-risk event blocked in this period"
+  },
+  "fmtStatsScamsBlocked": {
+    "message": "$COUNT$ high-risk events blocked in this period",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "8"
+      }
+    }
+  },
+  "statsPrivacyFindings": {
+    "message": "Phát hiện về quyền riêng tư"
+  },
+  "statsRulesActive": {
+    "message": "Quy tắc chặn đang hoạt động"
+  },
+  "statsRulesActiveHint": {
+    "message": "Đang có hiệu lực ngay bây giờ, bao gồm cả danh sách tích hợp sẵn trong PhishGuard."
+  },
+  "statsChartTitle7d": {
+    "message": "Trang đã kiểm tra · 7 ngày qua"
+  },
+  "statsChartTitle30d": {
+    "message": "Trang đã kiểm tra · 30 ngày qua"
+  },
+  "statsChartTitleAll": {
+    "message": "Trang đã kiểm tra · từ khi cài đặt"
+  },
+  "statsChartTitle90d": {
+    "message": "Trang đã kiểm tra · 90 ngày qua"
+  },
+  "statsAxisToday": {
+    "message": "Hôm nay"
+  },
+  "statsLegendChecked": {
+    "message": "Trang đã kiểm tra"
+  },
+  "statsLegendThreat": {
+    "message": "Mối đe dọa bị chặn hôm đó"
+  },
+  "fmtStatsBarTip": {
+    "message": "$DATE$ · $COUNT$ trang đã kiểm tra",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "21 Aug"
+      },
+      "count": {
+        "content": "$2",
+        "example": "63"
+      }
+    }
+  },
+  "fmtStatsBarTipThreat": {
+    "message": "$DATE$ · $COUNT$ pages checked · 1 high-risk event",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "21 Aug"
+      },
+      "count": {
+        "content": "$2",
+        "example": "63"
+      }
+    }
+  },
+  "fmtStatsBarTipThreats": {
+    "message": "$DATE$ · $COUNT$ pages checked · $THREATS$ high-risk events",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "21 Aug"
+      },
+      "count": {
+        "content": "$2",
+        "example": "63"
+      },
+      "threats": {
+        "content": "$3",
+        "example": "2"
+      }
+    }
+  },
+  "statsByType": {
+    "message": "Mối đe dọa theo loại · toàn thời gian"
+  },
+  "statsCatPhishing": {
+    "message": "Phishing"
+  },
+  "statsCatFakeShop": {
+    "message": "Shop giả"
+  },
+  "statsCatWallet": {
+    "message": "Kẻ rút ví"
+  },
+  "statsCatTechSupport": {
+    "message": "Hỗ trợ kỹ thuật"
+  },
+  "statsCatClipboard": {
+    "message": "Clipboard"
+  },
+  "statsCatClickfix": {
+    "message": "CAPTCHA giả"
+  },
+  "statsCatFakeUpdate": {
+    "message": "Cập nhật giả"
+  },
+  "statsCatOther": {
+    "message": "Khác"
+  },
+  "statsRecent": {
+    "message": "Gần đây"
+  },
+  "statsPillBlocked": {
+    "message": "Đã chặn"
+  },
+  "statsPillWarned": {
+    "message": "Đã cảnh báo"
+  },
+  "statsFooter": {
+    "message": "Số liệu được lưu trong trình duyệt này. Không phát hiện được mối đe dọa không đảm bảo phiên duyệt web không có rủi ro. Có thể quản lý báo cáo cộng đồng tùy chọn trong Settings."
+  },
+  "reviewAskBody": {
+    "message": "PhishGuard giờ đã chặn $COUNT$ vụ lừa đảo cho bạn. Nếu bạn thấy xứng đáng, một đánh giá ngắn sẽ giúp người khác tìm thấy nó — hoàn toàn miễn phí và sẽ luôn như vậy.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      }
+    }
+  },
+  "bannerDangerBrand": {
+    "message": "High risk: this address may be impersonating $BRAND$",
+    "placeholders": {
+      "brand": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerDanger": {
+    "message": "Trang nguy hiểm"
+  },
+  "bannerTakeCare": {
+    "message": "Hãy thận trọng trên trang này"
+  },
+  "whyShort": {
+    "message": "Tại sao?"
+  },
+  "moreActions": {
+    "message": "Thêm hành động"
+  },
+  "hideForToday": {
+    "message": "Ẩn cho hôm nay"
+  },
+  "hideForAnHour": {
+    "message": "Ẩn trong một giờ"
+  },
+  "interstitialHead1": {
+    "message": "Do not continue to this destination"
+  },
+  "interstitialHead2": {
+    "message": "Pause and review this page first"
+  },
+  "interstitialHead3": {
+    "message": "Đừng tiếp tục — cảnh báo lừa đảo"
+  },
+  "interstitialReassure": {
+    "message": "If you entered a password or payment information here, change it through the service’s official app or website."
+  },
+  "continueAnyway": {
+    "message": "Vẫn tiếp tục"
+  },
+  "submitAnyway": {
+    "message": "Vẫn gửi"
+  },
+  "proceedAnyway": {
+    "message": "Vẫn tiếp tục"
+  },
+  "cancelRecommended": {
+    "message": "Hủy (khuyến nghị)"
+  },
+  "phishingStop": {
+    "message": "Dừng lại — có thể là phishing"
+  },
+  "techScamTitle": {
+    "message": "Có thể là lừa đảo hỗ trợ kỹ thuật"
+  },
+  "techScamBody": {
+    "message": "A web page cannot diagnose a computer infection by itself. Close this page; do not call a number or install remote-support software offered by the warning."
+  },
+  "getMeOut": {
+    "message": "Đưa tôi ra khỏi đây (đóng trang này)"
+  },
+  "walletRiskyTitle": {
+    "message": "Yêu cầu ví rủi ro"
+  },
+  "walletRiskyBody": {
+    "message": "Cancel if you did not expect this request. Some signatures grant ongoing token or account permissions that are difficult to reverse."
+  },
+  "compareThisSite": {
+    "message": "Trang này"
+  },
+  "compareRealSite": {
+    "message": "$BRAND$ thật",
+    "placeholders": {
+      "brand": {
+        "content": "$1"
+      }
+    }
+  },
+  "guardCountdown": {
+    "message": "$LABEL$ ($COUNT$)",
+    "placeholders": {
+      "label": {
+        "content": "$1",
+        "example": "Continue anyway"
+      },
+      "count": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "ariaScamWarning": {
+    "message": "Cảnh báo lừa đảo"
+  },
+  "ariaPhishingWarning": {
+    "message": "Cảnh báo có thể là phishing"
+  },
+  "interstitialFallback": {
+    "message": "Multiple signals indicate that this destination may be part of a scam."
+  },
+  "guardFormDestKnown": {
+    "message": "This form sends the password to $DEST$ rather than $HOST$. Only submit credentials when the destination matches the service you intended to use.",
+    "placeholders": {
+      "dest": {
+        "content": "$1",
+        "example": "evil.example"
+      },
+      "host": {
+        "content": "$2",
+        "example": "your-bank.example"
+      }
+    }
+  },
+  "guardFormDestUnknown": {
+    "message": "This form sends a password to a different site from the one displayed. That mismatch can expose your sign-in details."
+  },
+  "guardHiddenTag": {
+    "message": "Đã ẩn bởi PhishGuard"
+  },
+  "guardWalletCollision": {
+    "message": "PhishGuard đã chặn một yêu cầu ví khi đang có cảnh báo khác mở. Hãy đóng nó rồi thử lại."
+  },
+  "guardWalletFallback": {
+    "message": "A wallet request needs review before you approve it."
+  },
+  "guardPrivacyFallback": {
+    "message": "PhishGuard observed a possible data-exposure or tracking pattern on this page."
+  },
+  "guardClipboardFallback": {
+    "message": "Một trang đã thay đổi clipboard của bạn."
+  },
+  "guardTechScamFallback": {
+    "message": "Trang này đang dùng chiêu hù dọa."
+  },
+  "guardClipboardBlockedPayload": {
+    "message": "Đã bị PhishGuard chặn — trang này đặt một lệnh nguy hiểm vào clipboard của bạn. Đừng dán nó ở bất cứ đâu."
+  },
+  "clipboardNoticeCmdTitle": {
+    "message": "A command was copied while visiting $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "ollama.com"
+      }
+    }
+  },
+  "clipboardNoticeCmdBody": {
+    "message": "Do not run it unless you independently understand and trust the command. Fake verification pages use this trick to install malware."
+  },
+  "clipboardNoticeAddrTitle": {
+    "message": "A cryptocurrency address was copied from $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "clipboardNoticeAddrBody": {
+    "message": "Compare every character with the intended recipient before transferring funds."
+  },
+  "clipboardWarnTitle": {
+    "message": "$HOST$ changed the clipboard unexpectedly",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "ackMuted": {
+    "message": "PhishGuard sẽ không hiển thị cảnh báo này trên $HOST$ nữa.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "dontWarnHere": {
+    "message": "Đừng cảnh báo tôi trên trang này"
+  },
+  "leakTitle": {
+    "message": "Form data may have been sent before submission"
+  },
+  "notifyLureTitle": {
+    "message": "Đừng bấm Cho phép ở đây"
+  },
+  "credPostTitle": {
+    "message": "This form sends entered data to another site"
+  },
+  "keepMyDetails": {
+    "message": "Giữ thông tin của tôi"
+  },
+  "guardLeakyFormPlain": {
+    "message": "A value matching your email or phone was sent to $HOST$ in readable form before submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      }
+    }
+  },
+  "guardLeakyFormHashed": {
+    "message": "A hashed identifier derived from your email or phone was sent to $HOST$ before submission.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "tracker.example"
+      },
+      "algo": {
+        "content": "$2",
+        "example": "MD5"
+      }
+    }
+  },
+  "guardNotifyLure": {
+    "message": "The page is pairing a continuation prompt with a browser-notification request. Block notifications unless you expected them."
+  },
+  "serpAdMismatch": {
+    "message": "⚠ PhishGuard: quảng cáo này dẫn tới $ACTUAL$, không phải $SHOWN$",
+    "placeholders": {
+      "actual": {
+        "content": "$1",
+        "example": "malicious-download.example"
+      },
+      "shown": {
+        "content": "$2",
+        "example": "trusted-brand.example"
+      }
+    }
+  },
+  "serpBadgeDanger": {
+    "message": "PhishGuard: kết quả này nằm trong danh sách chặn mối đe dọa của chúng tôi"
+  },
+  "serpBadgeCaution": {
+    "message": "PhishGuard: kết quả này có dấu hiệu cảnh báo lừa đảo"
+  },
+  "chipLink": {
+    "message": "Liên kết"
+  },
+  "chipBrand": {
+    "message": "Thương hiệu"
+  },
+  "chipPage": {
+    "message": "Trang"
+  },
+  "chipWallet": {
+    "message": "Ví"
+  },
+  "chipClipboard": {
+    "message": "Clipboard"
+  },
+  "chipTechscam": {
+    "message": "Trang hù dọa"
+  },
+  "chipShop": {
+    "message": "Shop"
+  },
+  "chipMessage": {
+    "message": "Tin nhắn"
+  },
+  "reason_ipHost": {
+    "message": "The destination uses a numeric IP address rather than a conventional domain name."
+  },
+  "reason_atSymbol": {
+    "message": "An at-sign in the address can make the visible text differ from the actual destination host."
+  },
+  "reason_urlUserInfo": {
+    "message": "The address contains login information before the @ sign, which can disguise the actual destination host."
+  },
+  "reason_executableScheme": {
+    "message": "This link uses an executable or active-content URL scheme rather than an ordinary web address."
+  },
+  "reason_punycodeHost": {
+    "message": "The domain is encoded with punycode, which can appear in look-alike domain attacks."
+  },
+  "reason_idnHomograph": {
+    "message": "Some characters in this domain visually resemble the real $BRAND$ name.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "paypal"
+      }
+    }
+  },
+  "reason_brandLookalike": {
+    "message": "The domain has features commonly seen in attempts to imitate a familiar brand."
+  },
+  "reason_suspiciousTld": {
+    "message": "This top-level domain has a higher-than-usual presence in scam reports."
+  },
+  "reason_noHttps": {
+    "message": "This address does not use HTTPS, so network traffic may be readable or modifiable in transit."
+  },
+  "reason_manySubdomains": {
+    "message": "Số lượng tên miền phụ nhiều bất thường."
+  },
+  "reason_urgencyKeywords": {
+    "message": "The address combines several urgency or account-security terms."
+  },
+  "reason_randomHost": {
+    "message": "The host label has a high-entropy pattern often seen in disposable campaign domains."
+  },
+  "reason_brandFuzzyMatch": {
+    "message": "The hostname resembles $BRAND$’s known domain. Inspect the exact spelling before signing in.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "PayPal"
+      }
+    }
+  },
+  "reason_deepSubdomainChain": {
+    "message": "Several nested subdomains make the site owner harder to recognize at a glance."
+  },
+  "reason_longHostLabel": {
+    "message": "An unusually long hostname label may be hiding brand-like words or misleading structure."
+  },
+  "reason_shortenerHost": {
+    "message": "This link uses the shortener $HOST$, so the final site cannot be judged from this address alone.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "bit.ly"
+      }
+    }
+  },
+  "reason_riskAbusedTld": {
+    "message": "Đuôi tên miền ($TLD$) của trang này có tỷ lệ bị lạm dụng cho lừa đảo cao trong bảng rủi ro từ danh sách mối đe dọa của PhishGuard.",
+    "placeholders": {
+      "tld": {
+        "content": "$1",
+        "example": ".top"
+      }
+    }
+  },
+  "reason_riskDynamicHost": {
+    "message": "This domain uses dynamic DNS or a free-hosting service that appears frequently in abuse reports."
+  },
+  "reason_brandForeignSuffix": {
+    "message": "The address uses $BRAND$’s name with an unfamiliar .$SUFFIX$ ending.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "Roblox"
+      },
+      "suffix": {
+        "content": "$2",
+        "example": "com.do"
+      }
+    }
+  },
+  "reason_gatewayRedirect": {
+    "message": "A redirect through $HOST$ led to a different destination, which can conceal the final site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "mgpxq.com"
+      }
+    }
+  },
+  "reason_feedBlock": {
+    "message": "Tên miền này khớp với danh sách mối đe dọa của PhishGuard, được xác nhận bởi $COUNT$ nguồn độc lập.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "reason_feedWarn": {
+    "message": "Tên miền này khớp với một mục có độ tin cậy thấp hơn trong danh sách mối đe dọa của PhishGuard ($COUNT$ nguồn) — hãy thận trọng.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "reason_remoteDestinationConfirmedMalicious": {
+    "message": "An independent remote check confirmed malicious behavior at this link destination."
+  },
+  "reason_linkedDestinationFeedBlock": {
+    "message": "A linked destination matches PhishGuard's exact-confirmed high-confidence blocklist."
+  },
+  "reason_aiEvidence": {
+    "message": "$DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1",
+        "example": "The page contains a credential form posting to an unrelated domain."
+      }
+    }
+  },
+  "reason_newDomain": {
+    "message": "The domain appears in a newly registered domain list; very new sites have little reputation history."
+  },
+  "reason_credentialFormForeignDomain": {
+    "message": "A password form sends credentials to a different domain from the page showing it."
+  },
+  "reason_crossOriginCredPost": {
+    "message": "The form sends password or card-like data to $HOST$, which differs from the current site.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "collector.example"
+      }
+    }
+  },
+  "reason_hiddenIframes": {
+    "message": "The page contains hidden frames that could load content or collect input out of view."
+  },
+  "reason_scamPhrase": {
+    "message": "The page contains giveaway or reward language associated with common scam patterns: “$PHRASE$”.",
+    "placeholders": {
+      "phrase": {
+        "content": "$1",
+        "example": "you won"
+      }
+    }
+  },
+  "reason_seedPhraseAsk": {
+    "message": "The page asks for a wallet recovery phrase. Anyone who obtains it can take control of the wallet."
+  },
+  "reason_brandImpersonationContent": {
+    "message": "The page imitates the appearance or wording of $BRAND$ without using its verified domain.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "paypal"
+      }
+    }
+  },
+  "reason_deliveryFeeScam": {
+    "message": "The page imitates $BRAND$ and requests card details for a package fee. Confirm delivery notices through the carrier’s official site.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "DHL"
+      }
+    }
+  },
+  "reason_brandIconMismatch": {
+    "message": "The page displays an icon associated with $BRAND$ while using a different website address.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "PayPal"
+      }
+    }
+  },
+  "reason_credentialFormOnTenantHost": {
+    "message": "A password form appears on shared hosting ($HOST$), where unrelated users can publish their own pages.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "webflow.io"
+      }
+    }
+  },
+  "reason_brandInTenantHost": {
+    "message": "$BRAND$ appears in a shared-hosting address that requests a password.",
+    "placeholders": {
+      "brand": {
+        "content": "$1",
+        "example": "AT&T"
+      }
+    }
+  },
+  "reason_contentPhishingPattern": {
+    "message": "The combination of wording and page layout resembles previously observed phishing pages."
+  },
+  "reason_techScamScareText": {
+    "message": "The page uses threatening technical-support language: “$PHRASE$”.",
+    "placeholders": {
+      "phrase": {
+        "content": "$1",
+        "example": "virus detected"
+      }
+    }
+  },
+  "reason_techScamPhoneAsk": {
+    "message": "The page pressures visitors to call a support number, a frequent pattern in impersonation scams."
+  },
+  "reason_techScamFakeAlert": {
+    "message": "This appears to be a web-based system alert demanding attention. Verify alerts through the operating system, not the page."
+  },
+  "reason_techScamFullscreen": {
+    "message": "The page requested fullscreen, which can be used to make scam warnings harder to dismiss."
+  },
+  "reason_techScamAlarmAudio": {
+    "message": "The page played alarm-like audio that can pressure visitors into acting quickly."
+  },
+  "reason_techScamDialogFlood": {
+    "message": "The page generated repeated dialogs that can obstruct normal navigation."
+  },
+  "reason_techScamHistoryTrap": {
+    "message": "Trang đang chiếm quyền nút Quay lại của bạn."
+  },
+  "reason_walletBlindSign": {
+    "message": "The wallet was asked to sign opaque data whose effects are not obvious from the request."
+  },
+  "reason_walletPermitApproval": {
+    "message": "This Permit-style signature can grant later token or NFT transfers without another prompt."
+  },
+  "reason_walletDelegation7702": {
+    "message": "This EIP-7702 request delegates account execution to a contract; review the target and its permissions carefully."
+  },
+  "reason_walletSetApprovalAll": {
+    "message": "This request can authorize a contract to transfer every NFT in a collection."
+  },
+  "reason_walletUnlimitedApprove": {
+    "message": "This approval may let a contract spend an unlimited amount of the selected token."
+  },
+  "reason_walletTokenApprove": {
+    "message": "This request grants a contract permission to spend the selected token amount."
+  },
+  "reason_clickfixPasteRun": {
+    "message": "The page instructs you to paste and execute a system command. Treat command-paste verification as high risk."
+  },
+  "reason_clickfixFakeCaptcha": {
+    "message": "The CAPTCHA-like step asks you to open the Windows Run dialog and execute a command, which real CAPTCHA tests do not require."
+  },
+  "reason_clickfixWinR": {
+    "message": "The page directs you to the Windows Run box and asks you to paste text into it."
+  },
+  "reason_clickfixCaptchaDisguise": {
+    "message": "The command instructions are presented as a human-verification task."
+  },
+  "reason_clipboardCommand": {
+    "message": "A system command was detected on the clipboard. Do not paste it into a terminal or Run dialog unless you independently understand it."
+  },
+  "reason_clipboardCryptoAddress": {
+    "message": "A cryptocurrency address appeared on the clipboard. Verify the destination independently before using it."
+  },
+  "reason_fakeUpdatePrompt": {
+    "message": "A web page offers a browser or system update download. Updates should be obtained from the browser or operating system’s own updater."
+  },
+  "reason_msgOtpAsk": {
+    "message": "The message asks for an OTP, PIN, passcode, or password. Treat requests to share these secrets as high risk."
+  },
+  "reason_msgScamWording": {
+    "message": "The message contains wording associated with common scams: “$PHRASE$”.",
+    "placeholders": {
+      "phrase": {
+        "content": "$1",
+        "example": "delivery fee"
+      }
+    }
+  },
+  "reason_msgUrgencyDeadline": {
+    "message": "The message uses an artificial deadline or urgent demand to pressure a quick response."
+  },
+  "reason_msgDangerousLink": {
+    "message": "A link in the message triggered address-risk checks: $URL$.",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "http://verify-bank.tk/otp"
+      }
+    }
+  },
+  "reason_qrCodeDestination": {
+    "message": "A QR code resolves to $URL$. Review the destination before opening it on another device.",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "http://verify-bank.tk/otp"
+      }
+    }
+  },
+  "reason_shop_countdownReset": {
+    "message": "Đếm ngược giả"
+  },
+  "reason_shop_countdownReset_detail": {
+    "message": "The offer timer appears to reset between visits, weakening the claim that the deal is about to end."
+  },
+  "reason_shop_offPlatformPay": {
+    "message": "Thanh toán rủi ro"
+  },
+  "reason_shop_offPlatformPay_detail": {
+    "message": "Checkout asks for a hard-to-reverse method such as a wire, payment app, or crypto transfer."
+  },
+  "reason_shop_fakeScarcity": {
+    "message": "Khan hiếm giả"
+  },
+  "reason_shop_fakeScarcity_detail": {
+    "message": "The page uses injected scarcity language such as “only a few left” or viewer counters."
+  },
+  "reason_shop_badgeHotlink": {
+    "message": "Huy hiệu tin cậy giả"
+  },
+  "reason_shop_badgeHotlink_detail": {
+    "message": "A “secure” or “verified” badge appears to be a linked or embedded image rather than independently verifiable proof."
+  },
+  "reason_shop_missingContact": {
+    "message": "Không có thông tin liên hệ"
+  },
+  "reason_shop_missingContact_detail": {
+    "message": "The store lacks basic business contact details, making the seller harder to verify."
+  },
+  "obDocTitle": {
+    "message": "Chào mừng đến với PhishGuard"
+  },
+  "obTitle": {
+    "message": "PhishGuard đang bảo vệ bạn"
+  },
+  "obLead": {
+    "message": "PhishGuard evaluates page signals in this browser. It also downloads threat lists and may request site icons. Reports are not sent unless you configure and enable a relay."
+  },
+  "obPhishing": {
+    "message": "Phishing & đăng nhập giả"
+  },
+  "obPhishingBody": {
+    "message": "Flags forms whose credential destination does not match the site presenting them."
+  },
+  "obBrand": {
+    "message": "Thương hiệu giả mạo"
+  },
+  "obBrandBody": {
+    "message": "Compares site identity signals—including known brand icons and domain patterns—to look for impersonation."
+  },
+  "obPage": {
+    "message": "Phân tích trang"
+  },
+  "obPageBody": {
+    "message": "Uses local wording and layout signals to identify suspicious login pages that may not appear on a threat list yet."
+  },
+  "obWallet": {
+    "message": "Bảo vệ ví crypto"
+  },
+  "obWalletBody": {
+    "message": "Reviews supported wallet requests for dangerous token permissions and recovery-phrase traps."
+  },
+  "obClipboard": {
+    "message": "Lừa đảo clipboard & “dán cái này”"
+  },
+  "obClipboardBody": {
+    "message": "Alerts when a page attempts to place a command or cryptocurrency address on the clipboard."
+  },
+  "obPopups": {
+    "message": "Cửa sổ virus giả"
+  },
+  "obPopupsBody": {
+    "message": "Identifies pressure tactics such as fake support warnings and repeated dialogs, with options to leave the page."
+  },
+  "obPin": {
+    "message": "Ghim PhishGuard"
+  },
+  "obPinBody": {
+    "message": "Bấm biểu tượng mảnh ghép trên thanh công cụ, rồi bấm ghim bên cạnh PhishGuard, để thấy ngay trạng thái của từng trang."
+  },
+  "obOpenSettings": {
+    "message": "Mở cài đặt"
+  },
+  "blockedDocTitle": {
+    "message": "Trang bị PhishGuard chặn"
+  },
+  "blockedTitle": {
+    "message": "PhishGuard đã chặn trang này"
+  },
+  "blockedLead": {
+    "message": "$HOST$ nằm trong danh sách các trang lừa đảo và độc hại đã biết của PhishGuard, nên trang đã bị chặn trước khi kịp tải. Không có gì được chạy và không có gì bạn đã nhập bị gửi đi.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "secure-paypa1-login.com"
+      }
+    }
+  },
+  "blockedLeadHot": {
+    "message": "$HOST$ appears on a recent high-risk list. PhishGuard blocked the navigation before displaying the page.",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "secure-paypa1-login.com"
+      }
+    }
+  },
+  "blockedAddress": {
+    "message": "Địa chỉ bị chặn"
+  },
+  "blockedListedBy": {
+    "message": "Được liệt kê bởi $SOURCES$",
+    "placeholders": {
+      "sources": {
+        "content": "$1",
+        "example": "Phishing.Database, ScamSniffer"
+      }
+    }
+  },
+  "blockedListedGeneric": {
+    "message": "Có trong danh sách chặn các tên miền lừa đảo đã xác nhận của PhishGuard."
+  },
+  "blockedGoBack": {
+    "message": "Quay lại nơi an toàn"
+  },
+  "blockedTrustSite": {
+    "message": "Không phải lừa đảo? Tin cậy trang này"
+  },
+  "blockedVisitAnyway": {
+    "message": "Vẫn truy cập (không khuyến khích)"
+  },
+  "blockedVisitHint": {
+    "message": "Mở trang web với PhishGuard tạm dừng trên trang này trong 1 giờ."
+  },
+  "blockedFooter": {
+    "message": "Được chặn ngay trên thiết bị của bạn. Không có gì về trang này được gửi đi bất cứ đâu."
+  },
+  "detailsAndOptions": {
+    "message": "Chi tiết và các tùy chọn khác"
+  },
+  "continuePausesHour": {
+    "message": "Tạm dừng PhishGuard trên trang này trong 1 giờ."
+  },
+  "thisPage": {
+    "message": "Trang này"
+  },
+  "chipBlocklist": {
+    "message": "Bị chặn"
+  },
+  "obNote": {
+    "message": "You can send compact risk reports to a relay you trust. Reporting is off until you configure an endpoint and opt in."
+  },
+  "optHotRejected": {
+    "message": "PhishGuard rejected the latest recent-risk list because its validation failed; the last accepted list remains active."
+  },
+  "interstitialFooter": {
+    "message": "PhishGuard đã kiểm tra trang này ngay trên thiết bị của bạn."
+  },
+  "reason_newDomainUnvisited": {
+    "message": "This domain appears on a newly registered domains list and has no prior visit history in PhishGuard."
+  },
+  "continueOnce": {
+    "message": "Chỉ mở trang này một lần. PhishGuard vẫn bật."
+  },
+  "bannerHideDay": {
+    "message": "Ẩn trong một ngày"
+  },
+  "bannerHideHour": {
+    "message": "Ẩn trong một giờ"
+  },
+  "localFeedbackTitle": {
+    "message": "Phản hồi được lưu trên thiết bị này"
+  },
+  "localFeedbackHint": {
+    "message": "When reporting is off, feedback is saved in this browser only. Review or delete those local records below."
+  },
+  "localFeedbackEmpty": {
+    "message": "Không có phản hồi nào được lưu cục bộ."
+  },
+  "clearLocalFeedback": {
+    "message": "Xóa phản hồi cục bộ"
+  },
+  "localFeedbackCleared": {
+    "message": "Đã xóa phản hồi cục bộ."
+  },
+  "msgScoreDetails": {
+    "message": "Điểm chỉ báo rủi ro: $1/100 · Số liên kết đã kiểm tra: $2"
+  },
+  "msgNoSignals": {
+    "message": "Không tìm thấy dấu hiệu lừa đảo rõ ràng. Hãy thận trọng với yêu cầu bất ngờ."
+  },
+  "optReportUrlTitle": {
+    "message": "Relay báo cáo cộng đồng"
+  },
+  "optReportUrlHint": {
+    "message": "Leave this empty to keep feedback local. If you set a relay, use an HTTPS endpoint you control or trust. Saving a changed address turns reporting off until you opt in again."
+  },
+  "optReportUrlLabel": {
+    "message": "URL HTTPS báo cáo"
+  },
+  "optReportUrlPlaceholder": {
+    "message": "https://your-server.example/api/report"
+  },
+  "saveReportUrl": {
+    "message": "Lưu URL báo cáo"
+  },
+  "reportRelayMissing": {
+    "message": "Hãy đặt URL HTTPS trong mục Giới thiệu trước khi bật báo cáo."
+  },
+  "reportRelayInvalid": {
+    "message": "Nhập URL HTTPS hợp lệ, không có thông tin đăng nhập, query hoặc fragment."
+  },
+  "reportRelaySaved": {
+    "message": "Đã lưu relay. Báo cáo vẫn tắt cho đến khi bạn bật."
+  },
+  "receiptRelayNotConfigured": {
+    "message": "Chưa cấu hình; báo cáo được giữ cục bộ"
+  },
+  "reason_qrExternalAction": {
+    "message": "The QR payload tries to open an app or use a non-standard website link. Review it before continuing."
+  },
+  "reason_qrMalformedDestination": {
+    "message": "The QR code contains a malformed web address, so its destination cannot be reliably checked."
+  },
+  "qrInvalidCodeLabel": {
+    "message": "Invalid or unreadable QR code"
+  },
+  "qrValidDangerousLabel": {
+    "message": "Valid QR · Dangerous destination"
+  },
+  "qrValidSuspiciousLabel": {
+    "message": "Valid QR · Suspicious destination"
+  },
+  "qrValidSafeLabel": {
+    "message": "Valid QR · No strong destination risk found"
+  },
+  "qrDecodedMalformedLabel": {
+    "message": "Valid QR · Malformed website address"
+  },
+  "qrDecodedUnsafeLabel": {
+    "message": "Valid QR · Unsafe link type"
+  },
+  "qrDecodedExternalLabel": {
+    "message": "Valid QR · External app action"
+  },
+  "qrDecodedNonWebLabel": {
+    "message": "Valid QR · Non-website data (not safety-rated)"
+  },
+  "reason_downloadDisguisedExecutable": {
+    "message": "The shared item uses a document or image-looking filename followed by an executable extension. Do not open it."
+  },
+  "reason_downloadExecutableSurface": {
+    "message": "The page exposes an executable or installer download ($FILE$). Verify the publisher and file through an independent security scanner before opening it.",
+    "placeholders": {
+      "file": {
+        "content": "$1",
+        "example": "file.exe"
+      }
+    }
+  },
+  "reason_downloadScriptSurface": {
+    "message": "The page exposes a script or command file that can execute actions on the device. Do not run it unless you can verify its origin and contents."
+  },
+  "reason_downloadSafetyEvasion": {
+    "message": "The page asks you to weaken or bypass device security before opening a file. This is a strong malware-delivery warning."
+  },
+  "reason_downloadDeceptivePrompt": {
+    "message": "The page uses an update or verification story to persuade you to download or run a file. Verify updates through the operating system or application itself."
+  },
+  "reason_downloadArchivePressure": {
+    "message": "The shared archive is paired with instructions or pressure that may conceal an executable payload. Do not extract or run unexpected contents."
+  }
+}
